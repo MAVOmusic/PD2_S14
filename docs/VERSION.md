@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| Project version | **v0.2.0** |
+| Project version | **v0.3.0** |
 | Doc schema | 1 |
 | Last updated | 2026-10-25 |
 | Branch of record | `arena/360df353-pd2-s14` (mirrored to `main`) |
@@ -15,6 +15,7 @@
 | Version | Date | Headline |
 |---|---|---|
 | v0.1.0 | 2026-10-25 | Project bootstrap: vision check, folder-work protocol, context/version/changelog stack |
+| v0.3.0 | 2026-10-25 | Resist correction applied (Hell-applied values; cold/light overcapped); folder `03 - Charms` fully read; charm loadout + trade values |
 | v0.2.0 | 2026-10-25 | Folder batch 1/6 read: `01 - Character + Skill Tree`, `02 - Equipped Items`; character snapshot recorded; item valuations (equipped + swap) added |
 
 ## Milestone tracker (overall project)
@@ -23,7 +24,8 @@
 |---|---|---|
 | M1 | Vision capability check | ✅ DONE — this chat CAN read images |
 | M2 | Read `01 - Character + Skill Tree` + `02 - Equipped Items` | ✅ DONE (v0.2.0) |
-| M3 | Read `03 - Charms` + `04 - Inventory` | ⏸ AWAITING USER GO-AHEAD |
+| M3a | Read `03 - Charms` | DONE (v0.3.0) |
+| M3b | Read `04 - Inventory` | IN PROGRESS |
 | M4 | Read `05 - Merc Items` + `Item Filter` | ⏸ AWAITING USER GO-AHEAD |
 | M5 | Farm plan: elite crafting base zones (self + merc) up to Hell A2 Arcane Sanctuary | ⏸ Pending (draft in `02_Character_And_Gear_Snapshot.md`) |
 | M6 | Item filter rework / custom filter (tiered colours, hide worthless, highlight top trade value) | ⏸ Pending |

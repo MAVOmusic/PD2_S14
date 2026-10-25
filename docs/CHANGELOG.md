@@ -4,6 +4,25 @@ All changes are append-only, newest first. Every entry states what was read, wha
 
 ---
 
+## v0.3.0 — 2026-10-25
+
+### Player correction (applied)
+- The character-sheet resistances are **already Hell-applied**: Fire 49 / Cold 80 (true 99) / Light 75 (true 83) / Poison 58.
+- **v0.2.0's "resists are the crisis" claim is RETRACTED.** Fire is 26 short of cap, poison 17 short - both fixable with charms already owned. Cold and lightning are **overcapped and wasting 19 / 8 points**.
+- Consequence: belt + boots were being read as resist slots; they are now flagged as upgrade targets (FRW / IAS / leech / life), not resist items.
+
+### Read (folder 03)
+- `MAVOmusicHC - 03 - Charms/` - all 24 files (14 SC, 6 GC, 4 LC).
+
+### Added
+- `docs/03_Charms.md` - full charm table, recommended loadout using only owned charms (fire +54, psn +33 -> both cap), overcap analysis, charm trade values.
+- Key finds: **no torch / annihilus / Gheed's / skillers** (biggest power gap at 77); **SC All Res 5% + 4% MF** (best charm owned); **LLD SC 1-5 light dmg + 3% light res (req lvl 3)** -> Um-Ist, sell don't vendor; **SC 3% fire + 5% FHR** is a real HC keeper.
+
+### Pushed
+- `arena/360df353-pd2-s14` + mirrored to `main`.
+
+---
+
 ## v0.2.0 — 2026-10-25
 
 ### Read (folder batch 1 of 6)
