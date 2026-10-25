@@ -4,6 +4,21 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.20.0 — 2026-10-25
+
+### Read / added
+- Reviewed all 23 images in `Runs/Run 1` under the player's explicit one-time authorization, and cross-checked the relevant `Trade Values`, `Armor Info`, `Weapon Info`, and `Runeword Grid` sheets in `docs/PD2info.xlsx`.
+- Added `docs/06_Run_1_Findings_and_Trade_Plan.md`: item-by-item disposition, Barbarian and Mahala slot comparisons, cautious Smoke/Tal's mercenary plan, trade priorities, and price guidance explicitly labeled as Softcore community estimates rather than live Hardcore quotes.
+- Updated `docs/04E_Inventory_Runes.md` to include Run 1's Amn/Lum/Io and total 150 visible runes.
+- Corrected stale automatic boot, merc bow/quiver, and item trade advice in `docs/04A_Inventory_Uniques.md` and `docs/04C_Inventory_Sortables.md`; added the Run 1 merc comparison in `docs/05_Merc_Gear.md`.
+- Checked PD2 Wiki chest runeword data for Smoke/Treachery and flagged the Giant Conch socket-count conflict between the item tooltip and workbook base sheet. No live trade listings were checked; Item Filter remains unread.
+- Updated version/context/protocol for active branch `arena/49f3a2b1-pd2-s14`.
+
+### Sync status
+- Commit/push on the active session branch; sync `main` through a PR (never direct-push).
+
+---
+
 ## v0.19.0 — 2026-10-25
 
 ### Read / added
