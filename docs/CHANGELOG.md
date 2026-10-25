@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.8.0 — 2026-10-25
+
+### Read / added
+- Read the single Runes Tab screenshot: `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Runes Tab/Runes.PNG`.
+- Added `docs/04E_Inventory_Runes.md`, mapping the 33 positions in standard El-to-Zod order and recording visible stack quantities (147 runes total).
+- Rune counts are visually clear; names are medium-confidence because there are no hover tooltips. Highest shown is Gul ×1; no Um or higher rune is present.
+- Left trade prices unassigned pending current HC S14 listings. Noted likely trade prioritization: Gul individually; Lem/Pul bundled or held; common low runes not individually listed.
+- Updated version/context/protocol docs for active branch `arena/f469fe0a-pd2-s14`. Next tab is Gems; stop for user confirmation after pushing.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.7.0 — 2026-10-25
 
 ### Read / added
