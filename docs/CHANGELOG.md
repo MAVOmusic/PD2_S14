@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.11.0 — 2026-10-25
+
+### Read / added
+- Read all 8 screenshots in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/GF Tab/`.
+- Added `docs/04H_Inventory_GF.md` with 2 crafted LLD rings, a corrupted +83% GF LLD amulet, 2 GF Grand Charms, and 3 +10% GF Small Charms transcribed. Combined visible GF: +260%.
+- Prioritized the corrupted amulet and +40% GF / +104 AR ring for a price check; recommended bundling the GF charms rather than spending separate listing slots. No combat swap advised solely for GF in Hardcore.
+- Price ranges are low-confidence estimates, not verified live HC S14 listings.
+- Updated version/context/protocol docs for active branch `arena/f1a0fa3f-pd2-s14`. Next tab is Maps; stop for user confirmation after pushing.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.10.0 — 2026-10-25
 
 ### Read / added
