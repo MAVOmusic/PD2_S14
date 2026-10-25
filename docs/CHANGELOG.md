@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.16.0 — 2026-10-25
+
+### Read / added
+- Read the player's update `docs/1-15 Identified.xlsx` and confirmed the first 15 entries (U-001–U-015) are readable.
+- Updated `docs/04D_Inventory_Misc.md` with player-supplied names/uses, visible quantities, and the two-cell placements for one Vial of Lightsong and one Lilith's Mirror. Left U-016/U-017 unresolved.
+- Checked the specific U-001 Wiki example: Recipes lists `1–15 Jewels + Key → 1–15 Jewel Fragments`; the page notes fragments stack to 50. Linked the relevant page in the Misc document. Broader Wiki research remains deferred until all IDs are complete.
+- Removed U-001–U-015 from `docs/Unidentified_Icons_and_Items.xlsx`; 93 unresolved rows remain. Kept the player's `docs/1-15 Identified.xlsx` upload as the source record.
+- Set the identification cadence to updates of up to 20 completed lines; Runs remain limited to 15 new images per named Run.
+
+### Sync status
+- Commit/push on active branch `arena/c58dcbfc-pd2-s14`; sync `main` through a PR, never direct-push.
+
+---
+
 ## v0.15.1 — 2026-10-25
 
 ### Corrections / added

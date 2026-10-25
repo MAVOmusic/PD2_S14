@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Project version | **v0.15.1** |
+| Project version | **v0.16.0** |
 | Doc schema | 1 |
 | Last updated | 2026-10-25 |
-| Working branch | `arena/2ad22dfd-pd2-s14` |
+| Working branch | `arena/c58dcbfc-pd2-s14` |
 | Main sync | Use a PR from the working branch; never push directly to `main` |
 | Game | Project Diablo 2 — Season 14 Hardcore |
 | Character | MAVOmusicHC — Level 77 Throw Barbarian; Act 1 Rogue mercenary |
@@ -30,7 +30,8 @@
 | v0.13.0 | 2026-10-25 | Ubers tab overview documented; item identities and values await tooltip screenshots |
 | v0.14.0 | 2026-10-25 | Duplicates/Good Corruption tab recorded; final Inventory tab complete |
 | v0.15.0 | 2026-10-25 | Act 1 Rogue mercenary gear/stats recorded; safe gear-swap triage |
-| **v0.15.1** | **2026-10-25** | Unidentified-icon workbook; charm/Purity/Ramfodder corrections; Runs 1–10 scaffolding |
+| v0.15.1 | 2026-10-25 | Unidentified-icon workbook; charm/Purity/Ramfodder corrections; Runs 1–10 scaffolding |
+| **v0.16.0** | **2026-10-25** | First 15 icons identified; Misc inventory and Recipes wiki reference updated |
 
 ## Milestones
 
@@ -39,18 +40,19 @@
 | M1 | Verify image-reading ability | ✅ DONE |
 | M2 | `01 - Character + Skill Tree` and `02 - Equipped Items` | ✅ DONE |
 | M3 | `03 - Charms` | ✅ Current equipped charm loadout transcribed; stats dependency clarified |
-| M4 | `04 - Inventory` | ✅ SOURCE TABS REVIEWED — all 11 inventory tabs processed; several overview-only tabs still need hover details for exact item ID/price |
+| M4 | `04 - Inventory` | ✅ SOURCE TABS REVIEWED — all 11 inventory tabs processed; some icon/identity follow-up remains |
 | M5 | `05 - Merc Items` and Item Filter | ⏳ Merc Items DONE; Item Filter unread pending explicit user instruction |
 | M6 | Farm plan for elite crafting weapon bases (self + merc) within practical Hell A2 Arcane Sanctuary limit | ⏸ Draft notes exist; final plan pending inventory/merc review |
 | M7 | Item filter tuning/custom filter | ⏸ NOT STARTED — source unread pending authorization |
 | M8 | Sorted XLSX inventory/trade-price sheet | ⏸ NOT STARTED; needs remaining item details and pricing basis |
-| M9 | Inventory-to-equipped swaps | ⏳ Candidates documented; final recommendations pending corrected current-state assumptions and player identification sheet |
+| M9 | Inventory-to-equipped swaps | ⏳ Candidates documented; final recommendations pending all identifications/current-state checks |
 
 ## Current checkpoint
 
-- This session is on the active Arena branch `arena/2ad22dfd-pd2-s14`, based on main commit `b3b98678aa913fedd67f09e3191daf8c09e516ed` (Merc Items PR #12 merged).
-- `docs/Unidentified_Icons_and_Items.xlsx` lists 108 unresolved inventory/skill-icon entries, with source tab/location and a blank column for the player's identification.
-- Player correction: all 24 charms in the Charms tab are currently equipped; their effects are already included in the character stats. Previous equip/bench/sell charm advice and incremental charm-stat calculations are withdrawn pending a fresh stat comparison.
-- Player correction: Purity is kept on Mahala for Prayer healing. Keep it until the player no longer relies on that healing; Ramfodder is a bolt quiver and requires a crossbow, so it cannot be used with the current bow.
-- `Runs/Run 1` through `Runs/Run 10` are scaffolded for up to 15 images each. Read only the Run the player explicitly names.
-- Item Filter remains unread. Do not proceed until the player explicitly authorizes it; current next step is to receive/follow up on the completed identification workbook before final swap/trade conclusions.
+- Active session branch: `arena/c58dcbfc-pd2-s14`, based on main commit `43f768db3c3c547ecf786caf71fc087a845ddfd1`.
+- The player's `docs/1-15 Identified.xlsx` supplies descriptions for U-001–U-015. Those identifications are recorded in `docs/04D_Inventory_Misc.md` and removed from `docs/Unidentified_Icons_and_Items.xlsx`; 93 unresolved rows remain.
+- U-004/U-009 are one Vial of Lightsong occupying two cells; U-005/U-010 are one Lilith's Mirror occupying two cells.
+- The PD2 Recipes page was checked for the U-001 example: `1–15 Jewels + Key → 1–15 Jewel Fragments`; fragments stack to 50. Broader relevant Wiki review is deferred until all icon identifications are complete.
+- Keep the corrected state: the Charms tab is the equipped loadout; Purity is retained for Prayer healing; Ramfodder requires a crossbow.
+- User will update the identification workbook after each 20 lines. Remove each completed batch from the unresolved tracker after recording it. Runs 1–10 remain separate, max 15 new item images each, and only read the Run the user names.
+- Item Filter remains unread. Continue identification; do not start comprehensive Wiki research or Item Filter review until the user's stated conditions/authorization are met.

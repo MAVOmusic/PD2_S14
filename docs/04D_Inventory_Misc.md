@@ -1,40 +1,34 @@
 # 04D — Inventory: Misc Tab (1 screenshot)
 
-**v0.7.0** · read 2026-10-25 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Misc Tab/Misc.PNG`
+**v0.16.0** · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Misc Tab/Misc.PNG`
 
-## Scope and caveat
+## Scope and identification status
 
-The single screenshot is an overview of the Misc stash grid with **no item tooltip open**. I can record visible icons and stack numbers, but cannot safely name most of the items or assign trade prices from icons alone. Unidentified entries are intentionally not priced; guessing could cause valuable items to be vendored or mislisted. Please provide hover-tooltip screenshots for any items you want priced individually.
+The original image is an overview with no item tooltips. The player identified the first 15 unresolved rows in `docs/1-15 Identified.xlsx`; names and use notes below are player-supplied. Where useful, one specific recipe was cross-checked against the Project Diablo 2 wiki. Visible counts are retained from the screenshot; “not shown” is not treated as a count of one.
 
 ## Visible contents
 
-| Grid area | Visible item / icon description | Visible stack count | Identification / trade status |
+| Icon ID / grid location | Item identified | Visible stack / space | Player description and verification notes |
 |---|---|---:|---|
-| Upper grid, row 1, slot 1 | Multicolored orb/shard cluster | 45 | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 1, slot 2 | Yellow triangular token/rune-like icon | 1 | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 1, slot 3 | Red/gray embossed square or cube-like icon | — | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 1, slot 4 | Small pale-gold bottle/flask | — | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 1, slot 5 | Orange/red flame-shaped item | — | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 2, slot 1 | Red/orange shard | 3 | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 2, slot 2 | Dark ornate cube | — | ⚠ Could be a cube-like item; identity unconfirmed |
-| Upper grid, row 2, slot 3 | Blue/red narrow shard or key-like icon | — | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 2, slot 4 | Pale-yellow flask | — | ⚠ Exact item unknown; no tooltip |
-| Upper grid, row 2, slot 5 | Dark hooked/curved icon | — | ⚠ Exact item unknown; no tooltip |
-| Middle grid, slot 1 | Blue powder/pile icon | 2 | ⚠ Exact item unknown; no tooltip |
-| Middle grid, slot 2 | Yellow/tan powder/pile icon | — | ⚠ Exact item unknown; no tooltip |
-| Middle grid, slot 3 | Orange/red powder/pile icon | — | ⚠ Exact item unknown; no tooltip |
-| Middle grid, slot 4 | Multicolored green/yellow/red powder/pile icon | 1 | ⚠ Exact item unknown; no tooltip |
-| Middle grid, slot 5 | Gray folded/scroll-like icon | — | ⚠ Exact item unknown; no tooltip |
-| Lower grid, slot 1 | Purple potion-shaped icon | 2 | ⚠ Potion type unconfirmed |
-| Lower grid, slot 2 | Purple potion-shaped icon | 223 | ⚠ Potion type unconfirmed; large stack may be a bulk consumable, but don't price without identification |
+| U-001 · Upper R1C1 | **Jewel Fragments** | 45 | Player identifies these as fragments made from jewels + a key, usable as recipe ingredients (including the player's stated map-reroll use). Wiki check: the Recipes page lists `1–15 Jewels + Key → 1–15 Jewel Fragments`; it says fragments have no affixes and stack to 50. The 45-stack is within that limit. See [Recipes — Consumables / Breakdown Recipes](https://wiki.projectdiablo2.com/wiki/Recipes#Breakdown_Recipes). |
+| U-002 · Upper R1C2 | **Larzuk's Puzzlepiece** | 1 | Player identifies it as a random-socket item that does not work on Unique/Set items. Wiki confirms it works on non-Unique/non-Set items; it adds 1–2 sockets to other eligible items or 2–4 to two-handed weapons, subject to the base's maximum socket count. |
+| U-003 · Upper R1C3 | **Demonic Cube** | Not shown | Player identifies it as rerolling Unique or Set item stats. Wiki recipe page says it rerolls eligible Unique/Set weapon, armor, or accessory stats without changing sockets/socketed items; it cannot be used on corrupted, mirrored, runeword, rare, magic or normal gear. |
+| U-004 + U-009 · Upper R1C4 and R2C4 | **One Vial of Lightsong** | 1 item occupying 2 grid cells | Player confirms both cells are the same two-grid item. It turns an eligible item ethereal. Wiki notes it cannot be used on items without durability; it can be used on throwing weapons. |
+| U-005 + U-010 · Upper R1C5 and R2C5 | **One Lilith's Mirror** | 1 item occupying 2 grid cells | Player confirms both cells are the same two-grid item. It duplicates an eligible item with the Horadric Cube. Wiki restrictions: eligible magic/rare/crafted equipment, excluding jewels; both original and copy become mirrored and cannot be used in cube recipes. |
+| U-006 · Upper R2C1 | **Worldstone Shard (WSS)** | 3 | Player identifies it as a corruption item. The detailed outcome percentages in the uploaded workbook are retained as player notes but not yet independently checked against current Season 14 mechanics. |
+| U-007 · Upper R2C2 | **Larzuk's Puzzlebox** | Not shown | Player identifies it as a random-socket item that works with Unique/Set items. Wiki confirms it adds sockets to eligible items (2–4 to two-handed weapons, 1–2 to other items), subject to base limits. |
+| U-008 · Upper R2C3 | **Tainted Worldstone Shard** | Not shown | Player identifies its Cube recipe with an Annihilus as adding extra stats to the Annihilus. Further mechanics intentionally left for the post-identification wiki review. |
+| U-011 · Middle C1 | **Twisted Essence of Suffering** | 2 | Player identifies it as one of the four ingredients used for a Token of Absolution. |
+| U-012 · Middle C2 | **Charged Essence of Hatred** | Not shown | Player identifies it as one of the four ingredients used for a Token of Absolution. |
+| U-013 · Middle C3 | **Burning Essence of Terror** | Not shown | Player identifies it as one of the four ingredients used for a Token of Absolution. |
+| U-014 · Middle C4 | **Festering Essence of Destruction** | 1 | Player identifies it as one of the four ingredients used for a Token of Absolution. |
+| U-015 · Middle C5 | **Token of Absolution** | Not shown | Player identifies it as made from the four Essences and used to reset stat/skill points. |
+| U-016 · Lower C1 | **Unidentified purple potion-shaped item** | 2 | Still needs player identification; no tooltip was visible in the source screenshot. |
+| U-017 · Lower C2 | **Unidentified purple potion-shaped item** | 223 | Still needs player identification; no tooltip was visible. Do not price/vendor by appearance. |
 
-## Trade / stash action
+## Current status
 
-- **No item in this screenshot can be safely assigned a trade-site price or keep/sell/vendor verdict.** All seventeen visible slots require identification first.
-- The potentially important stacks are the 45-count multicolor cluster, 3-count red shard, and 223-count purple potion-like stack. Do not vendor them based on appearance alone.
-- For a useful follow-up, take one screenshot per item with the tooltip visible (especially the stacks of 45, 3 and 223); preserve any displayed stack count in the frame.
-
-## Confidence
-
-- Grid layout and visible stack counts: HIGH.
-- Item identities, exact quantities for unnumbered slots, values and saleability: LOW / unknown because the image contains no hover text.
+- The first 15 IDs are resolved and recorded above; the two matching pairs (Vial and Mirror) each describe one item occupying two cells.
+- U-001–U-015 have been removed from `docs/Unidentified_Icons_and_Items.xlsx`; the player's uploaded `docs/1-15 Identified.xlsx` is retained as the identification source record.
+- U-016 and U-017 remain unresolved. No keep/sell/trade prices are assigned yet; await the remaining identification batches and final wiki review.
+- The official Wiki's exact Jewel Fragments line is under the Consumables recipe table immediately before the Breakdown Recipes subsection: `1–15 Jewels + Key → 1–15 Jewel Fragments`. The section further states fragments have no affixes and stack to 50.
