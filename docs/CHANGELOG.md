@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.9.0 — 2026-10-25
+
+### Read / added
+- Read `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Gems Tab/Gems.PNG`.
+- Added `docs/04F_Inventory_Gems.md`, transcribing 116 visible gems: 8 chipped, 9 flawed, 7 normal, 6 flawless and 86 perfect.
+- Perfect-gem counts: Ruby 8, Amethyst 13, Sapphire 9, Emerald 13, Topaz 16, Diamond 16, Skull 11. The seven unnumbered bottom-row icons are left unidentified/not counted.
+- No trade prices assigned without current HC S14 listings. Recommended hold/bundle/craft triage; trade-site bulk price verification remains needed.
+- Updated version/context/protocol files for active branch `arena/734a136e-pd2-s14`. Next tab is MF; stop for user confirmation after pushing.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.8.0 — 2026-10-25
 
 ### Read / added
