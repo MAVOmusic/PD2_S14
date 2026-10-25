@@ -4,6 +4,21 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.6.0 — 2026-10-25
+
+### Read / added
+- Read all 31 supplied screenshots in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Sortables Tab/`.
+- Added `docs/04C_Inventory_Sortables.md` with transcriptions and provisional HC tradeability/swap triage.
+- Important gear candidates: a crafted Jawbone Cap with +2 Throwing Mastery, +2 Shout, +2 Double Swing and 6% mana leech (but no all-res/CB); corrupted Sharkskin Boots with 40 FRW and 38 poison res (but loss of current cold/light res); a second observed Nokozan Relic roll; and a Great Pilum to compare against the Fool's Francisca.
+- Trade candidates include a corrupted high-FRW/resist boot, Assassin Traps skiller with fire damage, 15 IAS / 4 poison-skill jewel, LLD damage/strength/MF jewel, 10 FCR dual-res ring and Paladin Combat skiller. Values are rough, low-confidence HC estimates, not live quotes.
+- No clean blank elite throwing-weapon crafting base was shown. The ethereal Diamond Mail already has affixes; the Great Pilum and Simbilan are modified/crafted items.
+- Updated version/context/protocol docs for the active branch `arena/5075a7b7-pd2-s14`. Next tab is Misc; stop for explicit confirmation after pushing this tab.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.5.0 — 2026-10-25
 
 ### Read / added
@@ -11,10 +26,7 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 - Added `docs/04B_Inventory_Sets.md` with 26 item transcriptions, visible set-piece groups, practical keep/sell/vendor triage, and confidence-tagged HC tradeability estimates.
 - Flagged clipped values on Civerb's Ward, Milabrega's Orb, and Cathan's Rule rather than guessing. The in-game counter indicates 32 pages, so the screenshots may be a partial capture.
 - Key practical candidates: Cow King's Hooves and Vidala's Fetlock both offer 30% FRW versus current Chain Boots; previously recorded Infernostride remains the stronger fire-safety option. No elite crafting bases or useful Hell Act 1 merc weapon upgrade were found in this tab.
-- Updated the context/version/protocol docs for the active branch `arena/959937bb-pd2-s14`. Next tab is Sortables; stop for explicit user confirmation after pushing this tab.
-
-### Sync status
-- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+- Synced through PR #2; next tab was Sortables, awaiting user confirmation.
 
 ---
 
@@ -24,10 +36,8 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 - Re-verified that this session can read the PNG images (opened `01 - Character + Skill Tree/Stats - No Buff.PNG`).
 - Reconciled stale version/context/protocol documents with the earlier Arena session branch `arena/cb987047-pd2-s14`, based on `fd15029a02072770a6d6dc8181262bd6052b97fd` (`v0.4.0`).
 - Clarified that changes are committed and pushed to a fixed working branch; `main` synchronization must happen through a PR, never by direct push.
-- The earlier chat reported that 24 Set Items screenshots had been opened before the context-limit interruption, but no findings were saved. The Set Items tab has now been re-read and documented in v0.5.0.
-
-### Sync status
-- This handoff correction was merged into main through PR #1. The active Arena continuation branch is now `arena/959937bb-pd2-s14`.
+- The earlier chat reported that 24 Set Items screenshots had been opened before the context-limit interruption, but no findings were saved. The Set Items tab has since been re-read and documented in v0.5.0.
+- This handoff correction was merged into main through PR #1; later Arena continuation branches are recorded in the current VERSION/context files.
 
 ---
 
