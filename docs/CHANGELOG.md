@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.12.0 — 2026-10-25
+
+### Read / added
+- Read all three map-tier screenshots in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/`.
+- Added `docs/04I_Inventory_Maps.md`, recording Tier 1/2/3 labels, visible map-shaped tile counts (10/10/9), and the repeated 3×7 lower grid.
+- Filenames say “No Maps,” but map-shaped icons appear in the tier grids. No tooltip, quantity, or ownership indicator is visible, so they are not counted as owned/saleable maps and no prices are assigned.
+- Updated version/context/protocol docs for active branch `arena/c738bbe3-pd2-s14`. Next tab is Ubers; stop for user confirmation after pushing.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.11.0 — 2026-10-25
 
 ### Read / added
