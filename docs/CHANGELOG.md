@@ -4,17 +4,30 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.5.0 — 2026-10-25
+
+### Read / added
+- Read all 26 supplied screenshots in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Set Items Tab/`.
+- Added `docs/04B_Inventory_Sets.md` with 26 item transcriptions, visible set-piece groups, practical keep/sell/vendor triage, and confidence-tagged HC tradeability estimates.
+- Flagged clipped values on Civerb's Ward, Milabrega's Orb, and Cathan's Rule rather than guessing. The in-game counter indicates 32 pages, so the screenshots may be a partial capture.
+- Key practical candidates: Cow King's Hooves and Vidala's Fetlock both offer 30% FRW versus current Chain Boots; previously recorded Infernostride remains the stronger fire-safety option. No elite crafting bases or useful Hell Act 1 merc weapon upgrade were found in this tab.
+- Updated the context/version/protocol docs for the active branch `arena/959937bb-pd2-s14`. Next tab is Sortables; stop for explicit user confirmation after pushing this tab.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.4.1 — 2026-10-25
 
 ### Handoff / protocol reconciliation
 - Re-verified that this session can read the PNG images (opened `01 - Character + Skill Tree/Stats - No Buff.PNG`).
-- Reconciled stale version/context/protocol documents with the actual Arena session branch: `arena/cb987047-pd2-s14`, based on `fd15029a02072770a6d6dc8181262bd6052b97fd` (`v0.4.0`).
-- Clarified that changes are committed and pushed to the fixed working branch; `main` synchronization must happen through a PR, never by direct push.
-- No new inventory tab was processed. The user's requested stop-and-confirm checkpoint before the next Inventory tab is maintained.
-- The prior chat transcript reported that 24 Set Items screenshots had been opened before the context-limit interruption, but no Set Items findings were saved. Do not treat them as transcribed; re-read from source after the user confirms.
+- Reconciled stale version/context/protocol documents with the earlier Arena session branch `arena/cb987047-pd2-s14`, based on `fd15029a02072770a6d6dc8181262bd6052b97fd` (`v0.4.0`).
+- Clarified that changes are committed and pushed to a fixed working branch; `main` synchronization must happen through a PR, never by direct push.
+- The earlier chat reported that 24 Set Items screenshots had been opened before the context-limit interruption, but no findings were saved. The Set Items tab has now been re-read and documented in v0.5.0.
 
 ### Sync status
-- This documentation correction is being committed/pushed on `arena/cb987047-pd2-s14`; main sync is via PR.
+- This handoff correction was merged into main through PR #1. The active Arena continuation branch is now `arena/959937bb-pd2-s14`.
 
 ---
 
@@ -24,9 +37,6 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Unique Items Tab/` — 23 screenshots transcribed in `docs/04A_Inventory_Uniques.md`.
 - The screenshots' page counters suggest the in-game tab may contain more uniques than the 23 screenshots supplied; this uncertainty is recorded in the item document.
 - Added unique-item swap candidates and a first-pass trade-priority list. Values are estimates with confidence labels, not verified live listings.
-
-### Prior branch status
-- The previous checkout recorded this as v0.4.0. This session's branch is a fresh Arena branch based at the v0.4.0 commit; see v0.4.1 for current branch/sync handling.
 
 ---
 
