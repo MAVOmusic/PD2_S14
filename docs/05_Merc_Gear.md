@@ -1,6 +1,6 @@
 # 05 — Mercenary Gear and Stats
 
-**v0.15.1** · read 2026-10-25 · source folder `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 05 - Merc Items/` (9 screenshots)
+**v0.16.0** · read 2026-10-25 · source folder `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 05 - Merc Items/` (9 screenshots)
 
 Mercenary: **Mahala**, Act 1 Rogue, level 77.
 
@@ -59,12 +59,22 @@ Current displayed resists are 33 Fire / 46 Cold / 75 Lightning / 75 Poison. The 
 
 The ethereal Diamond Mail in Sortables is listed at 734 defense with +231 defense based on character level and +10% FCR; it is not a blank base. Compared with Sigon's Shelter, it could add substantial defense, but the displayed armor has no listed resistances and replacing Shelter may break the displayed Sigon's life-leech set bonus. Avoid a blind swap; compare Mahala's full post-swap resists, defense and leech first.
 
+### Run 1 follow-up: Tal Rasha's Crest + Smoke
+
+Run 1 adds an ethereal Tal Rasha's Horadric Crest (+8% life leech, +7% mana leech, +56 Life, +28 Mana, +16 all res on the observed roll) and a Superior Wire Fleece with 2 sockets (+9% ED, +19% durability, 427 defense). The updated rune stock is Nef ×6 / Lum ×4, so Smoke (Nef–Lum) is craftable and leaves Nef ×5 / Lum ×3.
+
+- **Low-risk first comparison:** replace only Sigon's Visor with Tal's Crest in a safe area. It adds +16 all res and +56 Life; if the displayed Sigon 10% leech set bonus is currently active, expect about −2% net life leech because Tal's +8% replaces that +10% set line. Check the live set line and all stats.
+- **Preferred safety setup to test:** Tal's Crest + Smoke in the Run 1 Wire Fleece, retaining Purity and the current Sharp Arrows. Smoke has +20% FHR, +75% ED, +280 missile defense and variable +30–50 all res. Accounting for the current Shelter's +30 lightning res, the pair's approximate net resistance delta is +46–66 Fire/Cold/Poison and +16–36 Lightning; starting from the documented 33/46/75/75 this yields about 79–99 / 92–112 / 91–111 / 121–141 before caps. These are calculated item deltas, not a fresh screenshot.
+- With Purity + current arrows retained, life leech would be about 22% (7 bow + 7 arrows + 8 helm), versus about 24% with the active Sigon set. Keep the old set pieces until the new setup is actually crafted, equipped and tested. The ethereal Sharktooth Armor remains a later Treachery offense test, not a reason to abandon the Smoke/Tal defensive option.
+- This plan is documented in more detail in [`06_Run_1_Findings_and_Trade_Plan.md`](06_Run_1_Findings_and_Trade_Plan.md).
+
 ## Immediate recommendations
 
 1. **Keep current Purity + Sharp Arrows as the safe baseline.** Purity's Prayer aura is intentionally used for healing; do not swap it until the player no longer relies on it or has tested a healing-preserving alternative. Together the bow and arrows show 14% life leech before any active set bonus.
-2. **Fire resistance is Mahala's biggest visible defensive gap (33)**. Consider the Infernostride fire swap for fire-heavy content, but it reduces several other resistances; the Sharkskins instead prioritize poison/cold.
-3. Do not equip the eth Diamond Mail solely for its defense before checking the possible 10% Sigon's leech bonus and lightning resistance loss.
-4. The LLD/early-level Infernal Sign belt and Sigon's Shelter/Visor have low-level requirements and are not obvious level-77 upgrades; current belt/helm should be evaluated only after the full merc gear set and actual defense/resist totals are considered.
+2. **Run 1's Tal Rasha's Crest + Smoke in the Superior Wire Fleece is the best safety comparison to test next.** It may substantially improve Mahala's fire/cold resistance without sacrificing Purity; see the calculated (not live) delta above. Keep the old set until actual post-swap stats are checked.
+3. Infernostride or the corrupted Sharkskins can be situational boot tests, but each lowers some currently capped resistances. Do not make a blind swap; use only after checking the zone-specific stat tradeoff.
+4. Do not equip the eth Diamond Mail solely for its defense before checking the possible 10% Sigon's leech bonus and lightning resistance loss.
+5. The LLD/early-level Infernal Sign belt and Sigon's Shelter/Visor have low-level requirements and are not obvious level-77 upgrades; current belt/helm should be evaluated only after the full merc gear set and actual defense/resist totals are considered.
 
 ## Confidence and open checks
 
