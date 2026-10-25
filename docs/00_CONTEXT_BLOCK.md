@@ -1,7 +1,7 @@
 # 00_CONTEXT_BLOCK.md — paste into a new chat to resume
 
 > Copy this file (or everything below the line) into a new chat. It is the project handoff.
-> Updated: **2026-10-25** · Project **v0.6.0** · repo `MAVOmusic/PD2_S14` · session branch `arena/5075a7b7-pd2-s14`.
+> Updated: **2026-10-25** · Project **v0.7.0** · repo `MAVOmusic/PD2_S14` · session branch `arena/e21a31e0-pd2-s14`.
 
 ---
 
@@ -18,8 +18,8 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 
 1. Read **at most two source folders per batch**, then stop for confirmation before starting another batch.
 2. For the Inventory folder, treat each tab subfolder as a checkpoint: complete only one tab, save its findings and update `VERSION.md`, `CHANGELOG.md`, and this context file, commit/push to the session branch, then stop and wait for the user's explicit confirmation before opening the next tab.
-3. Commit and push to `arena/5075a7b7-pd2-s14` before reporting results. Keep `main` current through a PR from the session branch. **Never push directly to `main`.**
-4. Stay on the fixed Arena branch `arena/5075a7b7-pd2-s14`. Do not rename or switch branches.
+3. Commit and push to `arena/e21a31e0-pd2-s14` before reporting results. Keep `main` current through a PR from the session branch. **Never push directly to `main`.**
+4. Stay on the fixed Arena branch `arena/e21a31e0-pd2-s14`. Do not rename or switch branches.
 5. Transcribe only what the images show; label uncertain reads `⚠`. Do not invent mods. Tag estimated prices HIGH/MED/LOW confidence and distinguish estimates from verified current listings.
 6. Do not start the next Inventory tab until the user confirms that the last push/checkpoint is accepted.
 
@@ -27,10 +27,11 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 
 - ✅ Vision confirmed: the PNG screenshots are readable.
 - Source root: `MAVOmusicHC - Stats - V1.0/`.
-- Completed and documented: `01 - Character + Skill Tree` (5 images), `02 - Equipped Items` (12), `03 - Charms` (24), `04 - Inventory/Unique Items Tab` (23 supplied screenshots), `Set Items Tab` (26), and `Sortables Tab` (31).
-- See `docs/02_Character_And_Gear_Snapshot.md`, `docs/03_Charms.md`, `docs/04A_Inventory_Uniques.md`, `docs/04B_Inventory_Sets.md`, and `docs/04C_Inventory_Sortables.md`.
+- Completed and documented: `01 - Character + Skill Tree` (5 images), `02 - Equipped Items` (12), `03 - Charms` (24), `04 - Inventory/Unique Items Tab` (23 supplied screenshots), `Set Items Tab` (26), `Sortables Tab` (31), and `Misc Tab` (one overview screenshot).
+- See `docs/02_Character_And_Gear_Snapshot.md`, `docs/03_Charms.md`, `docs/04A_Inventory_Uniques.md`, `docs/04B_Inventory_Sets.md`, `docs/04C_Inventory_Sortables.md`, and `docs/04D_Inventory_Misc.md`.
 - Unique Items and Set Items counters suggest their screenshots may be partial captures; each doc limits its scope to supplied images.
-- Remaining Inventory tabs: `Misc Tab`, `Runes Tab`, `Gems Tab`, `MF Tab`, `GF Tab`, `Maps Tab`, `Ubers Tab`, and `Duplicates - Good Corruption Tab`.
+- The Misc overview has no item tooltips; the 17 visible slots and stack numbers are recorded but mostly unidentified. Do not price or vendor these by icon alone; tooltip screenshots are needed.
+- Remaining Inventory tabs: `Runes Tab`, `Gems Tab`, `MF Tab`, `GF Tab`, `Maps Tab`, `Ubers Tab`, and `Duplicates - Good Corruption Tab`.
 - Also not yet reviewed: `05 - Merc Items/` and `Item Filter/Hiim_Crafting_Barbarian_Focused.filter`.
 
 ## SAVED FINDINGS TO CARRY FORWARD
@@ -39,11 +40,11 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 - Equipped gear/stat details and first-pass farm notes are in `docs/02_Character_And_Gear_Snapshot.md`.
 - Unique-item candidates in `docs/04A_Inventory_Uniques.md` include Infernostride, Riphook, Ramfodder, Nokozan Relic and The Scalper; validate versus full stash and merc gear.
 - Set-tab notes in `docs/04B_Inventory_Sets.md`: Cow King's Hooves and Vidala's Fetlock each add 30% FRW; Infernostride remains the stronger documented fire-safety option.
-- Sortables notes in `docs/04C_Inventory_Sortables.md`: potentially useful Sharkskin Boots (40 FRW, +38 poison res), crafted Jawbone Cap (+2 Throwing Mastery / Shout / Double Swing, 6% mana leech but loses helm res/CB), possible second Nokozan Relic roll, Great Pilum comparison, 10 FCR dual-res ring, and several niche charms/jewels. Respect the resistance tradeoffs before equipping anything in Hardcore.
+- Sortables notes in `docs/04C_Inventory_Sortables.md`: potentially useful Sharkskin Boots (40 FRW, +38 poison res), crafted Jawbone Cap (+2 Throwing Mastery / Shout / Double Swing, 6% mana leech but loses helm res/CB), possible second Nokozan Relic roll, Great Pilum comparison, 10 FCR dual-res ring, and niche charms/jewels. Respect resistance tradeoffs before equipping anything in Hardcore.
 - No clean blank elite throwing-weapon base has been identified yet. Trade estimates are rough and not live listing quotes; pricing basis still needs confirmation.
 
 ## NEXT CHECKPOINT — WAIT FOR USER CONFIRMATION
 
-The Sortables tab has been transcribed in `docs/04C_Inventory_Sortables.md`. The next tab is **Misc Tab**; do not read it until the user confirms this push/checkpoint is visible and accepted.
+The Misc tab overview is recorded in `docs/04D_Inventory_Misc.md`, but item tooltip identities/prices remain unknown. The next tab is **Runes Tab**; do not read it until the user confirms this push/checkpoint is visible and accepted.
 
 After remaining inventory, read `05 - Merc Items` and the filter (no more than two source folders in that batch), then finish the farming plan, filter, trade workbook, and gear-swap review. Outstanding decisions: workbook column order, standalone filter vs patch, and HC pricing/currency basis; ask when needed.

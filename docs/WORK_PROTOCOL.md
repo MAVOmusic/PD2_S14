@@ -11,12 +11,12 @@ These rules preserve progress across chats and the context-limit interruption.
 After each completed batch/checkpoint:
 1. Save the source transcription or deliverable.
 2. Update `docs/VERSION.md`, `docs/CHANGELOG.md`, and `docs/00_CONTEXT_BLOCK.md`.
-3. Commit and push to `arena/5075a7b7-pd2-s14`.
+3. Commit and push to `arena/e21a31e0-pd2-s14`.
 4. Keep `main` current through a PR from the working branch; never push directly to `main`.
 5. Only then report to the user and, for Inventory, wait for confirmation.
 
 ## 3. Git constraints
-- Work only on the fixed Arena branch `arena/5075a7b7-pd2-s14`. Never rename or switch branches.
+- Work only on the fixed Arena branch `arena/e21a31e0-pd2-s14`. Never rename or switch branches.
 - Push only to the session branch. **Do not directly push to `main`; use a PR for main synchronization.**
 - Commit messages: `vX.Y.Z: <what changed>`.
 

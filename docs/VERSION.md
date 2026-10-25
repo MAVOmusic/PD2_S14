@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Project version | **v0.6.0** |
+| Project version | **v0.7.0** |
 | Doc schema | 1 |
 | Last updated | 2026-10-25 |
-| Working branch | `arena/5075a7b7-pd2-s14` |
+| Working branch | `arena/e21a31e0-pd2-s14` |
 | Main sync | Use a PR from the working branch; never push directly to `main` |
 | Game | Project Diablo 2 — Season 14 Hardcore |
 | Character | MAVOmusicHC — Level 77 Throw Barbarian; Act 1 Rogue mercenary |
@@ -20,7 +20,8 @@
 | v0.4.0 | 2026-10-25 | Unique Items inventory tab (23 screenshots/items documented) |
 | v0.4.1 | 2026-10-25 | Handoff/version/context/protocol reconciled; image vision re-verified |
 | v0.5.0 | 2026-10-25 | Set Items inventory tab (26 screenshots transcribed); trade and swap triage |
-| **v0.6.0** | **2026-10-25** | Sortables inventory tab (31 screenshots transcribed); gear, trade and base triage |
+| v0.6.0 | 2026-10-25 | Sortables inventory tab (31 screenshots transcribed); gear, trade and base triage |
+| **v0.7.0** | **2026-10-25** | Misc tab overview recorded; stack identities flagged for tooltip follow-up |
 
 ## Milestones
 
@@ -29,16 +30,16 @@
 | M1 | Verify image-reading ability | ✅ DONE |
 | M2 | `01 - Character + Skill Tree` and `02 - Equipped Items` | ✅ DONE |
 | M3 | `03 - Charms` | ✅ DONE |
-| M4 | `04 - Inventory` | ⏳ IN PROGRESS — Unique Items, Set Items and Sortables tabs documented; other tabs remain |
+| M4 | `04 - Inventory` | ⏳ IN PROGRESS — Unique Items, Set Items, Sortables and Misc tabs reviewed; remaining tabs not read |
 | M5 | `05 - Merc Items` and Item Filter | ⏸ NOT STARTED |
 | M6 | Farm plan for elite crafting weapon bases (self + merc) within practical Hell A2 Arcane Sanctuary limit | ⏸ Draft notes exist; final plan pending inventory/merc review |
 | M7 | Item filter tuning/custom filter | ⏸ NOT STARTED |
 | M8 | Sorted XLSX inventory/trade-price sheet | ⏸ NOT STARTED; needs remaining inventory data and pricing basis |
-| M9 | Inventory-to-equipped swaps | ⏳ Partial candidates in `04A_Inventory_Uniques.md`, `04B_Inventory_Sets.md`, and `04C_Inventory_Sortables.md`; validate after remaining inventory/merc tabs |
+| M9 | Inventory-to-equipped swaps | ⏳ Partial candidates in inventory docs; validate after remaining inventory/merc tabs |
 
 ## Current checkpoint
 
-- This session is on the active Arena branch `arena/5075a7b7-pd2-s14`, based on the current main snapshot `be73e6fb79a8c2a11c481e6974b11169ead92d6c`.
-- Sortables Tab (31 supplied screenshots) is transcribed in `docs/04C_Inventory_Sortables.md`.
-- Per the user's rule, the next Inventory tab is **Misc Tab** and must not be read until the user confirms this push/checkpoint.
-- After confirmation, continue with one Inventory tab at a time, update the three handoff ledgers, push the branch, and sync main through a PR before reporting.
+- This session is on the active Arena branch `arena/e21a31e0-pd2-s14`, based on the current main snapshot `475e871d6e5a46f7cae66d4fc5ab41159d9f3e35`.
+- Misc Tab's single screenshot is recorded in `docs/04D_Inventory_Misc.md`. Item identities are uncertain because the screenshot has no tooltips; the 45-, 3-, 2-, 1-, 2- and 223-counts are preserved as visible.
+- Per the user's rule, the next Inventory tab is **Runes Tab** and must not be read until the user confirms this push/checkpoint.
+- After confirmation, continue with one Inventory tab at a time, update the three handoff ledgers, push the branch, and sync `main` through a PR before reporting.
