@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Project version | **v0.18.0** |
+| Project version | **v0.19.0** |
 | Doc schema | 1 |
 | Last updated | 2026-10-25 |
-| Working branch | `arena/40b4ad5b-pd2-s14` |
+| Working branch | `arena/431d15f3-pd2-s14` |
 | Main sync | Use a PR from the working branch; never push directly to `main` |
 | Game | Project Diablo 2 — Season 14 Hardcore |
 | Character | MAVOmusicHC — Level 77 Throw Barbarian; Act 1 Rogue mercenary |
@@ -33,7 +33,8 @@
 | v0.15.1 | 2026-10-25 | Unidentified-icon workbook; charm/Purity/Ramfodder corrections; Runs 1–10 scaffolding |
 | v0.16.0 | 2026-10-25 | First 15 icons identified; Misc inventory and Recipes wiki reference updated |
 | v0.17.0 | 2026-10-25 | U-016–U-053 identified; Craft Infusions and map Wiki lookup added |
-| **v0.18.0** | **2026-10-25** | U-054–U-074 identified; map-modification uses documented; unresolved tracker reduced to U-075–U-108 |
+| v0.18.0 | 2026-10-25 | U-054–U-074 identified; map-modification uses documented; unresolved tracker reduced to U-075–U-108 |
+| **v0.19.0** | **2026-10-25** | U-075–U-108 identified; all 108 IDs complete; Barbarian skill-tree allocation explained from PD2 Wiki |
 
 ## Milestones
 
@@ -42,7 +43,7 @@
 | M1 | Verify image-reading ability | ✅ DONE |
 | M2 | `01 - Character + Skill Tree` and `02 - Equipped Items` | ✅ DONE |
 | M3 | `03 - Charms` | ✅ Current equipped charm loadout transcribed; stats dependency clarified |
-| M4 | `04 - Inventory` | ✅ SOURCE TABS REVIEWED — all 11 inventory tabs processed; some icon/identity follow-up remains |
+| M4 | `04 - Inventory` | ✅ All 11 inventory tabs processed; all 108 icon IDs identified (tooltip/quantity/value follow-up remains where noted) |
 | M5 | `05 - Merc Items` and Item Filter | ⏳ Merc Items DONE; Item Filter unread pending explicit user instruction |
 | M6 | Farm plan for elite crafting weapon bases (self + merc) within practical Hell A2 Arcane Sanctuary limit | ⏸ Draft notes exist; final plan pending inventory/merc review |
 | M7 | Item filter tuning/custom filter | ⏸ NOT STARTED — source unread pending authorization |
@@ -51,10 +52,10 @@
 
 ## Current checkpoint
 
-- Active session branch: `arena/40b4ad5b-pd2-s14`, based on main commit `24891e0b3732eaf1d43bab90d2e59cd1ac245929`.
+- Active session branch: `arena/431d15f3-pd2-s14`, based on main commit `15cfff671a91ab464dcb42f4b9ce79d8be7bc87a`.
 - U-016–U-053 were supplied in `docs/16-53 Identified.xlsx`; U-054–U-074 were identified in chat. These are recorded in `docs/04D_Inventory_Misc.md`, `docs/04F_Inventory_Gems.md`, and `docs/04I_Inventory_Maps.md`.
-- The unresolved workbook now contains 34 rows, U-075–U-108: 26 Uber-tab icons and 8 skill-tree name checks.
-- The PD2 Maps Wiki page was queried for U-035–U-067 and cross-checked against U-025–U-034. Important discrepancies: U-025 Lightning value; U-033 Sanatorium's Tier (Wiki T2) and likely `1050` typo; U-040 “Ruined Temple” has no exact Wiki entry (possible Ruined Cistern); U-047 summary/table discrepancy for Cold 140. U-063 is Wiki-spelled “Orb of Destruction.” See `docs/04I_Inventory_Maps.md`.
-- Broader Wiki review remains deferred until all icon identifications are complete. Item Filter remains unread.
+- All icon IDs U-001–U-108 are now identified and documented. The unresolved workbook has no remaining data rows.
+- The PD2 Maps Wiki was queried for U-025–U-067 (including map modifications); discrepancies are documented in `docs/04I_Inventory_Maps.md`. U-075–U-100 are user-identified Uber-tab items. U-101–U-108 are user-identified Barbarian skills, and the Combat Skills / Combat Masteries / Warcries Wiki pages were checked to explain prerequisites and synergies in `docs/02_Character_And_Gear_Snapshot.md`.
+- All icon identifications are complete; the planned broader PD2 Wiki review is now due. Item Filter remains unread and requires explicit authorization.
 - Player identification updates are expected every 20 lines. Runs 1–10 remain separate, max 15 new item images per named Run.
 - Preserve corrected constraints: charms are equipped and reflected in stats; Purity Prayer healing is relied on; Ramfodder requires a crossbow.
