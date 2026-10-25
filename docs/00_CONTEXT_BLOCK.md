@@ -1,70 +1,47 @@
-# 00_CONTEXT_BLOCK.md — paste this into any new chat to resume
+# 00_CONTEXT_BLOCK.md — paste into a new chat to resume
 
-> Copy everything below the line into a new chat. It is self-contained.
-> Last updated: **2026-10-25** · Project **v0.2.0** · repo `MAVOmusicHC/PD2_S14` · branch `arena/360df353-pd2-s14` (mirrored to `main`)
+> Copy this file (or everything below the line) into a new chat. It is the project handoff.
+> Updated: **2026-10-25** · Project **v0.4.1** · repo `MAVOmusic/PD2_S14` · session branch `arena/cb987047-pd2-s14`.
 
 ---
 
-## WHO / WHAT
+## PLAYER / GOAL
 
-I play **Project Diablo 2, Season 14, HARDCORE**.
+I play **Project Diablo 2, Season 14 Hardcore**.
 
-- Character: **MAVOmusicHC**, Level **77 Barbarian**, **Throw Barb** (Double Throw + Throw Mastery + Frenzy), **0 skill points left**.
-- Merc: **Act 1 Rogue (Bow)**.
-- Farthest progress: **Hell Act 2 — Canyon of the Magi is painful, so treat Arcane Sanctuary as the practical ceiling.**
-- Goal: (a) farm zones for **elite crafting weapon bases for me AND my merc**, (b) check whether anything in my inventory beats what I wear, (c) **rework my item filter** — hide worthless stuff, make genuinely valuable trade items impossible to miss, (d) get an **Excel sheet of every stored item with trade-site prices, sorted most-expensive first** (I have limited trade-site slots).
+- Character: Level **77 Throw Barbarian** (MAVOmusicHC).
+- Mercenary: **Act 1 Rogue**.
+- Practical progression ceiling: **Hell Act 2 Arcane Sanctuary**; Canyon of the Magi is difficult.
+- Goals: identify elite crafting weapon bases and safe farming zones for me and my merc; compare stash items with equipped gear; tune/create an item filter that emphasizes useful and high-trade-value drops while hiding redundant/vendor-trash items; produce a sorted Excel trade sheet of stored items with estimated PD2 trade values.
 
-## REPO LAYOUT (already uploaded — 161 PNGs)
+## MANDATORY WORKFLOW
 
-```
-MAVOmusicHC - Stats - V1.0/
-  Images/
-    MAVOmusicHC - 01 - Character + Skill Tree/   (5 imgs)  ✅ READ
-    MAVOmusicHC - 02 - Equipped Items/           (12 imgs) ✅ READ
-    MAVOmusicHC - 03 - Charms/                   (24 imgs) ⏸ NOT READ
-    MAVOmusicHC - 04 - Inventory/                (9 tabs)  ⏸ NOT READ
-        Duplicates - Good Corruption, GF, Gems, MF, Maps, Misc, Runes, Set Items, Sortables, Ubers, Unique Items
-    MAVOmusicHC - 05 - Merc Items/               (9 imgs) ⏸ NOT READ
-  Item Filter/
-    Hiim_Crafting_Barbarian_Focused.filter               ⏸ NOT READ
-docs/   ← my working files (VERSION, CHANGELOG, WORK_PROTOCOL, snapshots, deliverables)
-```
+1. Read **at most two source folders per batch**, then stop for confirmation before starting another batch.
+2. For the Inventory folder, treat each tab subfolder as a checkpoint: complete only one tab, save its findings and update `VERSION.md`, `CHANGELOG.md`, and this context file, commit/push to the session branch, then stop and wait for the user's explicit confirmation before opening the next tab.
+3. Commit and push to `arena/cb987047-pd2-s14` before reporting results. The user also wants `main` kept current; do that through a PR from the session branch. **Never push directly to `main`.**
+4. Stay on the fixed Arena branch `arena/cb987047-pd2-s14`. Do not rename or switch branches.
+5. Transcribe only what the images show; label uncertain reads `⚠`. Do not invent mods. Tag estimated prices HIGH/MED/LOW confidence and distinguish estimates from verified current listings.
+6. Do not start the next Inventory tab until the user confirms that the last push/checkpoint is accepted.
 
-## HARD RULES FOR THE ASSISTANT (do not violate)
+## IMAGE / SOURCE STATUS
 
-1. **Read at most 2 folders per turn, then STOP and wait for my go-ahead.**
-2. **Push before reporting.** After each batch: update `docs/VERSION.md`, `docs/CHANGELOG.md`, `docs/00_CONTEXT_BLOCK.md`, commit, `git push origin arena/360df353-pd2-s14` **and** `git push origin arena/360df353-pd2-s14:main`, *then* tell me the results. If a chat dies, nothing is lost.
-3. **Mirror every push to `main`** so other chats never need my feature branch.
-4. Work only on branch `arena/360df353-pd2-s14`; never switch branches.
-5. Mark uncertain screenshot reads with `⚠`; never invent item mods.
-6. Prices are estimates — tag confidence HIGH / MED / LOW.
+- ✅ Vision confirmed in this chat: `Stats - No Buff.PNG` opened and readable.
+- Source root: `MAVOmusicHC - Stats - V1.0/`.
+- Completed and documented: `01 - Character + Skill Tree` (5 images), `02 - Equipped Items` (12), `03 - Charms` (24), and `04 - Inventory/Unique Items Tab` (23 screenshot files) — see `docs/02_Character_And_Gear_Snapshot.md`, `docs/03_Charms.md`, `docs/04A_Inventory_Uniques.md`.
+- The Unique Items screenshot counters appear to show only a partial tab; the saved transcription is limited to the 23 provided images.
+- Previous interrupted chat said it had opened Set Items screenshots 1–24, but ended before recording findings. Treat Set Items as **not transcribed**; do not assume those unseen/unrecorded reads are available. It has 26 source screenshots.
+- Remaining Inventory tabs after Unique Items: `Set Items Tab`, `Sortables Tab`, `Misc Tab`, `Runes Tab`, `Gems Tab`, `MF Tab`, `GF Tab`, `Maps Tab`, `Ubers Tab`, and `Duplicates - Good Corruption Tab`.
+- Also not yet reviewed: `05 - Merc Items/` and `Item Filter/Hiim_Crafting_Barbarian_Focused.filter`.
 
-## ANSWERED ALREADY
+## SAVED FINDINGS TO CARRY FORWARD
 
-- ✅ **This chat can read images** (vision confirmed on the screenshots).
+- Hell-applied resistances are Fire 49 / Cold 80 / Lightning 75 / Poison 58; cold/light are overcapped, while fire/poison are the gaps. Charm findings/recommended resists are in `docs/03_Charms.md`.
+- Equipped gear/stat details and first-pass farm notes are in `docs/02_Character_And_Gear_Snapshot.md`.
+- Unique-item highlights recorded in `docs/04A_Inventory_Uniques.md`: possible upgrades include Infernostride boots (FRW/fire protection), Riphook for the Act 1 merc, Ramfodder quiver for the merc, Nokozan Relic as a fire/FHR swap, and The Scalper as a weapon comparison. These are candidates, not final advice; validate against remaining inventory and merc gear before finalizing.
+- `docs/VERSION.md` and `docs/CHANGELOG.md` are the authoritative progress ledger. Read them first at the start of every new chat.
 
-## CURRENT STATE (v0.2.0)
+## NEXT CHECKPOINT — WAIT FOR USER CONFIRMATION
 
-Folders **01** and **02** are done. Full transcription in `docs/02_Character_And_Gear_Snapshot.md`. Headlines:
+The next Inventory tab to process is **`Set Items Tab/` (26 screenshots)**. The user's rule requires stopping after each tab and waiting for confirmation. Do not read the tab until the user confirms the last checkpoint/push and authorizes continuing.
 
-- Stats (no buff → with BO/BC): Str 194, Dex 155, Vit 165, En 34; Life **875 → 1,025**; Mana 211 → 281; Defense 328 → 569.
-  Double Throw **1,340–2,577 → 1,413–2,711**; AR **8,345 → 8,671** (and second line 14,681 / 15,255).
-- **Resists — the build's hole:** Fire **41 → 49**, Cold **80**, Light **75**, Poison **50 → 58**. In Hell (×−100) that is roughly **Fire −51, Poison −42 → those are what kill me.**
-- Skills (icon reads ⚠): ~20 Double Throw, ~20 Throw Mastery, ~13 Double Swing synergy, 1-pt warcries with ~3 extra BO/BC. 0 points left.
-- Gear: **Simbilan 343% ED / 23% CB** (main), **Francisca Fool's [Amp] 121% ED + 20% OW** (best item, ~Ist–Gul), **crafted Fanged Helm 27% CB + 20 all-res (def 16 — bad base)**, **Hawkmail** (only CBF source; weak, upgrade target), crafted Plated Belt (28C/21L + 71% GF), Chain Boots (18% MF, 23C/32L, **no FRW**), Heavy Bracers gloves (**weakest slot**, 3% LL / 13% MF), all-res 24% amulet (+10 Str), leech ring 6% LL / 5% MF, **LLD ring (lvl 12, corrupted) → sell to LLD collectors, Um–Ist, don't vendor**.
-- Swap: **+2 Barb / 10% IAS Harpoon** and **+3 Warcries Glaive** → pre-buff BO with the Glaive.
-- Farm plan draft: **Arcane Sanctuary (alvl 79)** is the best legal spot for **Winged Axe / Winged Knife / Hyperion Javelin / Ghost Glaive**; NM Cows for crafting runes + gems; Canyon of the Magi + Halls of the Dead for bases and gold. Do not push into A3 until fire res ≥ 60.
-
-## NEXT STEPS (in order)
-
-1. ⏭ **Batch 2/6** — read `03 - Charms` + `04 - Inventory` → fixes resist plan, gives the trade-sheet source data and swap candidates.
-2. **Batch 3/6** — read `05 - Merc Items` + `Item Filter/Hiim_Crafting_Barbarian_Focused.filter` → merc upgrade list + filter to modify.
-3. Deliver **farm plan v1** (zones + what to pick up, self & merc).
-4. Deliver **item filter**: either a full custom `.filter` or a tiered patch over Hiim's — hide vendor-trash, top-value trade items get the loudest colour.
-5. Deliver **XLSX trade sheet** of all stored items, sorted by estimated trade value, with confidence tags; separate "keep / sell / vendor" columns.
-
-## PENDING DECISIONS I OWE
-
-- [ ] Column order for the XLSX (value-first vs item-first)
-- [ ] Standalone filter vs patch over Hiim's filter
-- [ ] Pricing basis: HC ladder, values in `HR` equivalents + named runes
+After inventory, read `05 - Merc Items` and the filter (no more than two source folders in that batch), then finish the farming plan, filter, trade workbook, and gear-swap review. Outstanding choices include desired workbook column order, standalone filter vs patch, and HC ladder pricing/currency basis; ask when those decisions are needed.
