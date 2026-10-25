@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.7.0 — 2026-10-25
+
+### Read / added
+- Read `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Misc Tab/Misc.PNG` (one overview screenshot).
+- Added `docs/04D_Inventory_Misc.md`; recorded 17 visible slots and all discernible stack counts, while explicitly leaving item identities and prices unknown because no tooltips are shown.
+- Flagged the 45-count multicolor cluster, 3-count red shard, and 223-count purple potion-like stack for tooltip follow-up. No items are priced or recommended for vendor/sale from appearance alone.
+- Updated version/context/protocol files for active branch `arena/e21a31e0-pd2-s14`. Next tab is Runes; stop for user confirmation after pushing.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.6.0 — 2026-10-25
 
 ### Read / added
