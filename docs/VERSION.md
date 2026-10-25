@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Project version | **v0.16.0** |
+| Project version | **v0.17.0** |
 | Doc schema | 1 |
 | Last updated | 2026-10-25 |
-| Working branch | `arena/c58dcbfc-pd2-s14` |
+| Working branch | `arena/c5de4f66-pd2-s14` |
 | Main sync | Use a PR from the working branch; never push directly to `main` |
 | Game | Project Diablo 2 — Season 14 Hardcore |
 | Character | MAVOmusicHC — Level 77 Throw Barbarian; Act 1 Rogue mercenary |
@@ -31,7 +31,8 @@
 | v0.14.0 | 2026-10-25 | Duplicates/Good Corruption tab recorded; final Inventory tab complete |
 | v0.15.0 | 2026-10-25 | Act 1 Rogue mercenary gear/stats recorded; safe gear-swap triage |
 | v0.15.1 | 2026-10-25 | Unidentified-icon workbook; charm/Purity/Ramfodder corrections; Runs 1–10 scaffolding |
-| **v0.16.0** | **2026-10-25** | First 15 icons identified; Misc inventory and Recipes wiki reference updated |
+| v0.16.0 | 2026-10-25 | First 15 icons identified; Misc inventory and Recipes wiki reference updated |
+| **v0.17.0** | **2026-10-25** | U-016–U-053 identified; Craft Infusions and map Wiki lookup added |
 
 ## Milestones
 
@@ -49,10 +50,10 @@
 
 ## Current checkpoint
 
-- Active session branch: `arena/c58dcbfc-pd2-s14`, based on main commit `43f768db3c3c547ecf786caf71fc087a845ddfd1`.
-- The player's `docs/1-15 Identified.xlsx` supplies descriptions for U-001–U-015. Those identifications are recorded in `docs/04D_Inventory_Misc.md` and removed from `docs/Unidentified_Icons_and_Items.xlsx`; 93 unresolved rows remain.
-- U-004/U-009 are one Vial of Lightsong occupying two cells; U-005/U-010 are one Lilith's Mirror occupying two cells.
-- The PD2 Recipes page was checked for the U-001 example: `1–15 Jewels + Key → 1–15 Jewel Fragments`; fragments stack to 50. Broader relevant Wiki review is deferred until all icon identifications are complete.
-- Keep the corrected state: the Charms tab is the equipped loadout; Purity is retained for Prayer healing; Ramfodder requires a crossbow.
-- User will update the identification workbook after each 20 lines. Remove each completed batch from the unresolved tracker after recording it. Runs 1–10 remain separate, max 15 new item images each, and only read the Run the user names.
-- Item Filter remains unread. Continue identification; do not start comprehensive Wiki research or Item Filter review until the user's stated conditions/authorization are met.
+- Active session branch: `arena/c5de4f66-pd2-s14`, based on main commit `aa9c7caf870631f1e843e5825bd4f74f6808f410`.
+- The player supplied U-016–U-053 in `docs/16-53 Identified.xlsx`: potions, seven Craft Infusions, and map names/info. These are recorded in `docs/04D_Inventory_Misc.md`, `docs/04F_Inventory_Gems.md`, and `docs/04I_Inventory_Maps.md`.
+- The unresolved workbook now contains 55 rows, U-054–U-108: 21 lower Maps-grid icons, 26 Uber-tab icons, and 8 skill-tree name checks.
+- The PD2 Maps Wiki page was queried for U-035–U-053 and cross-checked against U-025–U-034. Important discrepancies: U-025 Lightning value; U-033 Sanatorium's Tier (Wiki T2) and likely `1050` typo; U-040 “Ruined Temple” has no exact Wiki entry (possible Ruined Cistern); U-047 summary/table discrepancy for Cold 140. See `docs/04I_Inventory_Maps.md`.
+- Broader Wiki review remains deferred until all icon identifications are complete. Item Filter remains unread.
+- Player identification updates are expected every 20 lines. Runs 1–10 remain separate, max 15 new item images per named Run.
+- Preserve corrected constraints: charms are equipped and reflected in stats; Purity Prayer healing is relied on; Ramfodder requires a crossbow.

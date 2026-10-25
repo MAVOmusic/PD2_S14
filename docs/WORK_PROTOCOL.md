@@ -11,16 +11,17 @@ These rules preserve progress across chats and the context-limit interruption.
 ## 2. Identification workbook batches
 - Workbook: `docs/Unidentified_Icons_and_Items.xlsx`; the player supplies up to **20 identified rows** per update.
 - Record each identified batch in the relevant item/source documents, then remove only those completed IDs from the unresolved workbook. Preserve stable IDs for remaining rows.
-- Keep the player's uploaded identification workbook(s) as source records; do not overwrite them unless explicitly requested.
-- After each batch, update `docs/VERSION.md`, `docs/CHANGELOG.md`, and `docs/00_CONTEXT_BLOCK.md`, then commit/push and sync `main` through a PR.
+- Keep player-uploaded identification workbooks as source records; do not overwrite them unless explicitly requested.
+- After each batch, update `docs/VERSION.md`, `docs/CHANGELOG.md`, and `docs/00_CONTEXT_BLOCK.md`; commit/push and sync `main` through a PR.
 
 ## 3. Wiki research
-- The player wants a broader review of relevant Project Diablo 2 Wiki information **after all icon identifications are complete**.
-- Until then, only do narrow source checks explicitly needed to resolve a question (such as the U-001 Jewel Fragments recipe). Do not start a general Wiki research sweep early.
+- The player wants a broad review of relevant Project Diablo 2 Wiki material **after all icon identifications are complete**.
+- A narrow Wiki lookup explicitly requested for identified items/maps is allowed. Do not start the broad Wiki review early.
+- Cite Wiki pages in the relevant project document and distinguish the page's official table fields from player-entered values. Flag discrepancies; do not silently overwrite them.
 
 ## 4. Save / Git workflow
 1. Save the transcription or deliverable.
-2. Commit and push to `arena/c58dcbfc-pd2-s14`.
+2. Commit and push to `arena/c5de4f66-pd2-s14`.
 3. Keep `main` current through a PR; never push directly to `main`.
 4. Report only after the checkpoint is pushed; stop for confirmation when another source folder/batch is due.
 
@@ -38,10 +39,10 @@ These rules preserve progress across chats and the context-limit interruption.
 - [x] Equipped charms transcribed; stat dependency clarified
 - [x] Inventory tab screenshots reviewed (with documented tooltip/identity limitations)
 - [x] Merc gear and stats transcribed (`docs/05_Merc_Gear.md`)
-- [x] Unknown icon workbook created; 15 IDs identified, 93 rows remain
+- [x] Identification workbook updated through U-053; 55 rows remain
 - [x] `Runs/Run 1` through `Runs/Run 10` scaffolding created (max 15 images each)
 - [ ] Complete remaining icon identifications in batches of up to 20
-- [ ] Broader Wiki review after all identifications
+- [ ] Broad Wiki review after all identifications
 - [ ] Item Filter (unread; wait for explicit authorization)
 - [ ] Final farm plan and sorted XLSX trade-price inventory
 - [ ] Final keep/sell/vendor/trade/swap recommendations
