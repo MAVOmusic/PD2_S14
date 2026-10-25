@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.13.0 — 2026-10-25
+
+### Read / added
+- Read the single `Ubers.PNG` overview in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Ubers Tab/`.
+- Added `docs/04J_Inventory_Ubers.md`, recording the 10-icon left grid and 16-icon right grid, with the only visible `1` overlay noted.
+- No item identities, stack quantities or prices are guessed: the screenshot has no tooltips. Warned not to vendor any Uber-tab items until identified.
+- Updated version/context/protocol docs for the active branch `arena/6cc2977c-pd2-s14`. Next tab is Duplicates - Good Corruption; stop for user confirmation after pushing.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.12.0 — 2026-10-25
 
 ### Read / added

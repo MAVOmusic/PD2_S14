@@ -1,7 +1,7 @@
 # 00_CONTEXT_BLOCK.md — paste into a new chat to resume
 
 > Copy this file (or everything below the line) into a new chat. It is the project handoff.
-> Updated: **2026-10-25** · Project **v0.12.0** · repo `MAVOmusic/PD2_S14` · session branch `arena/c738bbe3-pd2-s14`.
+> Updated: **2026-10-25** · Project **v0.13.0** · repo `MAVOmusic/PD2_S14` · session branch `arena/6cc2977c-pd2-s14`.
 
 ---
 
@@ -18,8 +18,8 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 
 1. Read **at most two source folders per batch**, then stop for confirmation before starting another batch.
 2. For the Inventory folder, treat each tab subfolder as a checkpoint: complete only one tab, save its findings and update `VERSION.md`, `CHANGELOG.md`, and this context file, commit/push to the session branch, then stop and wait for the user's explicit confirmation before opening the next tab.
-3. Commit and push to `arena/c738bbe3-pd2-s14` before reporting results. Keep `main` current through a PR from the session branch. **Never push directly to `main`.**
-4. Stay on the fixed Arena branch `arena/c738bbe3-pd2-s14`. Do not rename or switch branches.
+3. Commit and push to `arena/6cc2977c-pd2-s14` before reporting results. Keep `main` current through a PR from the session branch. **Never push directly to `main`.**
+4. Stay on the fixed Arena branch `arena/6cc2977c-pd2-s14`. Do not rename or switch branches.
 5. Transcribe only what the images show; label uncertain reads `⚠`. Do not invent mods. Tag estimated prices HIGH/MED/LOW confidence and distinguish estimates from verified current listings.
 6. Do not start the next Inventory tab until the user confirms that the last push/checkpoint is accepted.
 
@@ -27,8 +27,8 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 
 - ✅ Vision confirmed: the PNG screenshots are readable.
 - Source root: `MAVOmusicHC - Stats - V1.0/`.
-- Completed and documented: `01 - Character + Skill Tree` (5 images), `02 - Equipped Items` (12), `03 - Charms` (24), `04 - Inventory/Unique Items Tab` (23 supplied screenshots), `Set Items Tab` (26), `Sortables Tab` (31), `Misc Tab` (one overview screenshot), `Runes Tab` (one full-grid screenshot), `Gems Tab` (one full-grid screenshot), `MF Tab` (3 screenshots), `GF Tab` (8 screenshots), and `Maps Tab` (3 screenshots).
-- See `docs/02_Character_And_Gear_Snapshot.md`, `docs/03_Charms.md`, and `docs/04A_Inventory_Uniques.md` through `docs/04I_Inventory_Maps.md`.
+- Completed and documented: `01 - Character + Skill Tree` (5 images), `02 - Equipped Items` (12), `03 - Charms` (24), `04 - Inventory/Unique Items Tab` (23 supplied screenshots), `Set Items Tab` (26), `Sortables Tab` (31), `Misc Tab` (one overview screenshot), `Runes Tab` (one full-grid screenshot), `Gems Tab` (one full-grid screenshot), `MF Tab` (3 screenshots), `GF Tab` (8 screenshots), `Maps Tab` (3 screenshots), and `Ubers Tab` (one overview screenshot).
+- See `docs/02_Character_And_Gear_Snapshot.md`, `docs/03_Charms.md`, and `docs/04A_Inventory_Uniques.md` through `docs/04J_Inventory_Ubers.md`.
 - Unique Items and Set Items counters suggest their screenshots may be partial captures; each doc limits its scope to supplied images.
 - The Misc overview has no item tooltips; its 17 visible slots and stack numbers are recorded but mostly unidentified. Do not price or vendor these by icon alone; tooltip screenshots are needed.
 - Rune quantities are visually clear, but names are mapped from standard El-to-Zod grid order without hover labels (medium confidence). Total 147; highest shown Gul ×1, no Um+.
@@ -36,7 +36,8 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 - MF tab has an LLD amulet (31% MF, +14 all res, +6 Str), 22% MF Battle Gauntlets (craft-base status uncertain), and 36% MF Nagelring.
 - GF tab records 8 items totaling +260% visible GF: a corrupted LLD amulet (+83 GF), two GF rings (+40 / +36), two GF Grand Charms (+38 / +33) and three 10-GF Small Charms. Prices remain low-confidence estimates.
 - Maps screenshots are titled `No Maps`, but the UI shows 10/10/9 map-like tiles across Tiers 1/2/3 and a repeated lower 3×7 grid. Ownership and lower-grid identities cannot be confirmed without tooltips/counts; no maps are included as saleable inventory.
-- Remaining Inventory tabs: `Ubers Tab` and `Duplicates - Good Corruption Tab`.
+- Ubers screenshot has 10 icons in a left grid and 16 in a right grid; names/quantities are unknown without tooltips. Do not vendor these from appearance alone.
+- Remaining Inventory tab: `Duplicates - Good Corruption Tab`.
 - Also not yet reviewed: `05 - Merc Items/` and `Item Filter/Hiim_Crafting_Barbarian_Focused.filter`.
 
 ## SAVED FINDINGS TO CARRY FORWARD
@@ -50,6 +51,6 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 
 ## NEXT CHECKPOINT — WAIT FOR USER CONFIRMATION
 
-The Maps tab is documented in `docs/04I_Inventory_Maps.md`; its visible tiles are not counted as owned maps because ownership is unverified. The next tab is **Ubers Tab**; do not read it until the user confirms this push/checkpoint is visible and accepted.
+The Ubers tab is documented in `docs/04J_Inventory_Ubers.md`, but its visible icons are unidentified without tooltips. The next tab is **Duplicates - Good Corruption Tab**; do not read it until the user confirms this push/checkpoint is visible and accepted.
 
 After remaining inventory, read `05 - Merc Items` and the filter (no more than two source folders in that batch), then finish the farming plan, filter, trade workbook, and gear-swap review. Outstanding decisions: workbook column order, standalone filter vs patch, and HC pricing/currency basis; ask when needed.
