@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.18.0 — 2026-10-25
+
+### Read / added
+- Recorded player identifications U-054–U-074 in `docs/04I_Inventory_Maps.md`: Standard of Heroes, map modification orbs/materials, and seven Corrupted Ears. Corrected the player-typed “Orb Of Descruction” to the Wiki spelling **Orb of Destruction** while preserving the original spelling note.
+- Queried the Maps Wiki Modification section for U-054–U-067 and documented recipes/effects, including recipe caveats and Wiki-listed blanks for infused variants. Corrupted Ears are noted as map modifiers but excluded from current PVM recommendations per player scope.
+- Removed U-054–U-074 from `docs/Unidentified_Icons_and_Items.xlsx`; 34 unresolved rows U-075–U-108 remain (26 Uber-tab icons and 8 skill-tree checks).
+- Updated project version, context and protocol for active branch `arena/40b4ad5b-pd2-s14`. Broad Wiki review remains deferred; Item Filter remains unread.
+
+### Sync status
+- Commit/push on the active session branch; sync `main` through a PR (never direct-push).
+
+---
+
 ## v0.17.0 — 2026-10-25
 
 ### Read / added

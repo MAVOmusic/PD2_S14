@@ -2,10 +2,10 @@
 
 | Field | Value |
 |---|---|
-| Project version | **v0.17.0** |
+| Project version | **v0.18.0** |
 | Doc schema | 1 |
 | Last updated | 2026-10-25 |
-| Working branch | `arena/c5de4f66-pd2-s14` |
+| Working branch | `arena/40b4ad5b-pd2-s14` |
 | Main sync | Use a PR from the working branch; never push directly to `main` |
 | Game | Project Diablo 2 — Season 14 Hardcore |
 | Character | MAVOmusicHC — Level 77 Throw Barbarian; Act 1 Rogue mercenary |
@@ -32,7 +32,8 @@
 | v0.15.0 | 2026-10-25 | Act 1 Rogue mercenary gear/stats recorded; safe gear-swap triage |
 | v0.15.1 | 2026-10-25 | Unidentified-icon workbook; charm/Purity/Ramfodder corrections; Runs 1–10 scaffolding |
 | v0.16.0 | 2026-10-25 | First 15 icons identified; Misc inventory and Recipes wiki reference updated |
-| **v0.17.0** | **2026-10-25** | U-016–U-053 identified; Craft Infusions and map Wiki lookup added |
+| v0.17.0 | 2026-10-25 | U-016–U-053 identified; Craft Infusions and map Wiki lookup added |
+| **v0.18.0** | **2026-10-25** | U-054–U-074 identified; map-modification uses documented; unresolved tracker reduced to U-075–U-108 |
 
 ## Milestones
 
@@ -50,10 +51,10 @@
 
 ## Current checkpoint
 
-- Active session branch: `arena/c5de4f66-pd2-s14`, based on main commit `aa9c7caf870631f1e843e5825bd4f74f6808f410`.
-- The player supplied U-016–U-053 in `docs/16-53 Identified.xlsx`: potions, seven Craft Infusions, and map names/info. These are recorded in `docs/04D_Inventory_Misc.md`, `docs/04F_Inventory_Gems.md`, and `docs/04I_Inventory_Maps.md`.
-- The unresolved workbook now contains 55 rows, U-054–U-108: 21 lower Maps-grid icons, 26 Uber-tab icons, and 8 skill-tree name checks.
-- The PD2 Maps Wiki page was queried for U-035–U-053 and cross-checked against U-025–U-034. Important discrepancies: U-025 Lightning value; U-033 Sanatorium's Tier (Wiki T2) and likely `1050` typo; U-040 “Ruined Temple” has no exact Wiki entry (possible Ruined Cistern); U-047 summary/table discrepancy for Cold 140. See `docs/04I_Inventory_Maps.md`.
+- Active session branch: `arena/40b4ad5b-pd2-s14`, based on main commit `24891e0b3732eaf1d43bab90d2e59cd1ac245929`.
+- U-016–U-053 were supplied in `docs/16-53 Identified.xlsx`; U-054–U-074 were identified in chat. These are recorded in `docs/04D_Inventory_Misc.md`, `docs/04F_Inventory_Gems.md`, and `docs/04I_Inventory_Maps.md`.
+- The unresolved workbook now contains 34 rows, U-075–U-108: 26 Uber-tab icons and 8 skill-tree name checks.
+- The PD2 Maps Wiki page was queried for U-035–U-067 and cross-checked against U-025–U-034. Important discrepancies: U-025 Lightning value; U-033 Sanatorium's Tier (Wiki T2) and likely `1050` typo; U-040 “Ruined Temple” has no exact Wiki entry (possible Ruined Cistern); U-047 summary/table discrepancy for Cold 140. U-063 is Wiki-spelled “Orb of Destruction.” See `docs/04I_Inventory_Maps.md`.
 - Broader Wiki review remains deferred until all icon identifications are complete. Item Filter remains unread.
 - Player identification updates are expected every 20 lines. Runs 1–10 remain separate, max 15 new item images per named Run.
 - Preserve corrected constraints: charms are equipped and reflected in stats; Purity Prayer healing is relied on; Ramfodder requires a crossbow.

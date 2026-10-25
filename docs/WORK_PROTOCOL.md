@@ -21,7 +21,7 @@ These rules preserve progress across chats and the context-limit interruption.
 
 ## 4. Save / Git workflow
 1. Save the transcription or deliverable.
-2. Commit and push to `arena/c5de4f66-pd2-s14`.
+2. Commit and push to `arena/40b4ad5b-pd2-s14`.
 3. Keep `main` current through a PR; never push directly to `main`.
 4. Report only after the checkpoint is pushed; stop for confirmation when another source folder/batch is due.
 
@@ -39,7 +39,7 @@ These rules preserve progress across chats and the context-limit interruption.
 - [x] Equipped charms transcribed; stat dependency clarified
 - [x] Inventory tab screenshots reviewed (with documented tooltip/identity limitations)
 - [x] Merc gear and stats transcribed (`docs/05_Merc_Gear.md`)
-- [x] Identification workbook updated through U-053; 55 rows remain
+- [x] Identification workbook updated through U-074; 34 rows remain (U-075–U-108)
 - [x] `Runs/Run 1` through `Runs/Run 10` scaffolding created (max 15 images each)
 - [ ] Complete remaining icon identifications in batches of up to 20
 - [ ] Broad Wiki review after all identifications
