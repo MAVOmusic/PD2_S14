@@ -4,6 +4,21 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.14.0 — 2026-10-25
+
+### Read / added
+- Read the single image in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Duplicates - Good Corruption Tab/`.
+- Added `docs/04K_Inventory_Duplicates.md` for a corrupted Sigon's Wrap Plated Belt: +10% Increased Chance of Blocking, +20 Life, +20% Fire Res, required level 6.
+- Cross-referenced the separate Sigon's Wrap [C] in Sortables (+13% Pierce) and preserved both as distinct observed copies/corruptions.
+- Marked it as niche LLD sale-check only; rough Pul–Mal estimate is LOW confidence and not based on live listings.
+- This completes review of all 11 Inventory tabs. Updated version/context/protocol docs for active branch `arena/78b69598-pd2-s14`.
+- Next source batch is `05 - Merc Items` plus `Item Filter`; wait for explicit user confirmation before reading either.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.13.0 — 2026-10-25
 
 ### Read / added

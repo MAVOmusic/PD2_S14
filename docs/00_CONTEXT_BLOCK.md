@@ -1,7 +1,7 @@
 # 00_CONTEXT_BLOCK.md — paste into a new chat to resume
 
 > Copy this file (or everything below the line) into a new chat. It is the project handoff.
-> Updated: **2026-10-25** · Project **v0.13.0** · repo `MAVOmusic/PD2_S14` · session branch `arena/6cc2977c-pd2-s14`.
+> Updated: **2026-10-25** · Project **v0.14.0** · repo `MAVOmusic/PD2_S14` · session branch `arena/78b69598-pd2-s14`.
 
 ---
 
@@ -17,40 +17,40 @@ I play **Project Diablo 2, Season 14 Hardcore**.
 ## MANDATORY WORKFLOW
 
 1. Read **at most two source folders per batch**, then stop for confirmation before starting another batch.
-2. For the Inventory folder, treat each tab subfolder as a checkpoint: complete only one tab, save its findings and update `VERSION.md`, `CHANGELOG.md`, and this context file, commit/push to the session branch, then stop and wait for the user's explicit confirmation before opening the next tab.
-3. Commit and push to `arena/6cc2977c-pd2-s14` before reporting results. Keep `main` current through a PR from the session branch. **Never push directly to `main`.**
-4. Stay on the fixed Arena branch `arena/6cc2977c-pd2-s14`. Do not rename or switch branches.
-5. Transcribe only what the images show; label uncertain reads `⚠`. Do not invent mods. Tag estimated prices HIGH/MED/LOW confidence and distinguish estimates from verified current listings.
-6. Do not start the next Inventory tab until the user confirms that the last push/checkpoint is accepted.
+2. For the Inventory folder, each tab subfolder is its own checkpoint. Complete one tab, update its document plus `VERSION.md`, `CHANGELOG.md`, and this context file, commit/push, then stop for the user's confirmation before opening another tab.
+3. Commit and push to `arena/78b69598-pd2-s14` before reporting. Keep `main` current via a PR from the working branch. **Never push directly to `main`.**
+4. Stay on the fixed Arena branch `arena/78b69598-pd2-s14`; never rename or switch branches.
+5. Transcribe only visible information; use `⚠` for uncertainty; do not invent item mods. Price estimates need HIGH/MED/LOW confidence and must be distinguished from live listing quotes.
+6. The user confirmed the Duplicates tab only. Wait for explicit confirmation before reading the next source folders, `05 - Merc Items` and Item Filter.
 
 ## IMAGE / SOURCE STATUS
 
-- ✅ Vision confirmed: the PNG screenshots are readable.
+- ✅ Vision confirmed: PNG screenshots are readable.
 - Source root: `MAVOmusicHC - Stats - V1.0/`.
-- Completed and documented: `01 - Character + Skill Tree` (5 images), `02 - Equipped Items` (12), `03 - Charms` (24), `04 - Inventory/Unique Items Tab` (23 supplied screenshots), `Set Items Tab` (26), `Sortables Tab` (31), `Misc Tab` (one overview screenshot), `Runes Tab` (one full-grid screenshot), `Gems Tab` (one full-grid screenshot), `MF Tab` (3 screenshots), `GF Tab` (8 screenshots), `Maps Tab` (3 screenshots), and `Ubers Tab` (one overview screenshot).
-- See `docs/02_Character_And_Gear_Snapshot.md`, `docs/03_Charms.md`, and `docs/04A_Inventory_Uniques.md` through `docs/04J_Inventory_Ubers.md`.
-- Unique Items and Set Items counters suggest their screenshots may be partial captures; each doc limits its scope to supplied images.
-- The Misc overview has no item tooltips; its 17 visible slots and stack numbers are recorded but mostly unidentified. Do not price or vendor these by icon alone; tooltip screenshots are needed.
-- Rune quantities are visually clear, but names are mapped from standard El-to-Zod grid order without hover labels (medium confidence). Total 147; highest shown Gul ×1, no Um+.
-- Gems tab records 116 counted gems: 86 Perfect (Ruby 8, Amethyst 13, Sapphire 9, Emerald 13, Topaz 16, Diamond 16, Skull 11). Seven unnumbered bottom-row icons remain unidentified/not counted.
-- MF tab has an LLD amulet (31% MF, +14 all res, +6 Str), 22% MF Battle Gauntlets (craft-base status uncertain), and 36% MF Nagelring.
-- GF tab records 8 items totaling +260% visible GF: a corrupted LLD amulet (+83 GF), two GF rings (+40 / +36), two GF Grand Charms (+38 / +33) and three 10-GF Small Charms. Prices remain low-confidence estimates.
-- Maps screenshots are titled `No Maps`, but the UI shows 10/10/9 map-like tiles across Tiers 1/2/3 and a repeated lower 3×7 grid. Ownership and lower-grid identities cannot be confirmed without tooltips/counts; no maps are included as saleable inventory.
-- Ubers screenshot has 10 icons in a left grid and 16 in a right grid; names/quantities are unknown without tooltips. Do not vendor these from appearance alone.
-- Remaining Inventory tab: `Duplicates - Good Corruption Tab`.
-- Also not yet reviewed: `05 - Merc Items/` and `Item Filter/Hiim_Crafting_Barbarian_Focused.filter`.
+- Character/gear/charms reviewed: `01 - Character + Skill Tree` (5 images), `02 - Equipped Items` (12), `03 - Charms` (24).
+- All 11 Inventory tabs reviewed and documented: Unique Items (23 supplied screenshots), Set Items (26), Sortables (31), Misc (1), Runes (1), Gems (1), MF (3), GF (8), Maps (3), Ubers (1), Duplicates - Good Corruption (1).
+- See `docs/02_Character_And_Gear_Snapshot.md`, `docs/03_Charms.md`, and `docs/04A_Inventory_Uniques.md` through `docs/04K_Inventory_Duplicates.md`.
+- Unique Items and Set Items screenshot counters suggest partial captures; docs limit their scope to supplied images.
+- Misc screenshot has no hover tooltips: 17 slots recorded visually, item IDs/prices unknown. Do not vendor by icon alone.
+- Runes: 147 total mapped by standard El-to-Zod grid order (medium confidence); highest Gul ×1, no Um+.
+- Gems: 116 counted (86 perfect); seven unnumbered bottom-row icons remain unknown/not counted.
+- MF: corrupted LLD amulet (31% MF, +14 all res, +6 Str), 22% MF Battle Gauntlets (craft-base status uncertain), Nagelring (36% MF).
+- GF: 8 items with +260% combined GF (corrupted +83 GF amulet; rings +40/+36; GCs +38/+33; three 10-GF SCs). Prices low-confidence.
+- Maps filenames say “No Maps”; map-like tier UI icons do not confirm ownership/counts. Do not list or value as owned maps without tooltips.
+- Ubers screenshot has 26 item-like icons (10 left, 16 right), identities/quantities unverified. Do not vendor without identifying.
+- Duplicates tab: Sigon's Wrap [C] (+10% block, +20 Life, +20 Fire Res, req 6), separate from the Sortables Sigon's Wrap [C] (+13% Pierce). See `docs/04K_Inventory_Duplicates.md`.
+- Still not read: `05 - Merc Items/` and `Item Filter/Hiim_Crafting_Barbarian_Focused.filter`.
 
 ## SAVED FINDINGS TO CARRY FORWARD
 
-- Hell-applied resistances are Fire 49 / Cold 80 / Lightning 75 / Poison 58; cold/light are overcapped, while fire/poison are the gaps. Charm findings/recommended resists are in `docs/03_Charms.md`.
-- Equipped gear/stat details and first-pass farm notes are in `docs/02_Character_And_Gear_Snapshot.md`.
-- Unique-item candidates in `docs/04A_Inventory_Uniques.md` include Infernostride, Riphook, Ramfodder, Nokozan Relic and The Scalper; validate versus full stash and merc gear.
-- Set-tab notes in `docs/04B_Inventory_Sets.md`: Cow King's Hooves and Vidala's Fetlock each add 30% FRW; Infernostride remains the stronger documented fire-safety option.
-- Sortables notes in `docs/04C_Inventory_Sortables.md`: potentially useful Sharkskin Boots (40 FRW, +38 poison res), crafted Jawbone Cap (+2 Throwing Mastery / Shout / Double Swing, 6% mana leech but loses helm res/CB), possible second Nokozan Relic roll, Great Pilum comparison, 10 FCR dual-res ring, and niche charms/jewels. Respect resistance tradeoffs before equipping anything in Hardcore.
-- No clean blank elite throwing-weapon base has been identified yet. Trade estimates are rough and not live listing quotes; pricing basis still needs confirmation.
+- Hell-applied resistances are Fire 49 / Cold 80 / Lightning 75 / Poison 58; cold/light are overcapped, fire/poison are gaps. Charm analysis is in `docs/03_Charms.md`.
+- Equipped gear/stats and first-pass farm notes are in `docs/02_Character_And_Gear_Snapshot.md`.
+- Unique candidates include Infernostride, Riphook, Ramfodder, Nokozan Relic and The Scalper; validate against merc gear and full inventory.
+- Other candidates in docs: Cow King's Hooves/Vidala's Fetlock (FRW), corrupted Sharkskin Boots (40 FRW/+38 poison res), crafted Jawbone Cap (+2 Throwing Mastery/Shout/Double Swing; loses current helm's all-res/CB), Great Pilum comparison, MF/GF swaps, etc. Do not compromise Hardcore resists/leech without checking actual post-swap stats.
+- No clean blank elite throwing-weapon crafting base has been identified yet. Prices are estimates, not checked against live PD2 listings.
 
 ## NEXT CHECKPOINT — WAIT FOR USER CONFIRMATION
 
-The Ubers tab is documented in `docs/04J_Inventory_Ubers.md`, but its visible icons are unidentified without tooltips. The next tab is **Duplicates - Good Corruption Tab**; do not read it until the user confirms this push/checkpoint is visible and accepted.
+All 11 Inventory tabs are reviewed; the latest is documented in `docs/04K_Inventory_Duplicates.md`. This checkpoint must be pushed and accepted first.
 
-After remaining inventory, read `05 - Merc Items` and the filter (no more than two source folders in that batch), then finish the farming plan, filter, trade workbook, and gear-swap review. Outstanding decisions: workbook column order, standalone filter vs patch, and HC pricing/currency basis; ask when needed.
+**Next batch after the user confirms:** `05 - Merc Items/` and `Item Filter/Hiim_Crafting_Barbarian_Focused.filter` (two source folders). Do not read either until confirmation. Then finish the farming plan, filter revision, trade workbook, and swap recommendations. Open decisions: spreadsheet column order, standalone filter vs patch, and HC pricing/currency basis.
