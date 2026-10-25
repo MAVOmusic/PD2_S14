@@ -1,6 +1,6 @@
 # 05 — Mercenary Gear and Stats
 
-**v0.15.0** · read 2026-10-25 · source folder `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 05 - Merc Items/` (9 screenshots)
+**v0.15.1** · read 2026-10-25 · source folder `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 05 - Merc Items/` (9 screenshots)
 
 Mercenary: **Mahala**, Act 1 Rogue, level 77.
 
@@ -36,16 +36,16 @@ Resistances are transcribed as displayed; the screenshot does not identify diffi
 
 ## Candidate tests using already documented stash items
 
-### Bow: keep Purity equipped until a safe comparison
+### Bow: retain Purity for Prayer healing
 
-The stash has **Riphook (222% ED)** recorded in `docs/04A_Inventory_Uniques.md`: 50% IAS, 9% life leech, 30% Open Wounds and 10% slow. Compared with Purity's 141% ED / 45% IAS / 7% leech, it appears a strong physical-damage and control alternative, but loses Purity's level 2 Prayer aura, demon-specific damage/AR, curse-duration reduction and cold damage. **Test Riphook in a safe area and watch Mahala's survivability before committing it in Hardcore.** Keep Purity as the regen/support option if the aura is materially helping.
+The player confirms **Purity is intentionally equipped for its Prayer healing aura**, which Mahala currently relies on. Keep Purity equipped; do not recommend switching to Riphook while that healing is needed. Riphook (222% ED; 50% IAS, 9% life leech, 30% Open Wounds, 10% slow) remains a future physical-damage/control candidate, but it loses Purity's level 2 Prayer aura, demon-specific damage/AR, curse-duration reduction and cold damage. Revisit only after the player confirms the healing is no longer needed or a tested alternative preserves it.
 
 ### Quiver: damage versus leech/utility
 
 - Current quiver: 7% life leech, Prevent Monster Heal, +29% poison res, +15 max damage and +5 mana after kill.
-- Stash Ramfodder from `docs/04A_Inventory_Uniques.md`: 10% IAS, 20% FHR, knockback, −2% enemy physical resistance and +22 Life. It may improve attack breakpoint/control but sacrifices the current quiver's 7% leech and Prevent Monster Heal.
+- Stash Ramfodder from `docs/04A_Inventory_Uniques.md` is a **bolt quiver**: 10% IAS, 20% FHR, knockback, −2% enemy physical resistance and +22 Life. It is not compatible with the currently equipped bow. The player would first need to craft/equip a crossbow with Purity; keep the current bow and arrow quiver until then, preserving Prayer healing. Reassess Ramfodder only in that crossbow setup.
 - Another Sharp Arrows in Sortables (`docs/04C_Inventory_Sortables.md`) has +44% ED, +10 max damage and +57–177 cold damage. This is a **different item** from the equipped arrows; compare actual damage but account for losing leech, PMH and poison resistance.
-- For Hardcore, retain current arrows by default; test Ramfodder or the damage arrows only if clear speed improves and Mahala remains safe.
+- For Hardcore, retain the current Purity bow + Sharp Arrows by default. Ramfodder is not an option with this bow; revisit it only after a Purity crossbow is crafted/equipped and its healing aura is confirmed active. The alternative Sharp Arrows could be tested with the bow, but only after a safe comparison that accounts for lost leech/PMH/poison resistance.
 
 ### Boots: avoid a blind resistance trade
 
@@ -61,7 +61,7 @@ The ethereal Diamond Mail in Sortables is listed at 734 defense with +231 defens
 
 ## Immediate recommendations
 
-1. **Keep current Purity + Sharp Arrows as the safe baseline** until controlled comparisons. Together they show 14% life leech before any active set bonus.
+1. **Keep current Purity + Sharp Arrows as the safe baseline.** Purity's Prayer aura is intentionally used for healing; do not swap it until the player no longer relies on it or has tested a healing-preserving alternative. Together the bow and arrows show 14% life leech before any active set bonus.
 2. **Fire resistance is Mahala's biggest visible defensive gap (33)**. Consider the Infernostride fire swap for fire-heavy content, but it reduces several other resistances; the Sharkskins instead prioritize poison/cold.
 3. Do not equip the eth Diamond Mail solely for its defense before checking the possible 10% Sigon's leech bonus and lightning resistance loss.
 4. The LLD/early-level Infernal Sign belt and Sigon's Shelter/Visor have low-level requirements and are not obvious level-77 upgrades; current belt/helm should be evaluated only after the full merc gear set and actual defense/resist totals are considered.

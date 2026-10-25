@@ -4,6 +4,21 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.15.1 — 2026-10-25
+
+### Corrections / added
+- Created `docs/Unidentified_Icons_and_Items.xlsx` with 108 rows: 100 unclear inventory/UI icons across Misc, Gems, Maps and Ubers, plus 8 previously uncertain skill-tree icon/name checks. Each row has its source tab, screenshot, location, current visual description, uncertainty and a blank player-identification field.
+- Corrected the Charms interpretation: the 24 charms are currently equipped and their effects are already included in character stats. Withdrawn prior charm equip/bench/sell recommendations and double-counting calculations until a fresh stat comparison is available.
+- Corrected the merc gear plan: Purity Prayer healing is relied on, so keep the bow as the current baseline. Ramfodder is a bolt quiver and is not compatible with the bow; revisit only after a Purity crossbow is crafted/equipped.
+- Created `Runs/Run 1` through `Runs/Run 10` and `Runs/README.md`; maximum 15 new item images per Run, and only process the Run the player explicitly names.
+- Item Filter remains unread. Await the player's completed icon-identification workbook before final keep/sell/swap/trade conclusions.
+- Updated version, context and work protocol for active branch `arena/2ad22dfd-pd2-s14`.
+
+### Sync status
+- Commit/push to the session branch and sync `main` via PR; never push directly to `main`.
+
+---
+
 ## v0.15.0 — 2026-10-25
 
 ### Read / added

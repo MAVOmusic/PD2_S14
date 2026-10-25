@@ -40,7 +40,7 @@ PD2 caps resists at 75 (higher with +max res). **Fire and Poison are the two dan
 **Cheapest fixes, in order of value:**
 1. Swap the Amulet for a higher all-res / fire-res amulet from inventory (pending folder 04).
 2. Ral runes / Ort runes in the two open sockets on helm & armor bases if sockets are free.
-3. Any 3-res SC / fire-res GC from the charms tab (folder 03 pending).
+3. The charms shown in folder 03 are already equipped and their stats are already reflected in this screenshot. Do not treat them as spare upgrades; any charm change requires a fresh character-sheet/stat comparison.
 4. Craft a **Safety** shield-less alternative: with Double Throw you cannot use a shield — so resists must come from jewelry, charms, boots, belt.
 
 ---
