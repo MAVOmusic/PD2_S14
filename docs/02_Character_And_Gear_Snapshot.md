@@ -1,5 +1,5 @@
 # 02 — Character & Gear Snapshot (Folders 01 + 02)
-**Version:** v0.2.0 · **Read on:** 2026-10-25 · **Source:** `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …`
+**Version:** v0.19.0 · **Read on:** 2026-10-25 · **Source:** `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …`
 
 > Transcribed verbatim from screenshots. Anything marked `⚠` is a best-effort read, not certain.
 
@@ -45,20 +45,40 @@ PD2 caps resists at 75 (higher with +max res). **Fire and Poison are the two dan
 
 ---
 
-## 2. Skill tree (⚠ names per icon, points as shown)
+## 2. Skill tree — player labels and build rationale (U-101–U-108)
 
-**Combat Skills tab** — points visible: `14` (top-centre, crossed-axe icon → ⚠ likely **Double Swing** or **Double Throw**), `21` (upper-right), `21` (mid-right), several `2`s on the prerequisite path, and two bottom nodes at `2` / `2`.
+The player identified the remaining skill icons by name. The official PD2 [Combat Skills](https://wiki.projectdiablo2.com/wiki/Combat_Skills_(Barbarian)), [Combat Masteries](https://wiki.projectdiablo2.com/wiki/Combat_Masteries), and [Warcries](https://wiki.projectdiablo2.com/wiki/Warcries) pages explain how the choices fit together. This is an explanation of the displayed allocation, not a respec recommendation.
 
-**Combat Masteries tab** — `21` top-right (⚠ thrown-weapon icon → almost certainly **Throw Mastery**), `2` on left-mid path, `2` right-mid, `2` bottom-left, `2` bottom-right.
+### Core Throw skills — Combat Skills tree
 
-**Warcries tab** — `4` on the top-right (⚠ **Battle Command**), `2`,`2`,`2`,`2` down the left (⚠ Battle Orders / Shout / Find Potion line).
+| ID | Player-identified skill | Why it fits the Throw Barbarian |
+|---|---|---|
+| U-101 | Double Swing | Required to reach Frenzy and Double Throw; also gives Double Throw +6% damage per hard point as a synergy. Screenshot showed skill level 14. |
+| U-102 | Frenzy | Required by Double Throw and also provides Double Throw +6% damage per hard point. Frenzy itself builds attack/movement speed charges when attacking with two weapons, giving utility beyond its synergy. Screenshot showed skill level 21. |
+| U-103 | Double Throw | The main ranged attack: throws two different throwing weapons and its projectiles bounce to nearby enemies (Wiki lists up to 8 bounces). Screenshot showed skill level 21. |
+| U-104 | Top: Bash; middle: Stun; bottom: Leap | The one-point prerequisite route to Leap. The Wiki lists Bash and Stun as Leap prerequisites, and Stun itself requires Bash; one point in each is enough to open the mobility skill. The player's stated purpose is to leap away from danger or over hazardous situations. |
 
-### Reading between the lines
-- Blue badges = invested points; values captured while **Battle Command** was active, so a displayed `21` is most likely **20 hard points + 1 from BC**.
-- That means the build sits at roughly: **20 Double Throw, 20 Throw Mastery, ~13 Double Swing** (synergy for Double Throw), 1-pt Warcries + ~3 extra into Battle Orders, prerequisites scattered.
-- **Skill points remaining: 0.**
-- Double Throw / Throw Mastery both maxed is correct for S14 Throw Barb. The remaining DPS lever is **gear**, specifically: elite throwing bases, IAS breakpoints, and attack-rating (Fool's / AR crafts).
-- ⚠ Skill *names* need confirming with tooltip screenshots (hover each icon and screenshot the tooltip).
+Wiki also lists Double Swing as a Frenzy synergy (+20% damage per hard point), while Frenzy and Stun benefit Double Swing. For this character, the especially relevant direction is both Double Swing and Frenzy boosting Double Throw.
+
+### Throwing and defensive passives — Combat Masteries tree
+
+| ID | Player-identified skill(s) | What the points do / route logic |
+|---|---|---|
+| U-105 | Throwing Mastery | Direct throwing-weapon passive: improves thrown-weapon damage/attack rating, critical strike, and adds pierce. It naturally supports the main Double Throw attack. Screenshot showed skill level 21. |
+| U-106 | Top-left: Combat Reflexes; bottom-left: Increased Speed; bottom-middle: Deep Wounds; top-right: Iron Skin; bottom-right: Natural Resistance | Utility/survival passives. Combat Reflexes adds life and hit recovery; Iron Skin adds defense and physical-damage reduction; Increased Speed adds movement speed and attack speed; Natural Resistance adds elemental/poison resistances; Deep Wounds boosts Open Wounds. Their tree gates explain the spread: Increased Speed requires Combat Reflexes; Natural Resistance requires Iron Skin; Deep Wounds requires Combat Reflexes, Iron Skin, and Increased Speed. |
+
+The defensive nodes can therefore be deliberate one-hard-point investments on the way to later passives, while still adding useful utility. In the old screenshot summary these nodes displayed level 2; with Battle Command and/or item +skills active, that display should not be mistaken for two hard points in each skill.
+
+### Warcries and potion utility
+
+| ID | Player-identified skill(s) | Why the path makes sense |
+|---|---|---|
+| U-107 | Find Potion | Standalone level-1 utility skill with no prerequisite; use it on slain-monster corpses for a chance to find a potion. The player has not stated a specific reason beyond including it in this build. |
+| U-108 | Howl → Shout → Battle Orders → Battle Command | A prerequisite chain to the core buffs. Shout requires Howl; Battle Orders requires Howl and Shout; Battle Command requires Howl, Shout, and Battle Orders. Battle Orders increases maximum life and mana; Battle Command raises current skill levels. The documented build already uses BO/BC pre-buffs. |
+
+### Interpreting the displayed levels
+
+The existing screenshots were summarized with Battle Command active. Battle Command adds +1 to current skill levels, and gear can also add soft levels. Thus displayed values such as 21 may correspond to 20 hard points if there are no other +skills affecting that skill; similarly, a displayed 14 may mean roughly 13 hard points. Treat those as estimates, not a verified hard-point audit. The overall logic is now clear: max the main throw skill and Throwing Mastery, use Frenzy and Double Swing as damage synergies (with Frenzy also giving speed charges), spend sparingly on prerequisite/mobility/survival passives, and take the BO/BC buff chain.
 
 ---
 

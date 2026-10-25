@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.19.0 — 2026-10-25
+
+### Read / added
+- Recorded user identifications U-075–U-100 for all 26 Uber-tab slots in `docs/04J_Inventory_Ubers.md`; preserved repeated key slots and the unexplained visible `1` overlay without claiming confirmed owned quantities. Normalized “Ket Of Destruction” to **Key of Destruction**, preserving the user's spelling note.
+- Recorded U-101–U-108 in `docs/02_Character_And_Gear_Snapshot.md` and consulted the PD2 Barbarian Combat Skills, Combat Masteries, and Warcries Wiki pages. Explained the Throw build's Double Throw synergies, Frenzy speed utility, one-point Leap prerequisites, defensive mastery routes, and BO/BC prebuff chain; hard-point totals remain estimates when display levels include buffs or item bonuses.
+- Removed U-075–U-108 from `docs/Unidentified_Icons_and_Items.xlsx`; no unresolved icon rows remain (all U-001–U-108 identified).
+- Updated version/context/protocol for active branch `arena/431d15f3-pd2-s14`. Broad PD2 Wiki review is now due; Item Filter remains unread.
+
+### Sync status
+- Commit/push on the active session branch; sync `main` through a PR (never direct-push).
+
+---
+
 ## v0.18.0 — 2026-10-25
 
 ### Read / added
