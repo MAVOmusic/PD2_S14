@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.17.0 — 2026-10-25
+
+### Read / added
+- Read the player's `docs/16-53 Identified.xlsx` update, resolving U-016–U-053: rejuvenation potions, seven Craft Infusions, and 29 named map icons.
+- Updated `docs/04D_Inventory_Misc.md` for U-016/U-017 and `docs/04F_Inventory_Gems.md` for U-018–U-024.
+- Queried the official PD2 [Maps](https://wiki.projectdiablo2.com/wiki/Maps) page for U-035–U-053 (tier/zone level and map immunities), and cross-checked U-025–U-034. Logged map name/tier/value discrepancies in `docs/04I_Inventory_Maps.md` rather than silently changing player-supplied entries.
+- Removed U-016–U-053 from `docs/Unidentified_Icons_and_Items.xlsx`; 55 unresolved rows U-054–U-108 remain. Player upload retained as the source record.
+- Updated version, context and protocol to active branch `arena/c5de4f66-pd2-s14`. Broad Wiki review and Item Filter remain deferred.
+
+### Sync status
+- Commit/push on the active session branch; sync `main` through a PR (never direct-push).
+
+---
+
 ## v0.16.0 — 2026-10-25
 
 ### Read / added
