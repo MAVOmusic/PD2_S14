@@ -1,13 +1,13 @@
 # 04I — Inventory: Maps Tab (3 screenshots)
 
-**v0.17.0** · sources:
+**v0.18.0** · sources:
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 1 - No Maps.PNG`
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 2 - No Maps.PNG`
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 3 - No Maps.PNG`
 
 ## Scope and interpretation
 
-The player supplied map names for U-025–U-053 in `docs/16-53 Identified.xlsx`. The upper map-like tiles now have names, but the source filenames say “No Maps” and show no owned-item counts/tooltips. Treat these as map icons/catalog entries, **not confirmed owned or saleable map drops**. The repeated 3×7 lower grid is still unidentified (U-054–U-074 in the identification workbook).
+The player supplied map names for U-025–U-053 in `docs/16-53 Identified.xlsx` and identified the repeated 3×7 lower grid U-054–U-074 in chat. The upper tiles are map catalog icons, and lower-grid entries are map modification materials/recipes; the source images show no stack counts or tooltip-based quantities. Names and functions are recorded below, but do not infer tradable quantities from icon slots.
 
 The official Wiki's [Maps](https://wiki.projectdiablo2.com/wiki/Maps) page has an **Immunes** summary listing map-level monster resistances at/above 100%; that is distinct from the full six-type maximum-resistance profiles entered by the player for U-025–U-034. Wiki tier zone levels: T1 **87**, T2 **88**, T3 **89**.
 
@@ -49,9 +49,38 @@ Player-entered profiles for U-025–U-034 retain the order shown in their workbo
 | U-052 | Tier 3 · R1C8 | Demon Road | T3 / 89 | P115, F120, L120 | Wiki's map immunity summary. |
 | U-053 | Tier 3 · R1C9 | Kyovoshad | T3 / 89 | No inherent monster immunities listed | Wiki spelling is “Kyovoshad”; no immunity row is listed. |
 
-## Wiki lookup conclusions / unresolved icon work
+## Identified lower-grid map items — U-054–U-074
+
+The player identified these 21 positions. Wiki lookup is from the [Maps — Modification](https://wiki.projectdiablo2.com/wiki/Maps#Modification) section. Quantities are not shown in the screenshots.
+
+| ID | Map-tab icon | Wiki function / recipe summary |
+|---|---|---|
+| U-054 | **Standard of Heroes** | Added to a Magic/Rare/Unique Map or Dungeon to grant heroic bonuses: +10% Experience, +20% Monster Density, +20% Magic Find and Gold Find. Wiki says it drops from Uber Ancients; additional Ancients after the first may also drop one. |
+| U-055 | **Catalyst Shard** | Added to a Magic/Rare Map to add “Area contains a random event.” Wiki says it drops from a map event. |
+| U-056 | **Cartographer's Orb** | Combines three T1/T2 maps of the same tier into one map of a higher tier. Wiki notes the recipe can be bugged with T1 maps. |
+| U-057 | **Infused Arcane Orb** | Wiki lists it with a Regular/Magic Map; the infused recipe is Arcane Orb + Jewel → Infused Arcane Orb. The Wiki describes the base Arcane Orb as rerolling a map (Regular → Magic); the infused version is listed without the Jewel ingredient. |
+| U-058 | **Infused Angelic Orb** | Wiki lists it with a Magic Map; made with Angelic Orb + Perfect Skull + Rune. The base Angelic Orb upgrades a Magic Map to Rare; the infused version is listed without extra cube ingredients. |
+| U-059 | **Infused Zakarum Orb** | Wiki lists it with a Regular Map; made with Zakarum Orb + Jewel + Rune. The base Zakarum Orb upgrades a Regular Map to Rare; the infused version is listed without extra cube ingredients. |
+| U-060 | **Infused Horadrim Orb** | Wiki lists it with a Rare Map; made with Horadrim Orb + Perfect Gem + Rune. The base Horadrim Orb rerolls a Rare Map; the infused version is listed without extra cube ingredients. |
+| U-061 | **Horadrim Scarab** | Used with a T3 Map to turn it into a random Rare Dungeon. Wiki says it is an uncommon drop from map bosses. |
+| U-062 | **Orb of Fortification** | Used with a Magic/Rare/Unique Map. Halves monster count and doubles loot/experience from the remaining monsters; those monsters have double life and deal +20% damage. Event monsters are unaffected; players gain +30% movement velocity. |
+| U-063 | **Orb of Destruction** (player typed “Descruction”) | Used with a Magic/Rare Map to downgrade it to Regular. |
+| U-064 | **Arcane Orb** | Regular/Magic Map + Jewel: the Wiki describes rerolling a map (Regular → Magic). The infused version is listed without the Jewel ingredient. |
+| U-065 | **Angelic Orb** | Magic Map + Perfect Gem + Rune: upgrades the map from Magic to Rare. |
+| U-066 | **Zakarum Orb** | Regular Map + Jewel + Rune: upgrades the map from Regular to Rare. |
+| U-067 | **Horadrim Orb** | Rare Map + Perfect Gem + Rune: rerolls a Rare Map. |
+| U-068 | **Corrupted Assassin's Ear** | Player identifies it as an Ear; excluded from current PVM gearing/trade conclusions per player scope. Wiki's map table says Corrupted Ears add special modifiers to Magic/Rare Maps or Dungeons. |
+| U-069 | **Corrupted Amazon's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
+| U-070 | **Corrupted Barbarian's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
+| U-071 | **Corrupted Druid's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
+| U-072 | **Corrupted Necromancer's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
+| U-073 | **Corrupted Paladin's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
+| U-074 | **Corrupted Sorceress's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
+
+## Wiki lookup conclusions / unresolved ownership and quantity
 
 - The Wiki catalog lists **9 T1, 11 T2 and 9 T3 maps**. The screenshot grids show 10 / 10 / 9 icons. Sanatorium appears in the screenshot's Tier 1 group but is a Wiki T2 map; U-040's “Ruined Temple” is not a Wiki heading. These name/tier mismatches may explain the grid-count difference; please confirm before treating the screenshot labels as exact tier ownership.
 - The immunity entries above are from the Wiki's dedicated [Immunes section](https://wiki.projectdiablo2.com/wiki/Maps#Immunes), not a complete six-element max-resistance profile. The page also has individual monster tables; they sometimes conflict with the summary (U-047 is noted above).
 - Map level and immunities describe the Wiki entries, not proof the character owns these maps. The original source filenames say “No Maps”; do not count or price the map icons as owned drops without an ownership/tooltip screenshot.
-- U-054–U-074 (the repeated lower 3×7 grid) remain unidentified in `docs/Unidentified_Icons_and_Items.xlsx`.
+- U-054–U-067 are identified map materials/orbs and U-068–U-074 are identified Corrupted Ears; quantities are not readable from the screenshots. The Ears are excluded from current PVM recommendations per the player's instruction.
+- Remaining unidentified rows are U-075–U-108 in `docs/Unidentified_Icons_and_Items.xlsx` (Ubers icons and skill-tree name checks).
