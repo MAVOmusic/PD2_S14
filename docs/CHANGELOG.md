@@ -4,6 +4,21 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.15.0 — 2026-10-25
+
+### Read / added
+- Read all 9 screenshots in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 05 - Merc Items/` (Merc Items only; Item Filter was not opened).
+- Added `docs/05_Merc_Gear.md` with Mahala's level 77 stats, no-buff/with-buff screens, all equipped gear slots plus arrows, and visible mods.
+- Recorded uncertainty around the gold Sigon's 10% life-leech tooltip line and did not assume buff source or difficulty display convention.
+- Compared Purity and current arrows against documented stash candidates (Riphook, Ramfodder, damage Sharp Arrows), and assessed boot/armor swaps with explicit resistance tradeoffs. HC recommendations are cautious safe-area tests, not blind swaps.
+- No live prices assigned to equipped merc gear. Item Filter remains unread pending explicit confirmation.
+- Updated version/context/protocol for active branch `arena/5f5eb123-pd2-s14`.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`). Stop for user confirmation before reading Item Filter.
+
+---
+
 ## v0.14.0 — 2026-10-25
 
 ### Read / added
