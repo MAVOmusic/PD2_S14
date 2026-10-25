@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.10.0 — 2026-10-25
+
+### Read / added
+- Read all three supplied screenshots in `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/MF Tab/`.
+- Added `docs/04G_Inventory_MF.md` with the corrupted LLD MF/resist amulet, 22% MF Battle Gauntlets, and 36% MF Nagelring transcribed.
+- Marked the amulet and Nagelring as potential sale/MF-swap candidates, but warned against sacrificing life leech or Hardcore resistances without compensating gear. Battle Gauntlets' status as craft base vs finished item remains uncertain.
+- Added rough confidence-tagged tradeability estimates; no live HC S14 listing was checked.
+- Updated version/context/protocol docs for active branch `arena/c08afd55-pd2-s14`. Next tab is GF; stop for user confirmation after pushing.
+
+### Sync status
+- Commit and push to the session branch; sync `main` through a PR (never direct-push to `main`).
+
+---
+
 ## v0.9.0 — 2026-10-25
 
 ### Read / added
