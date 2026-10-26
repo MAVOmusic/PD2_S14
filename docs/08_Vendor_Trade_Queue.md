@@ -1,12 +1,13 @@
 # Vendor / Trade Queue — Current Gear Checkpoint
 
-**v0.24.0 update** · 2026-10-26 · based on documented inventory records `04A`–`04K`, Run 1, the player's latest reported equipment/transactions, and two supplied weapon screenshots. No new source folders were opened. This is a disposition shortlist; see `docs/07_Full_Inventory_Action_Matrix.md` for every transcribed item row.
+**v0.25.0 update** · 2026-10-26 · based on documented inventory records `04A`–`04K`, Run 1, the player's latest equipment/transaction reports, weapon screenshots, and level-79 stat panels. `Runs/Run 2` was checked and had no item images. This is a disposition shortlist; see `docs/07_Full_Inventory_Action_Matrix.md` for every transcribed item row.
 
 > **Price caution:** no live Hardcore Season 14 offers were checked. Values in the older `PD2info.xlsx` workbook are Softcore community guide estimates and may be stale. Verify buyers and owned quantities before listing. “Vendor if no buyer” is not a claim that an item has zero collector value.
 
 ## Current equipment — do not list or vendor
 
-- **Throw Barbarian:** Run 1 crafted Gauntlets, Run 1 Mesh Belt, `04C #14` four-res corrupted ring, plus ethereal Lacerator [C] + Wraith Flight [C] as the two main weapons. User reports all equipped on 2026-10-26. No new stat sheet/run result was supplied; historical damage/breakpoints and estimated 73/87/67/87 resists are not current readings. The earlier 9% gear-only leech estimate predates Wraith Flight's +7% life stolen mod and is not a current total.
+- **Throw Barbarian:** Run 1 crafted Gauntlets, Run 1 Mesh Belt, `04C #14` four-res corrupted ring, plus ethereal Lacerator [C] + Wraith Flight [C] as the two main weapons. User reports all equipped; level-79 stat panels are now in `docs/02`/`docs/09`. They show IAS 52, panel Life Leech 9%, and the two supplied resist profiles (which differ unusually). Keep the pair; no damage/AR readout was supplied. The player reports Duriel melted in under a minute and is moving into Act 3.
+- **Run 2 item queue:** `Runs/Run 2` currently contains only `.gitkeep`; there are no new item images to disposition. Review up to 15 new item images when they are added or attached.
 - **Mahala:** Purity Long Bow + current Sharp Arrows + Sigon's Visor/Shelter and `04B #13` Sigon's Wrap (+13% Pierce). User reports Wrap equipped; no post-swap merc stat sheet was supplied.
 - **Reported transactions:** one Paladin skiller charm traded for 15 WSS; Lacerator bought for 10 WSS; Wraith Flight bought for one Gul. The charm's exact inventory-record identity is unconfirmed; do not count a remaining copy from `04C #31` without confirmation. No independent market prices were checked.
 - Keep all 24 equipped charms in place. Keep the displaced Simbilan + Fool's Francisca as rollback/comparison weapons; test the current pair before listing or vendoring either. Keep Purity/Sharp Arrows for immediate reversal.
@@ -44,7 +45,7 @@
 
 ## Vendor / cheap bundle if no suitable buyer
 
-These are low-level or off-build items with no demonstrated use in the level-77 Throw Barbarian / Act 1 Rogue setup. First give matching twink/LLD/set buyers a chance; **vendor individually only if no buyer or useful set-lot exists**:
+These are low-level or off-build items with no demonstrated use in the level-79 Throw Barbarian / Act 1 Rogue setup. First give matching twink/LLD/set buyers a chance; **vendor individually only if no buyer or useful set-lot exists**:
 
 - **Uniques:** Shadowfang; Axe of Fechmar; Goreshovel; Bloodrise; ethereal The General's Tan Do Li Ga (unrepairable); Bonesnap; Brainhew; The Battlebranch; Rakescar; Culwen's Point; Cloudcrack. Todesfaelle Flamme is optional to retain for a deliberate fire-aura test; otherwise vendor/bundle.
 - **Ordinary low-level set pieces:** Civerb's Icon/Ward; Iratha's Cuff/Coil; Isenhart's pieces; Vidala's Barb/Fetlock; Milabrega's Orb; Cathan's Rule/Mesh; Tancred's Crowbill/Skull; Infernal Spire; Berserker's pieces; Arctic Horn; Arcanna pieces only if they cannot be grouped for a Sorceress; Naj's Circlet only if no caster/LLD buyer. Bundle by set first; vendor unmatched singles.
@@ -53,6 +54,6 @@ These are low-level or off-build items with no demonstrated use in the level-77 
 
 ## Before you sell anything
 
-- First confirm the new Barbarian package's actual resists, Strength, hit chance, Double Throw IAS breakpoint and total life leech. The displaced Heavy Bracers, Plated Belt and LLD ring are still rollback pieces.
+- The new level-79 stat panels are available, but their Buff/No Buff resist profiles conflict; confirm the correct live profile and Strength, hit chance, Double Throw breakpoint and functional leech before selling rollback gear. The displaced Heavy Bracers, Plated Belt, LLD ring, Simbilan and Fool's Francisca remain rollback/comparison pieces.
 - Verify the merc's actual defense, resists, life leech, set text and pierce after Sigon's Wrap; don't use the calculated +237 defense / nominal 79% pierce as a live read.
 - No live market quotes were checked. If you want an exact price list, send current HC buyer offers or authorize a market lookup; otherwise list only to targeted buyers and decline low offers on Mirror/Vial/Uber items.

@@ -1,5 +1,5 @@
 # 02 — Character & Gear Snapshot (Folders 01 + 02)
-**Version:** v0.24.0 · **Updated:** 2026-10-26 · **Sources:** original `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …` screenshots; 2026-10-26 player reports and the two newly supplied weapon screenshots.
+**Version:** v0.25.0 · **Updated:** 2026-10-26 · **Sources:** original `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …` screenshots; 2026-10-26 player reports, weapon screenshots, and latest Buff / No Buff stat panels.
 
 > Transcribed verbatim from screenshots. Anything marked `⚠` is a best-effort read, not certain.
 
@@ -26,9 +26,36 @@
 | Frenzy AR | 4,668 / 8,212 | 4,824 / 8,487 |
 | Double Throw AR | 8,345 / 14,681 | 8,671 / 15,255 |
 
-**Snapshot caveat:** these character-sheet numbers predate the player's 2026-10-26 gear updates (Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring, and the newly equipped Lacerator + Wraith Flight pair). They are not post-swap stats or current Double Throw damage. No refreshed character sheet was supplied; retain the displayed values as historical baseline only and do not claim calculated package totals or breakpoints are live.
+**Snapshot caveat:** this original character-sheet table is a level-77, pre-swap record. It is historical, not the current character state. Latest player-supplied level-79 stat panels are transcribed below; their labels and differences are preserved as shown rather than reconciled by inference.
 
-### Historical resistances — pre-swap baseline (not a current sheet)
+### Latest player-supplied stat panels (Level 79, 2026-10-26)
+
+The two attachments were named `Buff.PNG` and `No Buff.PNG` by the player. The table below follows those filenames exactly; no equipment changes were reported between captures, but some values do not form a straightforward buff-only delta.
+
+| Visible panel value | `Buff.PNG` | `No Buff.PNG` |
+|---|---:|---:|
+| Level / area | 79 · Hell · Kurast Docks | 79 · Hell · Kurast Docks |
+| Fire Resist | 81 / 75 | 73 / 75 |
+| Cold Resist | 109 / 80 | 191 / 80 |
+| Lightning Resist | 80 / 75 | 72 / 75 |
+| Poison Resist (length) | 68 / 75 (200%) | 60 / 75 (200%) |
+| Curse Resist (length) | 20 / 75 (100%) | 20 / 75 (100%) |
+| IAS / Double Throw | 52 IAS; breakpoint line shown below | 52 IAS; same breakpoint line |
+| Double Throw IAS breakpoint text | `0 / 2 / 7 / 15 / 24 / 40 (10) / 63 / 99 / 168 / 395` | same |
+| Crushing Blow | 27% | 27% |
+| Open Wounds | 39% / +768 | 38% / +748 |
+| Deadly Strike | 0 / 75 / 150% | 0 / 75 / 150% |
+| Critical Strike | 29 / 75 / 200% | 29 / 75 / 200% |
+| Life Leech / Mana Leech | 9% / 6% | 9% / 6% |
+| Projectile Pierce | 42% | 41% |
+| HP / MP per kill | 0 / 16 | 0 / 16 |
+| Base AR | Dex 810 + equip 72 = total 882 | same |
+| Base Defense | Dex 41 + equip 239 = total 280 | same |
+| Other visible combat stats | FCR 10 · FHR 7 · Block 0 · Run/Walk 25 · Attack Rate 110 · MF 33 | same |
+
+**Comparison caution:** as named, the `No Buff` panel has +82 Cold Resist versus `Buff.PNG`, while `Buff.PNG` has +8 Fire, +8 Lightning, +8 Poison, +1% Pierce and +1% OW chance. Treat the filenames as user-provided labels, but don't attribute those changes solely to BO/BC or derive one authoritative resist profile without confirming that gear and other effects were identical. Both panels show 9% Life Leech even though Wraith Flight's tooltip has +7% Life Stolen per Hit; record the panel value as observed and leave the item-vs-panel contribution unresolved. At IAS 52, the displayed sequence appears to put the next listed threshold at 63 (11 more displayed IAS); actual Double Throw frames still need in-game confirmation with this mixed-base weapon pair.
+
+### Historical resistances — level-77 pre-swap baseline (not current)
 
 | Resist | No buff | With buff | Hell penalty (−100) reality |
 |---|---|---|---|
@@ -37,10 +64,10 @@
 | Lightning | 75 | 75 | capped, fine |
 | Poison | 50 | 58 | ~−42 … −50 → **long poison ticks** |
 
-PD2 caps resists at 75 (higher with +max res). On this pre-swap snapshot, **Fire and Poison are the two largest gaps**; the equipped Mesh Belt + four-res ring may change the profile, so verify a fresh sheet before relying on this old assessment. Both elements matter in Hell Arcane Sanctuary and Canyon of the Magi.
+PD2 caps resists at 75 (higher with +max res). On this level-77 pre-swap snapshot, **Fire and Poison were the two largest gaps**. This assessment is superseded by the latest level-79 panels above, whose Buff/No Buff resist values differ; use those labeled readings and clarify the active profile before relying on a single total. Both elements matter in Hell Arcane Sanctuary and Canyon of the Magi.
 
 **Current safe-gearing note (after inventory review):**
-1. Keep the equipped +10 Strength / +24 all-res amulet; no stash amulet is a proven general Hell upgrade. Current glove/belt/ring changes are player-reported, but their post-swap stat comparison is still pending; see `docs/07_Full_Inventory_Action_Matrix.md`.
+1. Keep the equipped +10 Strength / +24 all-res amulet; no stash amulet is a proven general Hell upgrade. Latest level-79 panels are transcribed above; their Buff/No Buff resist difference is not internally consistent enough to merge into one reading without confirmation. See `docs/07_Full_Inventory_Action_Matrix.md` and `docs/09_Run_2_Checkpoint.md` before changing defensive gear.
 2. No free socket in the current helm/armor was verified. Use the +28 Fire Res jewel or Ral/Ort only after confirming an open socket and that the item is staying equipped.
 3. The charms shown in folder 03 are already equipped and their stats are already reflected in this screenshot. Do not treat them as spare upgrades; any charm change requires a fresh character-sheet/stat comparison.
 4. With Double Throw active, use a two-throwing-weapon setup; any shield/defensive setup is a separate weapon-swap/test, not the normal Double Throw configuration.
@@ -93,7 +120,7 @@ The existing screenshots were summarized with Battle Command active. Battle Comm
 | **Displaced pair** | **Simbilan** (`343% ED`, `23% CB`) + Fool's **Francisca** (`121% ED`, 10% lvl 19 Amp) | Historical pair shown in the original character snapshot; detailed mods retained in the prior gear record. | — | Player says these are swapped out, not sold. Keep as rollback/comparison gear until the Lacerator/Wraith pair is proven in safe runs; do not list or vendor yet. |
 | **Helm** | **Fanged Helm (barb only)** — `27% CB`, `20% RES` | +68 AR · **27% CB** · +3 Find Potion (barb) · +24 Energy · **All Res +20** · **Defense 16 (!)** | Lvl 55 · 35 Str | Crafted, resists carried here. **Base is bad (def 16 = cracked/low-quality base)** — re-craft on a clean Fanged/Avenger Guard base when you have the runes. Self-use; trade ~Pul |
 | **Armor** | **Hawkmail** (unique Scale Mail) | +3 Summon Ravens · **25% FRW** · 97% ED · +5% max cold res · Cold res 26% · **Cannot be Frozen** | Lvl 15 · 44 Str | Utility only — **CBF is why it is on**. Very low trade value (Lem/Pul, probably unsellable). **First upgrade target** once you have a CBF source (Raven Frost / Kira's / crafted) or a Treachery/Vipermagi-type body |
-| **Belt** | **Mesh Belt** (Run 1 crafted) | +58% ED · +54 Life · 10% FCR · Fire Res +19% · Poison Res +20% · attacker takes 10 | Lvl 29 | **Currently equipped per player (2026-10-26)** with the Run 1 Gauntlets and 04C #14 ring. Previously equipped Plated Belt is retained as a rollback option; no post-swap stat screenshot supplied. |
+| **Belt** | **Mesh Belt** (Run 1 crafted) | +58% ED · +54 Life · 10% FCR · Fire Res +19% · Poison Res +20% · attacker takes 10 | Lvl 29 | **Currently equipped per player (2026-10-26)** with the Run 1 Gauntlets and 04C #14 ring. The player has since supplied level-79 overall stats, but no isolated before/after belt comparison; retain Plated Belt as rollback. |
 | **Boots** | **Chain Boots** — `18% MF`, `23% C`, `32% L` | 86% ED · +3 Dex · Cold res 23% · **Light res 32%** · **18% MF** | Lvl 27 · 30 Str | Solid budget boots. **FRW is missing — that hurts a throw barb's kiting.** Trade ~Pul |
 | **Gloves** | **Crafted Gauntlets** (Run 1) | +20% IAS · +16% ED · +10% bonus AR · 3% life leech · +19 Mana · Cold Res +22% · +6 Light Radius | Req. level not recorded here | **Currently equipped per player (2026-10-26).** The previous Heavy Bracers (+109 flat AR, 3% leech, 13% MF) remain a rollback option until the new setup is confirmed in a fresh stat/run check. |
 | **Amulet** | Amulet — `24% RES` | **+10 Str · All Res +24** (iLvl 68, crafted aLvl 72) | Lvl 41 | Good utility. Only 2 visible mods → keep as resist glue. Trade ~Um |
@@ -104,15 +131,16 @@ The existing screenshots were summarized with Battle Command active. Battle Comm
 
 ---
 
-## 4. Damage math reality check (why you feel weak in Hell A2)
+## 4. Latest weapon/stat checkpoint and earlier A2 safety notes
 
-- The old character sheet, with Simbilan 343% ED + Fool's Francisca, listed **Double Throw at 1,340–2,577** (no buff). This is historical only; the Lacerator + Wraith Flight pair is now player-reported equipped, with no refreshed damage/AR sheet. The old Arcane Sanctuary concerns below remain safety reminders, not a current stat diagnosis:
-  1. **Fire / Poison resist gaps** (−51 / −42 effective in Hell).
-  2. **No Cannot-Be-Interrupted / no FHR listed, no FRW on boots** → you get staggered and can't kite the Sanctuary's teleporting ghosts.
-  3. The old sheet's leech was 6% from Ring 1 + 3% from the previous gloves; the new Wraith Flight visibly adds 7% life stolen per hit. Current displayed/functional leech is unverified, and leech effectiveness depends on landing physical damage.
-  4. The old sheet had +3 mana after each kill from Ring 1; Wraith Flight now visibly adds +13 mana after each kill. Current mana sustain is unverified, and Double Throw still consumes mana.
+- The original level-77 character sheet, with Simbilan 343% ED + Fool's Francisca, listed **Double Throw at 1,340–2,577** (no buff). This is historical only; the latest level-79 panels do not show Double Throw damage or throw AR. The player reports that Lacerator + Wraith Flight melted Duriel in under a minute and is moving into Act 3; this is a player-reported clear result, not independently measured.
+- The old Arcane Sanctuary notes remain historical safety reminders, not a current diagnosis:
+  1. Original sheet resist gaps were Fire/Poison (−51 / −42 after Hell penalty). The latest panels show Fire/Lightning near their listed caps and Poison at 60–68/75, but their buff/no-buff labels differ unusually; verify which profile is active before making another resist swap.
+  2. Current panel shows FHR 7 and Run/Walk 25; it does not list a CBF stat. Avoid interpreting the old stagger/kiting note as evidence that the current resistance/gear setup is unchanged.
+  3. Both latest panels display 9% Life Leech even though Wraith Flight visibly has +7% Life Stolen per Hit; the character panel result is transcribed as displayed, but the contribution discrepancy remains unresolved. Leech effectiveness also depends on landing physical damage.
+  4. Both latest panels show 16 MP per kill, consistent with Ring 1's +3 plus Wraith Flight's +13 visible item mod; Double Throw still consumes mana.
 
-**Immediate playstyle fixes (no gear needed):**
+**Earlier A2 playstyle fixes (still useful as needed):**
 - Pre-buff **Battle Orders + Battle Command** on swap every run, then swap back — you already have the sticks.
 - **Pull ghosts into the corridor** rather than fighting in the open star-platforms; you cannot out-tank the lightning.
 - In Canyon of the Magi, kill the **claw vipers last** and never fight in a doorway (you'll get body-blocked with no block chance for a throw build).

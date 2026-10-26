@@ -15,5 +15,5 @@ Another Sigon's Wrap [C] is recorded in `docs/04C_Inventory_Sortables.md`: +13% 
 ## Sale/keep note
 
 - This is a level-6 belt with two useful base mods and a visible defensive corruption. It may appeal to an LLD buyer, but its trade demand is uncertain; verify against current HC listings before spending a trade slot.
-- No practical upgrade to the level-77 Throw Barbarian's Hell gear is established by this screenshot. Do not equip it for progression.
+- No practical upgrade to the level-79 Throw Barbarian's Hell gear is established by this screenshot. Do not equip it for progression.
 - Tooltip read confidence: HIGH. Estimated trade range confidence: LOW.
