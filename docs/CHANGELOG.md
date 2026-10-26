@@ -15,7 +15,7 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 - Added Throw-Barbarian-specific reasoning: Double Throw bounces, Throwing Mastery, Amp proc role, Simbilan vs Scalper tradeoff, and IAS breakpoint checks.
 
 ### Sync status
-- Matrix and companion docs revised on `arena/cffe15c1-pd2-s14`; push and PR #19 merge remain to be completed after validation.
+- PR #19 was merged into `main` on 2026-10-26 as merge commit `472b853`; the revised matrix and companion docs are now present on `main`.
 
 ---
 
