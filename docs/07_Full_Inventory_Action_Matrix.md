@@ -1,6 +1,6 @@
 # Full Inventory Action Matrix — Character + Mercenary + All Listed Stash Items
 
-**v0.23.0** · updated 2026-10-26 · based on the already-transcribed inventory/gear docs, all 23 authorized Run 1 images, current PD2 Wiki mechanics, and player's reported equipment update. No new image folders or Item Filter were opened.
+**v0.24.0 update** · 2026-10-26 · based on previously transcribed inventory/gear docs, all 23 authorized Run 1 images, current PD2 Wiki mechanics, and the player's latest gear/transaction report plus two supplied weapon screenshots. No new source folders or Item Filter were opened.
 
 > **How to read the prices:** any rune ranges copied from the older inventory notes are low-confidence estimates; PD2info.xlsx Trade Values are Softcore community estimates that are not automatically updated. No current Hardcore listings were checked. Treat prices as price-check starting points, not offers or guaranteed value. If a row says “qty unconfirmed,” the screenshot did not prove the owned count.
 
@@ -8,14 +8,15 @@
 
 ### Throw Barbarian — keep a safe baseline; make one change at a time
 
-Historical reference is the pre-swap no-buff sheet in `docs/02_Character_And_Gear_Snapshot.md`: level 77, 194 Strength, displayed resistances **41 Fire / 80 Cold / 75 Lightning / 50 Poison** (buffed screenshot 49/80/75/58). The player now reports Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring equipped; no fresh stat screenshot was supplied, so the old numbers/calculated package deltas are not current readings. The 24 charms remain equipped and already count in the historical sheet.
+Historical reference is the pre-swap no-buff sheet in `docs/02_Character_And_Gear_Snapshot.md`: level 77, 194 Strength, displayed resistances **41 Fire / 80 Cold / 75 Lightning / 50 Poison** (buffed screenshot 49/80/75/58). The player reports Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring, plus ethereal Lacerator [C] + Wraith Flight [C], all equipped; no post-update stat screenshot was supplied. The old numbers/calculated package deltas and Double Throw damage are not current readings. The 24 charms remain equipped and already count in the historical sheet.
 
-**Throw-Barbarian-specific basis:** PD2 Double Throw attacks with two different thrown weapons, bounces to nearby enemies (3–8 bounces by skill level), and its bounce mechanic is not enhanced by Pierce; Throwing Mastery separately adds pierce chance to thrown attacks. So evaluate the Fool's Amp proc as the physical-resistance solution, and the Simbilan/Scalper swap as an offhand comparison: Simbilan's 343% ED + 23% Crushing Blow is strong direct/boss damage, while Scalper's 5% leech + 33% Open Wounds + mana/kill is a sustain/bleed alternative. Do not assume one wins without testing pack clear and bosses separately. Likewise, the crafted Gauntlets' 20% IAS matter only if they improve the character's Double Throw breakpoint; compare actual frames/kill speed and hit chance, not IAS in isolation. The +13% Pierce Sigon's Wrap is being evaluated for Mahala's Rogue bow, not as a generic Throw-Barbarian bonus. See the current [Double Throw](https://wiki.projectdiablo2.com/wiki/Combat_Skills_(Barbarian)) and [Throwing Mastery](https://wiki.projectdiablo2.com/wiki/All_Skills) entries.
+**Throw-Barbarian-specific basis:** PD2 Double Throw uses two different thrown weapons and bounces to nearby enemies; the bounce mechanic is separate from Pierce. Throwing Mastery adds pierce chance; the current Wraith Flight also has +30% Pierce. The new Lacerator brings 8% chance to cast level 27 Amp, +30% IAS, 33% OW and PMH; compare its Amp uptime and actual breakpoint rather than assuming its lower proc chance (vs the old Francisca's 10%) is better or worse from item text alone. Wraith Flight brings 224% ED, +200–450 magic, 7% LL and +13 mana/kill, while its javelin base is slow; Lacerator is a very fast axe. Verify actual two-weapon Throw frames, displayed damage/AR, pack clear, boss performance, leech/mana and survival. Retain the displaced 343% ED/23% CB Simbilan + Fool's Amp Francisca for rollback. The crafted Gauntlets' 20% IAS matter only if they improve the live breakpoint. The +13% Pierce Sigon's Wrap is on Mahala's Rogue, not this Barbarian. See the current [Double Throw](https://wiki.projectdiablo2.com/wiki/Combat_Skills_(Barbarian)) and [Throwing Mastery](https://wiki.projectdiablo2.com/wiki/All_Skills) entries.
 
 | Slot | Current item | Exact action | Why / what to verify |
 |---|---|---|---|
-| Throw weapon A | Simbilan, 343% ED / 23% CB | **Keep for the normal setup.** | Strong physical roll and crushing blow; no Run 1 base is a proven upgrade. |
-| Throw weapon B | Fool's Francisca, 121% ED / level-scaled AR, Amp proc | **Keep the Amp weapon.** Optional safe-area comparison: equip The Scalper with Fool's and compare against the current Simbilan + Fool's pair. | This means Scalper replaces the Simbilan for the test; it does not add a third weapon or replace the Amp proc. Simbilan's 343% ED/23% CB is the direct-damage/boss baseline; Scalper trades to 210% ED, 5% life leech, 33% OW and mana/kill. Compare packs and bosses separately; Double Throw bounces are not Pierce-based. |
+| Throw weapon A | **Lacerator [C]**, ethereal Winged Axe, 291% ED; 8% lvl 27 Amp, +30% IAS, 33% OW, +450 OW damage/sec, PMH; very fast base | **Currently equipped per player (2026-10-26).** Keep in current pair for controlled testing. | Compare actual two-weapon Throw breakpoint, hit chance, Amp uptime and OW/PMH usefulness in safe runs. Do not infer a breakpoint from +30 IAS alone. |
+| Throw weapon B | **Wraith Flight [C]**, ethereal Ghost Glaive, 224% ED; +30% Pierce, +200–450 magic, 7% LL, −44 monster defense/hit, +13 mana/kill; slow javelin base | **Currently equipped per player (2026-10-26).** Keep in current pair for controlled testing. | Adds independent Pierce on top of Throwing Mastery; don't confuse it with Double Throw's bounce. Check live damage/AR and whether its damage/leech/mana offset its slower base. |
+| Displaced baseline pair | Simbilan, 343% ED / 23% CB + Fool's Francisca, 121% ED / level-scaled AR / 10% lvl 19 Amp | Keep as rollback/comparison gear; user reports swapped, not sold. | Old sheet damage belongs to this pair and is not a post-swap reading. Compare old/new in safe runs before listing or vendoring. The Scalper can be tested by replacing Wraith Flight while retaining Lacerator, if desired. |
 | Helm | Fanged Helm, +20 all res / 27% CB | **Keep.** Do not replace with the Run 1 Avenger Guard or Sortables Jawbone Cap for Hell yet. | Both alternatives give up the current +20 all-res; fire/poison remain the main gaps. |
 | Armor | Hawkmail, Cannot Be Frozen, 25% FRW | **Keep.** | CBF is the current safety requirement. Don't equip Smoke, Dark Adherent, Venom Ward or another armor until another CBF source is established and resists are rechecked. |
 | Belt | **Mesh Belt (Run 1) now equipped** per player: +58% ED, +54 Life, 10% FCR, Fire +19 / Poison +20 | Keep equipped for now; verify the live stats. | It replaces the Plated Belt and supports the new defensive package. It gives up +9 Strength and the Plated Belt's +28 Cold/+21 Lightning, so confirm Strength and all resists. Keep Plated Belt as rollback. |
@@ -26,7 +27,7 @@ Historical reference is the pre-swap no-buff sheet in `docs/02_Character_And_Gea
 | Ring 2 | **04C #14 four-res corrupted ring now equipped** per player: +13 Fire/Cold/Lightning, +27 Poison, PDR 4 | Keep equipped for now; compare fresh resists/leech. | The displaced LLD ring (+4% LL/+83 AR/+2 min/+10 Poison/+3 mana per kill) is a rollback item and later LLD-trade candidate, not vendor fodder. The current package gives up that 4% leech; verify live total. |
 | BO swap | Harpoon +2 Barb skills/10 IAS; Glaive +3 Warcries | **Keep both for buffs.** | No Run 1 weapon improves this buff swap. |
 
-**Current package (player-reported equipped 2026-10-26):** Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring. Relative to the historical 41/80/75/50 line, the recorded mods calculate to **+32 Fire / +7 Cold / −8 Lightning / +37 Poison**, or approximately **73/87/67/87**, plus PDR 4 and +46 Life. Leech calculates from 13% to 9%, and belt Strength falls by 9. These are pre-swap calculations, not current readings. Check fresh stats, Strength, hit chance, IAS breakpoint and leech before relying on the setup in dangerous content.
+**Current package (player-reported equipped 2026-10-26):** Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring. Relative to the historical 41/80/75/50 line, those three gear changes calculate to **+32 Fire / +7 Cold / −8 Lightning / +37 Poison**, or approximately **73/87/67/87**, plus PDR 4 and +46 Life. The gear-only leech calculation changes 13% to 9% before the later weapon swap; Wraith Flight visibly adds 7% life stolen per hit, but no post-swap sheet verifies the total or effect. Belt Strength falls by 9. All these are calculations, not current readings. Check fresh stats, Strength, hit chance, IAS breakpoint and leech before relying on the setup in dangerous content.
 
 The Run 1 crafted ring is a separate +mana-leech/three-res alternative, not currently equipped. Keep the former Plated Belt, Heavy Bracers and LLD ring until the updated package is proven safe; do not vendor rollback gear yet.
 
@@ -109,7 +110,7 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 | #20 | Cloudcrack | Two-hand sword; no direct Throw Barb/merc slot. Bundle/vendor or niche buyer. |
 | #21 | Todesfaelle Flamme | Two-hand sword/fire utility, not a direct throw slot. Keep only if deliberately testing a fire-aura weapon swap; otherwise trade/vendor. |
 | #22 | Que-Hegan's Wisdom | Caster armor; no clear Barbarian/merc upgrade without CBF/res comparison. Trade/bundle to caster; old Pul estimate. |
-| #23 | The Scalper | Controlled weapon-pair test replacing Simbilan while keeping Fool's Amp Francisca; keep if OW/leech/mana improve the real run. Otherwise price-check at old Ist–Gul estimate, not live. |
+| #23 | The Scalper | Optional controlled comparison: replace Wraith Flight while retaining Lacerator; compare against current reported pair and displaced Simbilan/Fool's Francisca baseline. Keep only if its OW/leech/mana improve safe runs; otherwise price-check the old Ist–Gul guide estimate, not live. |
 
 ### Set Items tab — all 26 transcribed items (`04B #1–26`)
 
@@ -170,13 +171,13 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 | #22 | Sharp Arrows, +44 ED/+10 max/+57–177 cold | Offensive merc test only after defensive gear; current arrows retain LL/PMH/poison. |
 | #23 | Crafted Great Pilum, +128 ED/+52 max/+5 LL/+4 mana leech | Weaker than Simbilan on ED/CB; don't replace primary. Optional safe damage test only; old Pul–Um estimate is low-confidence. |
 | #24 | Large Charm, +3% Poison Skill Damage | Stash charm; trade to poison build or retain as alternate. Do not touch the 24 equipped charms without fresh stat comparison. |
-| #25 | Crafted Simbilan, +39 ED | Clearly below equipped 343 ED/23 CB Simbilan; vendor/bundle. |
+| #25 | Crafted Simbilan, +39 ED | Clearly below the displaced 343 ED/23 CB Simbilan; vendor/bundle only if no buyer and no weapon comparison is wanted. |
 | #26 | Large Charm, +2% Magic Skill Damage | Niche caster trade or bundle. |
 | #27 | Large Charm, +3% Fire Skill Damage | Niche fire caster trade or bundle. |
 | #28 | Large Charm, +26 poison damage/+3% Poison Skill Damage | Niche poison caster trade or bundle. |
 | #29 | Grand Charm, +1 Assassin Traps/+22–31 Fire | Price-check with Assassin buyer (old Um–Mal low-confidence). |
 | #30 | Corrupted Sharkskin Boots, +40 FRW/+37 Cold/+38 Poison | Not general Hell boots: Lightning falls to ~43 from current Chain Boots. Keep as mobility/poison-zone alternate or price-check only. |
-| #31 | Grand Charm, +1 Paladin Combat | Trade to Paladin buyer; old Pul–Mal low-confidence. |
+| #31 | Grand Charm, +1 Paladin Combat | Player reports trading a Paladin skiller charm for 15 WSS; this may be the recorded #31 but identity/copy is unconfirmed. Do not list this as owned unless the user confirms another copy remains. |
 
 ### Run 1 — all 23 finds and exact action (`Runs/Run 1/1.PNG–23.PNG`)
 

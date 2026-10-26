@@ -1,20 +1,21 @@
 # Vendor / Trade Queue — Current Gear Checkpoint
 
-**v0.23.0** · 2026-10-26 · based on documented inventory records `04A`–`04K`, Run 1, and the player's reported current equipment. No new source folders or screenshots were opened. This is a disposition shortlist; see `docs/07_Full_Inventory_Action_Matrix.md` for every transcribed item row.
+**v0.24.0 update** · 2026-10-26 · based on documented inventory records `04A`–`04K`, Run 1, the player's latest reported equipment/transactions, and two supplied weapon screenshots. No new source folders were opened. This is a disposition shortlist; see `docs/07_Full_Inventory_Action_Matrix.md` for every transcribed item row.
 
 > **Price caution:** no live Hardcore Season 14 offers were checked. Values in the older `PD2info.xlsx` workbook are Softcore community guide estimates and may be stale. Verify buyers and owned quantities before listing. “Vendor if no buyer” is not a claim that an item has zero collector value.
 
 ## Current equipment — do not list or vendor
 
-- **Throw Barbarian:** Run 1 crafted Gauntlets, Run 1 Mesh Belt, `04C #14` four-res corrupted ring. User reports all three equipped on 2026-10-26. No new stat sheet was supplied; the estimated 73/87/67/87 resists and 9% life leech remain calculations from the old snapshot.
+- **Throw Barbarian:** Run 1 crafted Gauntlets, Run 1 Mesh Belt, `04C #14` four-res corrupted ring, plus ethereal Lacerator [C] + Wraith Flight [C] as the two main weapons. User reports all equipped on 2026-10-26. No new stat sheet/run result was supplied; historical damage/breakpoints and estimated 73/87/67/87 resists are not current readings. The earlier 9% gear-only leech estimate predates Wraith Flight's +7% life stolen mod and is not a current total.
 - **Mahala:** Purity Long Bow + current Sharp Arrows + Sigon's Visor/Shelter and `04B #13` Sigon's Wrap (+13% Pierce). User reports Wrap equipped; no post-swap merc stat sheet was supplied.
-- Keep all 24 equipped charms in place. Keep the Barbarian's Amp weapon, Simbilan and other baseline safety gear; keep Purity/Sharp Arrows for immediate reversal.
+- **Reported transactions:** one Paladin skiller charm traded for 15 WSS; Lacerator bought for 10 WSS; Wraith Flight bought for one Gul. The charm's exact inventory-record identity is unconfirmed; do not count a remaining copy from `04C #31` without confirmation. No independent market prices were checked.
+- Keep all 24 equipped charms in place. Keep the displaced Simbilan + Fool's Francisca as rollback/comparison weapons; test the current pair before listing or vendoring either. Keep Purity/Sharp Arrows for immediate reversal.
 
 ## Hold for rollback or planned tests — not ready to sell
 
 1. **Displaced Barbarian gear:** Heavy Bracers, Plated Belt and the former corrupted LLD Ring 2 (+4% life leech, +83 AR, +2 minimum, +10 Poison, +3 mana/kill). Keep until the new package is proven safe in live runs. After that, the old ring is a trade candidate for an LLD buyer; don't vendor it.
 2. **Merc comparison gear:** Tal Rasha's Crest, Swiftwind Needle, Blunt Arrows, Ramfodder, the 3-socket crossbow/Purity plan, and Smoke/Wire Fleece. Keep current Purity/Sharp as baseline; do not dismantle the bow or trade these options before the user's requested tests. Hold Riphook while Mahala's Prayer healing is relied upon.
-3. **Barbarian comparison gear:** The Scalper (test only in place of Simbilan while retaining the Fool's Amp weapon), The Ward (+50 all res weapon-swap test), Infernostride/Sharkskin boots (zone-specific tests), and the +3 Throwing Mastery Jawbone Cap (only after full resists/CB comparison).
+3. **Barbarian comparison gear:** displaced Simbilan + Fool's Francisca (rollback), The Scalper (optional test in place of Wraith Flight while keeping Lacerator), The Ward (+50 all res weapon-swap test), Infernostride/Sharkskin boots (zone-specific tests), and the +3 Throwing Mastery Jawbone Cap (only after full resists/CB comparison).
 4. **Sigon's pieces:** `04B #13` +13% Pierce Wrap is equipped. `04K #1` +10% block is a distinct copy; it has no blocking value for Mahala's ranged bow setup, but may be offered to an LLD/set buyer.
 5. Keep current CBF/resist pieces, the Run 1 crafted ring as a mana/res alternative, and untested Smoke/Treachery bases until their specific comparisons are done.
 
@@ -32,7 +33,7 @@
 - **Amazon:** Blastbark and the +3 Amazon Passive/Magic amulet (`Run 1 #12`) to an Amazon buyer; no verified price.
 - **Sorceress / caster:** Chromatic Ire (`Run 1 #8`), Arcanna's Deathwand/Head/Flesh set pieces, Que-Hegan's Wisdom, and caster rings. Keep duplicate Arcanna rolls distinct until checked; offer as an appropriate set/class lot.
 - **Necromancer / poison:** Trang-Oul's Claws (`Run 1 #1`), poison-skill jewels/charms, and relevant poison/caster pieces to a Necromancer buyer; no invented individual value.
-- **Assassin / Paladin:** `04C #29` +1 Assassin Traps GC and `04C #31` +1 Paladin Combat GC to matching class buyers; price-check rather than vendor.
+- **Assassin / Paladin:** `04C #29` +1 Assassin Traps GC to an Assassin buyer. One Paladin skiller charm was reportedly traded for 15 WSS; it may be `04C #31`, but exact identity and any remaining copy are unconfirmed—do not list the recorded #31 as owned until verified.
 - **Low-level / set buyers:** Angelic Halo, Cow King's Hooves, `04K #1` Sigon's Wrap (+10% block), and select LLD jewels/rings/amulets. Offer as set/LLD lots; the reported Sigon's +13% Pierce belt remains equipped and is not for sale.
 
 ### Bulk currency / crafting stock

@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.24.0 — 2026-10-26
+
+### Updated
+- Transcribed the user's two supplied current-weapon screenshots: ethereal Lacerator [C] (Winged Axe, 291% ED, 30% IAS, 8% level 27 Amp, OW/PMH) and ethereal Wraith Flight [C] (Ghost Glaive, 224% ED, 30% Pierce, magic damage, leech/mana-on-kill). Marked both as player-reported equipped; no new character sheet or Run 2 images were received.
+- Recorded the previous Simbilan + Fool's Francisca weapons as displaced rollback/comparison gear. Added Throw-Barbarian-specific test points for actual Double Throw breakpoint, displayed damage/AR, Amp uptime, leech/mana and safety; kept market-value claims out pending live HC quotes.
+- Logged the reported transaction: one Paladin skiller traded for 15 WSS, then Lacerator bought for 10 WSS and Wraith Flight for one Gul. The exact skiller copy is unconfirmed; no remaining stash copy is assumed.
+- Updated `docs/02`, `04A`, `04C`, `06`, `07`, `08`, version/context/protocol. No inventory source folders or Item Filter were opened; the only new item images were the two supplied by the player.
+
+### Sync status
+- Prepared on active branch `arena/9c47d90a-pd2-s14`; sync to `main` via PR (never direct-push).
+
+---
+
 ## v0.23.0 — 2026-10-26
 
 ### Updated
