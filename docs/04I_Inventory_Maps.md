@@ -1,5 +1,7 @@
 # 04I — Inventory: Maps Tab (3 screenshots)
 
+**v0.26.0 Run 2 supplement** · Original map-tab sources and icon catalog unchanged; added separate owned map observation from `Runs/Run 2/11.PNG`.
+
 **v0.18.1** · sources:
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 1 - No Maps.PNG`
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 2 - No Maps.PNG`
@@ -76,6 +78,10 @@ The player identified these 21 positions. Wiki lookup is from the [Maps — Modi
 | U-072 | **Corrupted Necromancer's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
 | U-073 | **Corrupted Paladin's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
 | U-074 | **Corrupted Sorceress's Ear** | Identified; excluded from current evaluation per player scope. Wiki describes Corrupted Ears as map modifiers, not PvP equipment. |
+
+## Run 2 owned map find — separate from the earlier catalog icon
+
+`Runs/Run 2/11.PNG` visibly shows one **T1 Poisoned Well Map**, item 1, required level 80. Its tooltip lists Physical 60%, Magic 55%, Poison 75%, Fire 75%, Lightning 75%, Cold 75%, with a “convert to rare map” recipe shown as Zakarum Orb + Jewel + Rune. This is an observed owned item (quantity 1), distinct by source from U-034's earlier no-maps catalog icon; do not merge the records as the same physical object. The character is level 79 per current screenshot, so hold until level 80 and inspect actual modifiers before entry.
 
 ## Wiki lookup conclusions / unresolved ownership and quantity
 
