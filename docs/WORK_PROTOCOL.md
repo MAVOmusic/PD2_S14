@@ -30,7 +30,7 @@ These rules preserve progress across chats and the context-limit interruption.
 - Price estimates are not live quotes unless explicitly checked; tag confidence and realm/currency where known.
 - The 24 charms shown in the Charms tab are currently equipped and already included in character-sheet stats. Do not recommend swapping/selling them without fresh stats.
 - Mahala uses Purity for Prayer healing. Keep it until the player says healing is no longer needed or an alternative is tested.
-- Ramfodder is a bolt quiver and cannot be used with the current bow; only reconsider after a Purity crossbow is crafted/equipped.
+- Ramfodder is a Light Bolt quiver; test only with a second Purity crafted in an exact 3-socket crossbow, keeping the existing Purity Long Bow as the baseline. Verify aura tooltip, bolt penetration, IAS breakpoints and safety in-game.
 - Record missing/cropped tooltip data.
 
 ## 6. Deliverable tracker

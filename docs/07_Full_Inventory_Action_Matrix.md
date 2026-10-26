@@ -1,6 +1,6 @@
 # Full Inventory Action Matrix — Character + Mercenary + All Listed Stash Items
 
-**v0.21.0** · 2026-10-25 · based on the already-transcribed inventory/gear docs and all 23 authorized Run 1 images. No new image folders or Item Filter were opened for this review.
+**v0.22.0** · revised 2026-10-26 · based on the already-transcribed inventory/gear docs, all 23 authorized Run 1 images, and current PD2 Wiki set/mercenary/weapon/quiver mechanics. No new image folders or Item Filter were opened for this review.
 
 > **How to read the prices:** any rune ranges copied from the older inventory notes are low-confidence estimates; PD2info.xlsx Trade Values are Softcore community estimates that are not automatically updated. No current Hardcore listings were checked. Treat prices as price-check starting points, not offers or guaranteed value. If a row says “qty unconfirmed,” the screenshot did not prove the owned count.
 
@@ -10,15 +10,17 @@
 
 Current reference is the no-buff sheet in `docs/02_Character_And_Gear_Snapshot.md`: level 77, 194 Strength, displayed resistances **41 Fire / 80 Cold / 75 Lightning / 50 Poison** (buffed screenshot 49/80/75/58). These numbers already include the 24 equipped charms; do not add charm stats again.
 
+**Throw-Barbarian-specific basis:** PD2 Double Throw attacks with two different thrown weapons, bounces to nearby enemies (3–8 bounces by skill level), and its bounce mechanic is not enhanced by Pierce; Throwing Mastery separately adds pierce chance to thrown attacks. So evaluate the Fool's Amp proc as the physical-resistance solution, and the Simbilan/Scalper swap as an offhand comparison: Simbilan's 343% ED + 23% Crushing Blow is strong direct/boss damage, while Scalper's 5% leech + 33% Open Wounds + mana/kill is a sustain/bleed alternative. Do not assume one wins without testing pack clear and bosses separately. Likewise, the crafted Gauntlets' 20% IAS matter only if they improve the character's Double Throw breakpoint; compare actual frames/kill speed and hit chance, not IAS in isolation. The +13% Pierce Sigon's Wrap is being evaluated for Mahala's Rogue bow, not as a generic Throw-Barbarian bonus. See the current [Double Throw](https://wiki.projectdiablo2.com/wiki/Combat_Skills_(Barbarian)) and [Throwing Mastery](https://wiki.projectdiablo2.com/wiki/All_Skills) entries.
+
 | Slot | Current item | Exact action | Why / what to verify |
 |---|---|---|---|
 | Throw weapon A | Simbilan, 343% ED / 23% CB | **Keep for the normal setup.** | Strong physical roll and crushing blow; no Run 1 base is a proven upgrade. |
-| Throw weapon B | Fool's Francisca, 121% ED / level-scaled AR, Amp proc | **Keep the Amp weapon.** Optional safe-area comparison: equip The Scalper with Fool's and compare against the current Simbilan + Fool's pair. | This means Scalper replaces the Simbilan for the test; it does not add a third weapon. You trade Simbilan's 343% ED/23% CB for Scalper's 210% ED, 5% life leech, 33% OW and mana/kill. Revert if clear speed or safety drops. Do not sell Scalper until tested. |
+| Throw weapon B | Fool's Francisca, 121% ED / level-scaled AR, Amp proc | **Keep the Amp weapon.** Optional safe-area comparison: equip The Scalper with Fool's and compare against the current Simbilan + Fool's pair. | This means Scalper replaces the Simbilan for the test; it does not add a third weapon or replace the Amp proc. Simbilan's 343% ED/23% CB is the direct-damage/boss baseline; Scalper trades to 210% ED, 5% life leech, 33% OW and mana/kill. Compare packs and bosses separately; Double Throw bounces are not Pierce-based. |
 | Helm | Fanged Helm, +20 all res / 27% CB | **Keep.** Do not replace with the Run 1 Avenger Guard or Sortables Jawbone Cap for Hell yet. | Both alternatives give up the current +20 all-res; fire/poison remain the main gaps. |
 | Armor | Hawkmail, Cannot Be Frozen, 25% FRW | **Keep.** | CBF is the current safety requirement. Don't equip Smoke, Dark Adherent, Venom Ward or another armor until another CBF source is established and resists are rechecked. |
 | Belt | Plated Belt, +9 Str, Cold +28, Lightning +21 | **Keep for now.** Safe-area package test below only. | It currently supports Strength and cold/light res. The Run 1 belt drops those contributions. |
 | Boots | Chain Boots, Cold +23, Lightning +32, 18 MF | **Keep for Hell.** | Infernostride would calculate to about 71/57/43/50; Sharkskin to about 41/94/43/88 before any other change. Both leave Lightning at ~43. |
-| Gloves | Heavy Bracers, +109 AR, 3% LL, 13 MF | **Test Run 1 crafted Gauntlets first.** | The new gloves retain 3% LL, add 20 IAS / 16 ED / +10% bonus AR / +22 Cold / +19 Mana; they give up +109 flat AR and 13 MF. This is the cleanest single-slot test. Keep the old gloves. |
+| Gloves | Heavy Bracers, +109 AR, 3% LL, 13 MF | **Test Run 1 crafted Gauntlets first, only in safe content.** | They retain 3% LL, add 20 IAS / 16 ED / +10% bonus AR / +22 Cold / +19 Mana; they give up +109 flat AR and 13 MF. For Double Throw, count the 20 IAS only if it crosses an actual attack breakpoint; compare hit chance and kill speed, then keep/revert. |
 | Amulet | +10 Str, +24 all res | **Keep for Hell.** | The two Nokozan options and MF amulet trade away all-res/Strength; none is a clear general upgrade. |
 | Ring 1 | 6% LL, +51 Mana, Half Freeze Duration, +3 Mana/kill, 5 MF | **Keep.** | Important life-leech source; retain HFD and mana utility. |
 | Ring 2 | Corrupted LLD ring: 4% LL, +83 AR, +2 min, +10 Poison, +3 Mana/kill | **Keep until choosing a ring for the belt/glove test.** | See two controlled options below. Both give up this ring's 4% LL; the existing glove + ring 1 keep 9% LL. |
@@ -63,18 +65,19 @@ These are already equipped and already included in the character-sheet resists/s
 
 Current reference (`docs/05_Merc_Gear.md`): Purity Long Bow; Sigon's Shelter/Visor; current Sharp Arrows; Infernal Sign belt; Boneweave Boots; Chain Gloves. Displayed resists 33/46/75/75. The player relies on Purity's Prayer healing.
 
+**Set correction:** equip the distinct `04B #13` Sigon's Wrap with **+13% Pierce** instead of Infernal Sign, retaining the current Visor + Shelter. PD2's Sigon table lists +10% life leech at 2 pieces, +100 Defense at 3 pieces, and the Wrap's +2 Defense per character level when two pieces are worn. At merc level 77, the belt line is +154; with observed base defense 11 and +100 3-piece defense the listed components sum to about 265. If the live tooltip shows roughly +300, record it and reconcile the UI aggregate rather than dismissing it. Verify the live tooltip/character defense. `04K #1` is a separate Wrap with +10% block, not this pierce copy.
+
 | Slot | Action | Exact comparison / caution |
 |---|---|---|
-| Bow | **Keep Purity.** | Do not switch to Riphook. Prayer healing is required by the player. |
-| Arrows | **Keep the currently equipped Sharp Arrows.** | Retain 7% life leech, PMH, +29 Poison and +15 max damage. Ramfodder is a bolt quiver and will not fit this bow. |
-| Helm | Test Run 1 ethereal Tal Rasha's Horadric Crest in place of Sigon's Visor. | Gains +16 all res, +56 Life, +28 Mana, +8% life leech, +7% mana leech; gives up Sigon's +616 level-scaled AR, +30 Mana and (if active) the +10% Sigon set leech line. Net life leech is about −2% if the set line was active. Check actual hit chance, set line and resists. |
-| Armor | **Make Smoke** in Run 1's Superior Wire Fleece [2] (Nef + Lum), then test in place of Sigon's Shelter. | Stock after Run 1: Nef 6 / Lum 4; crafting leaves 5 / 3. Smoke gives +20 FHR, +75% ED, +280 missile defense, and variable +30–50 all res. With Tal's, expected resist line is approximately 79–99 / 92–112 / 91–111 / 121–141 before caps, assuming current item deltas and display convention. Keep old armor/helm to revert. |
-| Belt | M'avina's Tenet is an optional mobility/defense comparison, not required. | Versus Infernal Sign (+20 Life/+25 Defense), M'avina's gives +20 FRW/+50 Defense/3% mana leech but no resist or life bonus. Prefer current belt unless mobility proves useful. |
-| Boots | **Keep Boneweave Boots** as baseline. | They provide 30 FRW and Cold/Lightning/Poison res. Infernostride or Sharkskins are zone tests only; they lower Lightning from 75 to about 51. |
-| Gloves | **Keep Chain Gloves.** | Half Freeze Duration and self-repair; no clear defensive replacement in stash. Iratha's Cuff is only a later cold/pierce experiment. |
-| Alternative arrows | Swiftwind Needle, Blunt Arrows, Sortables Sharp Arrows | Do not use as default. Each loses the current arrow's 7% life leech/PMH/poison utility; compare only after Smoke/Tal's and in a safe test. |
-| Crossbow/quiver | Ramfodder | Only revisit after crafting/equipping a crossbow with Purity and verifying Prayer remains active. |
-| Alternative armor | Ethereal Diamond Mail, Dark Adherent, ethereal Sharktooth Armor | Do not replace Smoke for general safety. Diamond Mail is already affixed, has no listed res and is not a blank base. Dark Adherent is fire-focused. Sharktooth is a possible Treachery offense test, but not the defensive first choice. |
+| Belt | **First test: Sigon's Wrap +13% Pierce (`04B #13`)** instead of Infernal Sign. | With Visor + Shelter this gives 3 Sigon pieces: +20 Life (same as current belt), +20 Fire Res, +13% Pierce, +154 level defense on belt at level 77, +100 shared 3-piece defense and the existing +10% 2-piece leech. Listed components imply about +237 net defense versus Infernal Sign and nominally 79% pierce if +13 stacks with the Rogue's 66% baseline; verify live stats. This is the strongest direct, reversible correction to the earlier plan. |
+| Helm | **Then compare Tal Rasha's Crest** against Sigon's Visor while keeping Shelter + Wrap. | 2 Sigon pieces remain, so +10% set leech and the Wrap's +154 defense remain. Tal adds +16 all res, +56 Life, +8% leech and +7% mana leech; it loses the Visor's +616 AR and the 3-piece +100 Defense. Leech rises by 8 points versus the three-Sigon setup when current arrows remain; it does not lose the 2-piece line. |
+| Armor | Smoke in Run 1's Superior Wire Fleece [2] is a separate comparison, not an automatic Tal+Smoke package. | With Sigon's Visor + Wrap, Smoke retains 2-piece leech/AR and the Wrap defense line but loses Shelter's +30 Lightning and 3-piece +100 Defense. Smoke gives +20 FHR, +75% ED, +280 missile defense and variable +30–50 all res. Tal + Smoke + Wrap is a resist-first setup that breaks the Sigon set; keep it as an alternative only. |
+| Bow | **Keep current Purity Long Bow.** | Prayer healing is required. The current screenshot transcription says aura level 2; current PD2 Wiki lists a level 10–12 Prayer aura. Confirm the live item tooltip. Don't replace/dismantle until a new weapon's Prayer is verified. |
+| Arrows | **Keep equipped Sharp Arrows for baseline and PMH.** | They retain 7% life leech, PMH, +29 Poison and +15 max damage. |
+| Alternative arrows | Test Swiftwind Needle / Blunt only after belt+helm stats. | Swiftwind adds mobility/hit/damage but loses Sharp's 7% leech, PMH and +29 poison res. Blunt adds the screenshot-recorded fire/poison/OW mods and can halt natural regeneration while OW is active; merc OW damage is 1/4, and its 20% proc is not guaranteed. PMH does not affect Ubers, so Blunt merits a specific Uber/regen-control trial if uptime is adequate. With Tal + Shelter + Wrap, leech calculates to 25% even without arrow leech; losing +29 poison res may move the documented 75 line to about 62. Check poison res/survival; keep Sharp for general PMH/leech/poison coverage. |
+| Crossbow/quiver | **Ramfodder deserves a reversible trial.** Craft a second Purity in an exact 3-socket crossbow; retain the Long Bow. | Purity is valid in 3-socket bows/crossbows (Amn–Eth–Thul). Ramfodder Light Bolts add −2% enemy physical resistance, +10% IAS, +20% FHR, Knockback, +10–25 Life and stamina, but list no leech/PMH/poison res. Crossbows may not physically pierce; compare actual bolt penetration, breakpoints, Prayer tooltip and survival in-game. |
+| Boots / gloves | **Keep Boneweave Boots and Chain Gloves.** | They provide current FRW/resists, Half Freeze Duration and self-repair. Alternative boots/gloves are zone tests only. |
+| Other armor | Ethereal Diamond Mail, Dark Adherent, ethereal Sharktooth Armor | No first action. Diamond Mail is affixed and has no listed res; Dark Adherent is fire-focused; Sharktooth/Treachery is a later offense test. |
 
 ## 2. Every listed unique, set, crafted and gear item
 
@@ -86,7 +89,7 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 |---|---|---|
 | 04A #1 | Corrupted Nagelring, 26 MF | MF-only ring. Keep as an MF swap or price-check at old rough Pul–Um; do not replace a life-leech ring in HC combat. |
 | #2 | Shadowfang | Low-level two-hand twink; no level-77 Throw Barb/merc use. Bundle/vendor; old Lem–Pul estimate only. |
-| #3 | Ramfodder | Hold for a Purity crossbow setup; incompatible with current bow. No merc swap now. |
+| #3 | Ramfodder Light Bolts | **Reversible crossbow trial is viable:** Purity can be made in a 3-socket crossbow (Amn–Eth–Thul); craft a second Purity and keep the Long Bow. Compare bolt speed/penetration, Prayer tooltip and survivability against arrow setups; Ramfodder lacks listed leech/PMH/poison res. |
 | #4 | Nokozan Relic, 34 Fire / +6 max Fire / 26 FHR | Do not replace the +10 Str/+24 all-res amulet for general Hell. If tested in fire-only content, expect loss of 24 Cold/Lightning/Poison and 10 Str for only +10 net Fire, plus max-fire/FHR. Buyer price-check only (old Pul–Um). |
 | #5 | Axe of Fechmar | Low-level twink; no current build slot. Vendor/set lot. |
 | #6 | Goreshovel | Low-level melee axe; no Throw Barb slot. Vendor/set lot. |
@@ -124,7 +127,7 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 | #10 | Cathan's Mesh | Low-level armor; FRW alone doesn't beat Hawkmail's CBF. Bundle/vendor. |
 | #11 | Tancred's Crowbill | Low-level melee pick, not a throw weapon. Twink buyer only. |
 | #12 | Tancred's Skull | Low-level helm, no current upgrade. Bundle/vendor. |
-| #13 | Corrupted Sigon's Wrap, +13% Pierce | LLD set belt; not Barbarian Hell gear. Price-check only with LLD buyer; keep distinct from 04K's +10% block copy. |
+| #13 | Corrupted Sigon's Wrap, +13% Pierce | **First merc belt test** in place of Infernal Sign: pairs with current Sigon's Visor + Shelter for the 3-piece defense bonus and adds pierce; preserve as a distinct copy from 04K #1. Verify Mahala's stats and pierce in-game before dangerous content. |
 | #14 | Infernal Spire | Necromancer dagger, no current use. Set bundle/vendor. |
 | #15 | Berserker's Headgear | Low-level helm; no current upgrade. Set bundle/vendor. |
 | #16 | Berserker's Hatchet | Low-level Double Axe, not Throw weapon; bundle/vendor. |
@@ -185,14 +188,14 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 | 4 | Ethereal Tal Rasha's Horadric Crest | Test on Mahala; details in Section 1. |
 | 5 | Angelic Halo LLD | Keep/set-bundle; possible second copy of 04B #18; do not double-count. |
 | 6 | Isenhart's Lightbrand (+390 AR/level) | Set/twink bundle; keep distinct from +385 AR copy in 04B #5. |
-| 7 | Swiftwind Needle Sharp Arrows | Hold for merc comparison; current leech/PMH arrows stay equipped. |
+| 7 | Swiftwind Needle Sharp Arrows | Controlled merc offense/mobility test after Sigon belt/Tal checks; +34% FRW/+28 Dex/−28 monster defense/+12–14 damage, but loses leech/PMH/+29 poison res from the equipped Sharp Arrows. |
 | 8 | Chromatic Ire | Sorceress caster staff; trade/hold for Sorceress buyer; no PD2info item price. |
 | 9 | Crafted Mesh Belt | Keep for paired defensive gear test; not alone. |
 | 10 | Crafted Gauntlets | Best direct Barb glove test; keep old gloves. |
 | 11 | Crafted Ring, 6% mana leech/3 resists | Alternative Ring 2 in the balanced package; not itself a low-level ring because required level is 64. |
 | 12 | +3 Amazon Passive/Magic amulet | Amazon buyer; no verified value. |
 | 13 | Crafted Avenger Guard helm | Do not replace Fanged Helm for Hell; loses +20 all-res/CB. |
-| 14 | Blunt Arrows | Merc offense experiment only; current quiver remains safer. |
+| 14 | Blunt Arrows | Serious damage/OW merc experiment after post-swap resist checks; loses current leech/+29 poison res. Active OW can halt natural regeneration, whereas PMH does not affect Ubers; its 20% OW proc and 1/4 merc OW damage need an Uber-safe test. Keep Sharp for general leech/PMH/poison coverage. |
 | 15 | Dusk Shroud [3] | Hold as future light armor base; not a current CBF-preserving self swap. |
 | 16 | Superior Wire Fleece [2], +9 ED | Make Smoke for Mahala with Nef + Lum, then compare; see Section 1. |
 | 17 | Amn rune ×1 | Added to rune count; hold/bulk, no individual price. |
@@ -319,7 +322,7 @@ Names are player-identified from the left/right grid, but item tooltips and owne
 
 ### Duplicates - Good Corruption (`04K` and set/other cross-references)
 
-- `04K #1` Sigon's Wrap corrupted +10% block/+20 Life/+20 Fire is a distinct low-level LLD belt from `04B #13` corrupted +13% Pierce/+20 Life/+20 Fire. Keep as separate copies; price-check with LLD buyers (old Pul–Mal / Pul–Um guide estimates), otherwise bundle. Neither replaces the Barbarian's Plated Belt in Hell.
+- `04K #1` Sigon's Wrap corrupted +10% block/+20 Life/+20 Fire is distinct from `04B #13` corrupted +13% Pierce/+20 Life/+20 Fire. Keep as separate copies. `04B #13` is the merc test candidate; `04K #1` has no Rogue block value and remains an LLD/bundle candidate. Neither replaces the Barbarian's Plated Belt in Hell.
 - Run 1 Sigon's Visor (image 2) and Mahala's equipped Sigon's Visor may be a duplicate; verify screenshot/item before counting or selling.
 - Run 1 Angelic Halo may be a duplicate of `04B #18`; Isenhart/Arcanna stats conflict as above; retain separate provenance until checked.
 
@@ -339,9 +342,11 @@ There are no unresolved U-001–U-108 tracker rows, but several **item propertie
 
 ## 5. Order of operations
 
-1. Keep current main loadout and merc Purity baseline. Capture fresh stat screens first if possible.
-2. Test only the Run 1 Gauntlets; revert if survivability, hit chance or leech is worse.
-3. If safe, try the Barbarian's Mesh Belt plus the `04C #14` four-res ring, with Gauntlets; compare to the Run 1 crafted-ring option. Keep old ring/belt on hand.
-4. Craft Smoke with one Nef and one Lum in the Run 1 Wire Fleece; equip on Mahala with Tal's Crest, keep Purity/current arrows, compare live resist/leech/set line. Revert if hit chance or survivability suffers.
-5. Test The Scalper in place of Simbilan while retaining the Fool's Amp weapon only if the character can be checked in safe content.
-6. Only then sell/bundle unneeded uniques, set items and materials. Price-check the Mirror/Vial and high-tier Uber materials first; no live HC quotes have been verified.
+1. Keep the Throw Barbarian baseline; capture fresh Barbarian and Mahala stats if possible. The Barbarian's 24 equipped charms remain fixed and already count in its displayed stats.
+2. **Mahala first:** replace Infernal Sign with `04B #13` Sigon's Wrap (+13% Pierce), keeping Sigon's Visor + Shelter + Purity + Sharp Arrows. Confirm the 3-piece +100 defense, belt +2/level, actual pierce, resistances and leech in-game; revert if unsafe.
+3. Next compare Tal's Crest for the Visor while retaining Shelter + Wrap. Record defense, AR/hit chance, resistances, life and leech. Keep the original visor on hand.
+4. Test Smoke separately (with Visor + Wrap if prioritizing set retention); do not make Tal + Smoke the only assumed best setup.
+5. Only after belt/helm stats, test Swiftwind/Blunt arrows in safe content. Keep Sharp for PMH/bosses until a replacement demonstrably wins.
+6. For Ramfodder, craft a second Purity in an exact 3-socket crossbow rather than dismantling the Long Bow. Verify actual aura level, attack frames, bolt penetration and survival before leaving safe content.
+7. Continue the Barbarian's previously scoped single-slot/package checks (Gauntlets, then Mesh Belt + one alternative Ring 2) only after the merc is safe and reversible; record live stats rather than relying on calculations.
+8. Only then sell/bundle unneeded uniques, set items and materials. Price-check the Mirror/Vial and high-tier Uber materials first; no live HC quotes have been verified.

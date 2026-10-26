@@ -1,6 +1,6 @@
 # 04B — Inventory: Set Items Tab (26 screenshots)
 
-**v0.5.0** · read 2026-10-25 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Set Items Tab/1.PNG`–`26.PNG`
+**v0.22.0** · recommendation revised 2026-10-26 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Set Items Tab/1.PNG`–`26.PNG`
 
 ## Scope and caveats
 
@@ -25,7 +25,7 @@
 | 10 | Cathan's Mesh | Chain Mail | Defense 86; +20% FRW; +15 Defense; requirements −50% | 11 | Vendor / set bundle | LOW |
 | 11 | Tancred's Crowbill | Military Pick | Damage 11–17; fast; melee splash; 33% chance to cast level 12 Charged Bolt on attack; +62% ED; +105 AR; +20 Mana | 20 | Possible low-level duel/twink buyer; roughly Lem–Pul | LOW |
 | 12 | Tancred's Skull | Bone Helm | Defense 36; +23% ED; +80 AR | 20 | Vendor / set bundle | LOW |
-| 13 | Sigon's Wrap **[corrupted]** | Plated Belt | Defense 11; corruption: +13% chance to pierce; +20 Life; Fire Res +20% | 6 | Niche low-level/LLD listing; roughly Pul–Um if corruption is confirmed; otherwise bundle/vendor | LOW |
+| 13 | Sigon's Wrap **[corrupted]** | Plated Belt | Defense 11; corruption: +13% chance to pierce; +20 Life; Fire Res +20% | 6 | **Test on Mahala** in place of Infernal Sign with Sigon's Visor + Shelter: completes her 3-piece set, adds the Wrap's level defense and +13% pierce; verify live stats first. Distinct from 04K #1's +10% block copy. | MEDIUM (mods visible; mechanics Wiki-checked) |
 | 14 | Infernal Spire | Dagger | Damage 9–10; very fast; melee splash; +1 Necromancer skills; +8 minimum damage; +150% damage to undead; +20% Deadly Strike | 5 | Vendor / set bundle | LOW |
 | 15 | Berserker's Headgear | Helm | Defense 32; +15 Defense; Fire Res +25% | 3 | Vendor / set bundle | LOW |
 | 16 | Berserker's Hatchet | Double Axe | Damage 5–13; normal speed; melee splash; +30% bonus AR; 5% Mana Stolen per Hit | 3 | Vendor / set bundle | LOW |
@@ -44,8 +44,8 @@
 
 - **No elite crafting weapon base** is present in this tab: these are set uniques, and the listed weapons are low-level set pieces rather than elite crafting bases.
 - **Cow King's Hooves** and **Vidala's Fetlock** both add 30% FRW versus the equipped Chain Boots' 0% FRW. Cow King's adds Dexterity and MF; Vidala's adds stamina. For this Hardcore character, the previously documented **Infernostride** remains the safer all-round option because it also supplies Fire Resistance and +maximum Fire Resistance. Compare actual resists before swapping.
-- **Do not list the entire tab individually** on the trade site. Prioritize a cheap LLD lot or the individual Angelic Halo / Cow King's Hooves / corrupted Sigon's Wrap only if current HC buyers are visible. The pricing is too uncertain to spend a scarce listing slot on the ordinary pieces.
-- **Merc:** no bow/arrow upgrade here for the Act 1 Rogue. Vidala's Barb, Arctic Horn, and other bows are not shown as merc gear upgrades; compare them only as low-level/novelty items, not as practical Hell merc weapons.
+- **Do not list the entire tab individually** on the trade site. Prioritize a cheap LLD lot or Angelic Halo / Cow King's Hooves only if current buyers are visible; 04B #13 Sigon's Wrap is temporarily reserved for the Mahala set test rather than priced for trade.
+- **Merc:** 04B #13 Sigon's Wrap (+13% Pierce) is now a specific Act 1 Rogue belt test with her equipped Sigon's Visor + Shelter. Vidala's Barb, Arctic Horn, and other low-level bows remain set/novelty items, not practical Hell upgrades.
 
 ## Set-piece groups visible in the screenshots
 
