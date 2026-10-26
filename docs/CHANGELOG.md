@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.23.0 — 2026-10-26
+
+### Updated
+- Recorded the player's reported current gear: Throw Barbarian now uses Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring; Mahala now uses the +13% Pierce `04B #13` Sigon's Wrap with Visor + Shelter. No post-swap stat screenshots were supplied, so prior stats/calculations remain historical estimates.
+- Updated character, merc, Run 1 and matrix gear rows to mark the new equipment as current; retained the Heavy Bracers, Plated Belt and displaced LLD ring as rollback gear.
+- Added `docs/08_Vendor_Trade_Queue.md` with distinct vendor, targeted trade, price-check and hold instructions. No live HC quotes were checked.
+- Confirmed the 24 Charms-tab charms remain equipped; no new image folders or Item Filter were opened. The user's next promised checkpoint is Run 2 (maximum 15 new images).
+
+### Sync status
+- Changes prepared on active branch `arena/a6017600-pd2-s14`; sync to `main` through a PR.
+
+---
+
 ## v0.22.0 — 2026-10-26
 
 ### Read / corrected

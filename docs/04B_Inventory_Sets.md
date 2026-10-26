@@ -1,6 +1,6 @@
 # 04B — Inventory: Set Items Tab (26 screenshots)
 
-**v0.22.0** · recommendation revised 2026-10-26 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Set Items Tab/1.PNG`–`26.PNG`
+**v0.23.0** · updated 2026-10-26 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Set Items Tab/1.PNG`–`26.PNG` plus player-reported current equipment
 
 ## Scope and caveats
 
@@ -25,7 +25,7 @@
 | 10 | Cathan's Mesh | Chain Mail | Defense 86; +20% FRW; +15 Defense; requirements −50% | 11 | Vendor / set bundle | LOW |
 | 11 | Tancred's Crowbill | Military Pick | Damage 11–17; fast; melee splash; 33% chance to cast level 12 Charged Bolt on attack; +62% ED; +105 AR; +20 Mana | 20 | Possible low-level duel/twink buyer; roughly Lem–Pul | LOW |
 | 12 | Tancred's Skull | Bone Helm | Defense 36; +23% ED; +80 AR | 20 | Vendor / set bundle | LOW |
-| 13 | Sigon's Wrap **[corrupted]** | Plated Belt | Defense 11; corruption: +13% chance to pierce; +20 Life; Fire Res +20% | 6 | **Test on Mahala** in place of Infernal Sign with Sigon's Visor + Shelter: completes her 3-piece set, adds the Wrap's level defense and +13% pierce; verify live stats first. Distinct from 04K #1's +10% block copy. | MEDIUM (mods visible; mechanics Wiki-checked) |
+| 13 | Sigon's Wrap **[corrupted]** | Plated Belt | Defense 11; corruption: +13% chance to pierce; +20 Life; Fire Res +20% | 6 | **Currently equipped on Mahala per player (2026-10-26)** with Sigon's Visor + Shelter. Keep; verify post-swap stats when a fresh sheet is available. Distinct from 04K #1's +10% block copy. | MEDIUM (mods visible; mechanics Wiki-checked; live stat unverified) |
 | 14 | Infernal Spire | Dagger | Damage 9–10; very fast; melee splash; +1 Necromancer skills; +8 minimum damage; +150% damage to undead; +20% Deadly Strike | 5 | Vendor / set bundle | LOW |
 | 15 | Berserker's Headgear | Helm | Defense 32; +15 Defense; Fire Res +25% | 3 | Vendor / set bundle | LOW |
 | 16 | Berserker's Hatchet | Double Axe | Damage 5–13; normal speed; melee splash; +30% bonus AR; 5% Mana Stolen per Hit | 3 | Vendor / set bundle | LOW |
