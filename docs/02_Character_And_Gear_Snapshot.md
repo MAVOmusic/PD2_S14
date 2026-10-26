@@ -1,5 +1,5 @@
 # 02 — Character & Gear Snapshot (Folders 01 + 02)
-**Version:** v0.21.0 · **Read on:** 2026-10-25 · **Source:** `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …`
+**Version:** v0.23.0 · **Updated:** 2026-10-26 · **Sources:** original `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …` screenshots; current equipment changes reported by player on 2026-10-26.
 
 > Transcribed verbatim from screenshots. Anything marked `⚠` is a best-effort read, not certain.
 
@@ -26,7 +26,9 @@
 | Frenzy AR | 4,668 / 8,212 | 4,824 / 8,487 |
 | Double Throw AR | 8,345 / 14,681 | 8,671 / 15,255 |
 
-### Resistances — **the biggest hole in the build**
+**Snapshot caveat:** these character-sheet numbers predate the player's 2026-10-26 equipment update (Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring). They are not post-swap stats. The user has not supplied a refreshed sheet; retain the displayed values as historical baseline only and do not claim the calculated package values are live.
+
+### Historical resistances — pre-swap baseline (not a current sheet)
 
 | Resist | No buff | With buff | Hell penalty (−100) reality |
 |---|---|---|---|
@@ -35,10 +37,10 @@
 | Lightning | 75 | 75 | capped, fine |
 | Poison | 50 | 58 | ~−42 … −50 → **long poison ticks** |
 
-PD2 caps resists at 75 (higher with +max res). **Fire and Poison are the two dangerous gaps**, and both matter in Hell Arcane Sanctuary (spectral hit / mummy poison) and Canyon of the Magi (fire-based beetles/Hephasto adds).
+PD2 caps resists at 75 (higher with +max res). On this pre-swap snapshot, **Fire and Poison are the two largest gaps**; the equipped Mesh Belt + four-res ring may change the profile, so verify a fresh sheet before relying on this old assessment. Both elements matter in Hell Arcane Sanctuary and Canyon of the Magi.
 
 **Current safe-gearing note (after inventory review):**
-1. Keep the equipped +10 Strength / +24 all-res amulet; no stash amulet is a proven general Hell upgrade. See `docs/07_Full_Inventory_Action_Matrix.md` for the controlled ring/belt/glove comparison.
+1. Keep the equipped +10 Strength / +24 all-res amulet; no stash amulet is a proven general Hell upgrade. Current glove/belt/ring changes are player-reported, but their post-swap stat comparison is still pending; see `docs/07_Full_Inventory_Action_Matrix.md`.
 2. No free socket in the current helm/armor was verified. Use the +28 Fire Res jewel or Ral/Ort only after confirming an open socket and that the item is staying equipped.
 3. The charms shown in folder 03 are already equipped and their stats are already reflected in this screenshot. Do not treat them as spare upgrades; any charm change requires a fresh character-sheet/stat comparison.
 4. With Double Throw active, use a two-throwing-weapon setup; any shield/defensive setup is a separate weapon-swap/test, not the normal Double Throw configuration.
@@ -90,12 +92,12 @@ The existing screenshots were summarized with Battle Command active. Battle Comm
 | **Weapon 2** | **Francisca** — `FOOLS [AMP] 121% ED` (iLvl 75 / aLvl 58, base speed 10, range 1) | **10% chance to cast lvl 19 Amplify Damage on striking** · +121% ED · **+38 max dmg (per char level)** · **+1,270 AR (per char level)** · 1-78 light dmg · **20% Open Wounds** · +244 OW dmg/sec · +8 Str | Lvl 45 · 25 Str / 80 Dex | **Your best item, keep it equipped.** Fool's AR + Amp proc = the physical-damage force multiplier that carries Hell. Genuinely sellable: **Ist–Gul** to a throw/melee barb |
 | **Helm** | **Fanged Helm (barb only)** — `27% CB`, `20% RES` | +68 AR · **27% CB** · +3 Find Potion (barb) · +24 Energy · **All Res +20** · **Defense 16 (!)** | Lvl 55 · 35 Str | Crafted, resists carried here. **Base is bad (def 16 = cracked/low-quality base)** — re-craft on a clean Fanged/Avenger Guard base when you have the runes. Self-use; trade ~Pul |
 | **Armor** | **Hawkmail** (unique Scale Mail) | +3 Summon Ravens · **25% FRW** · 97% ED · +5% max cold res · Cold res 26% · **Cannot be Frozen** | Lvl 15 · 44 Str | Utility only — **CBF is why it is on**. Very low trade value (Lem/Pul, probably unsellable). **First upgrade target** once you have a CBF source (Raven Frost / Kira's / crafted) or a Treachery/Vipermagi-type body |
-| **Belt** | **Plated Belt** (crafted) — `28% C`, `21% L` | 50% ED · +9 Str · +8 Life · **Cold res 28%** · **Light res 21%** · **71% Extra Gold** | Lvl 19 · 60 Str | Cheap resist filler + GF. Keep for now; a 3-res or String of Ears-type belt beats it in Hell. Trade ~Pul |
+| **Belt** | **Mesh Belt** (Run 1 crafted) | +58% ED · +54 Life · 10% FCR · Fire Res +19% · Poison Res +20% · attacker takes 10 | Lvl 29 | **Currently equipped per player (2026-10-26)** with the Run 1 Gauntlets and 04C #14 ring. Previously equipped Plated Belt is retained as a rollback option; no post-swap stat screenshot supplied. |
 | **Boots** | **Chain Boots** — `18% MF`, `23% C`, `32% L` | 86% ED · +3 Dex · Cold res 23% · **Light res 32%** · **18% MF** | Lvl 27 · 30 Str | Solid budget boots. **FRW is missing — that hurts a throw barb's kiting.** Trade ~Pul |
-| **Gloves** | **Heavy Bracers** — `13% MF` | 11% Increased Blocking (useless for throw) · +109 AR · **3% Life leech** · 13% MF | Lvl 26 · 58 Str | **Weakest slot.** 3% LL + 13% MF. Replace with IAS + leech gloves (Sander's/LoH/Bloodfist-type or a craft with 20 IAS). Trade: nothing |
+| **Gloves** | **Crafted Gauntlets** (Run 1) | +20% IAS · +16% ED · +10% bonus AR · 3% life leech · +19 Mana · Cold Res +22% · +6 Light Radius | Req. level not recorded here | **Currently equipped per player (2026-10-26).** The previous Heavy Bracers (+109 flat AR, 3% leech, 13% MF) remain a rollback option until the new setup is confirmed in a fresh stat/run check. |
 | **Amulet** | Amulet — `24% RES` | **+10 Str · All Res +24** (iLvl 68, crafted aLvl 72) | Lvl 41 | Good utility. Only 2 visible mods → keep as resist glue. Trade ~Um |
 | **Ring 1** | Ring — `3MK 5% MF HFD` | **6% Life leech** · +51 Mana · Half Freeze Duration · +3 Mana/kill · 5% MF | Lvl 35 | Main leech source. Keep. Trade low |
-| **Ring 2** | Ring — `RING LLD [C]` **CORRUPTED** | +2 Min dmg · **+83 AR** · 4% Life leech · Poison res +10% · +3 Mana/kill · +3 Light radius | **Lvl 12** · iLvl 21 | **Sellable to LLD (low-level duel) collectors — Um–Ist.** Do not vendor. Listed in the trade sheet |
+| **Ring 2** | Corrupted ring (`04C #14`) | Fire/Cold/Lightning Res +13% each · Poison Res +27% · Physical Damage Taken Reduced by 4 | Lvl 59 | **Currently equipped per player (2026-10-26)** in the Run 1 defensive package. The former Ring 2 (+4% leech/+83 AR/+10 poison/+3 mana per kill) is now in stash; keep it until the package is confirmed in fresh stats/runs, then trade to an LLD buyer rather than vendor. |
 | **Swap** | **Harpoon** — `+2 BArb Sks`, `10% IAS` | +2 Barb skills · 10% IAS · +11 min dmg · 165% dmg to undead · 230 AR vs undead · 5% mana leech · (base speed −10, range 3) | Lvl 42 · 25 Str / 118 Dex | Off-hand BO stick. Fine |
 | **Swap** | **Glaive** — `+3 Warcries` | +3 Warcries (barb only) · 9% Mana leech | Lvl 48 · 52 Str / 35 Dex | +3 BO stick — **this is the one you pre-buff with.** Keep |
 

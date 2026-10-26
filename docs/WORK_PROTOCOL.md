@@ -21,7 +21,7 @@ These rules preserve progress across chats and the context-limit interruption.
 
 ## 4. Save / Git workflow
 1. Save the transcription or deliverable.
-2. Commit and push to `arena/cffe15c1-pd2-s14`.
+2. Commit and push to the active branch `arena/a6017600-pd2-s14`.
 3. Keep `main` current through a PR; never push directly to `main`.
 4. Report only after the checkpoint is pushed; stop for confirmation when another source folder/batch is due.
 

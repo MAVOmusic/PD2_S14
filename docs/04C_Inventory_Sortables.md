@@ -1,6 +1,6 @@
 # 04C — Inventory: Sortables Tab (31 screenshots)
 
-**v0.7.0** · read 2026-10-25 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Sortables Tab/1.PNG`–`31.PNG`
+**v0.23.0** · updated 2026-10-26 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Sortables Tab/1.PNG`–`31.PNG`
 
 ## Scope and pricing notes
 
@@ -25,7 +25,7 @@
 | 11 | LLD caster ring | +10% FCR; Cold Res +27%; Fire Res +19%; crafted alvl 53; experimental affix quality 42%; overlay labels it “3.11 pt PVM Caster Ring” | 13 | Best crafted-jewelry candidate shown; about Pul–Mal to niche LLD/caster buyer (LOW) |
 | 12 | Crafted LLD amulet | Lightning Res +34%; crafted alvl 63; overlay says target alvl 51 for LLD crafting | 18 | Resistance-only; about Lem–Pul if matched to a buyer (LOW) |
 | 13 | Crafted LLD ring | +9 Life; Lightning Res +28%; crafted alvl 71; overlay says target alvl 51 | 13 | Decent low-level res/life ring but no other standout mod; about Lem–Pul (LOW) |
-| 14 | Corrupted ring | Cold Res +13%; Lightning Res +13%; Fire Res +13%; Poison Res +27%; Physical Damage Taken Reduced by 4 | 59 | Useful defensive HC ring if it fits a res gap; about Pul–Um (LOW) |
+| 14 | Corrupted ring | Cold Res +13%; Lightning Res +13%; Fire Res +13%; Poison Res +27%; Physical Damage Taken Reduced by 4 | 59 | **Currently equipped on the Throw Barbarian per player (2026-10-26)** with Run 1 Gauntlets + Mesh Belt. No post-swap stat screen supplied; keep equipped pending safe comparison, not for trade. |
 | 15 | Crafted LLD amulet | Fire Res +28%; crafted alvl 78; overlay target alvl 51 | 13 | Resistance-only; vendor / craft lot (LOW) |
 | 16 | Nokozan Relic | +29% FHR; adds 3–12 fire damage; +7% maximum Fire Res; Fire Res +24%; +3 Light Radius | 10 | Defensive amulet candidate; see side-by-side notes below. About Pul–Um if sold (LOW) |
 | 17 | Crafted ring, “2.65 pt PVM Melee Ring” | +10 minimum damage; Fire Res +23%; crafted alvl 71 | 50 | Very limited use for this character; vendor / craft lot (LOW) |
