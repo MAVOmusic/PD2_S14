@@ -1,5 +1,5 @@
 # 02 — Character & Gear Snapshot (Folders 01 + 02)
-**Version:** v0.19.0 · **Read on:** 2026-10-25 · **Source:** `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …`
+**Version:** v0.21.0 · **Read on:** 2026-10-25 · **Source:** `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …`
 
 > Transcribed verbatim from screenshots. Anything marked `⚠` is a best-effort read, not certain.
 
@@ -37,11 +37,11 @@
 
 PD2 caps resists at 75 (higher with +max res). **Fire and Poison are the two dangerous gaps**, and both matter in Hell Arcane Sanctuary (spectral hit / mummy poison) and Canyon of the Magi (fire-based beetles/Hephasto adds).
 
-**Cheapest fixes, in order of value:**
-1. Swap the Amulet for a higher all-res / fire-res amulet from inventory (pending folder 04).
-2. Ral runes / Ort runes in the two open sockets on helm & armor bases if sockets are free.
+**Current safe-gearing note (after inventory review):**
+1. Keep the equipped +10 Strength / +24 all-res amulet; no stash amulet is a proven general Hell upgrade. See `docs/07_Full_Inventory_Action_Matrix.md` for the controlled ring/belt/glove comparison.
+2. No free socket in the current helm/armor was verified. Use the +28 Fire Res jewel or Ral/Ort only after confirming an open socket and that the item is staying equipped.
 3. The charms shown in folder 03 are already equipped and their stats are already reflected in this screenshot. Do not treat them as spare upgrades; any charm change requires a fresh character-sheet/stat comparison.
-4. Craft a **Safety** shield-less alternative: with Double Throw you cannot use a shield — so resists must come from jewelry, charms, boots, belt.
+4. With Double Throw active, use a two-throwing-weapon setup; any shield/defensive setup is a separate weapon-swap/test, not the normal Double Throw configuration.
 
 ---
 
@@ -118,7 +118,7 @@ The existing screenshots were summarized with Battle Command active. Battle Comm
 
 ## 5. Draft farming plan — elite crafting bases + resists (cap: Hell A2 Arcane Sanctuary)
 
-> Refined further once folders 03/04/05 and the filter are read. Area level (alvl) governs which bases drop.
+> Folders 03/04/05 and the documented inventory tabs have now been reviewed; the Item Filter remains unread pending explicit authorization. Area level (alvl) governs which bases drop. Gear comparisons are consolidated in `docs/07_Full_Inventory_Action_Matrix.md`.
 
 ### A. Elite throwing-weapon bases (what an endgame Throw Barb actually wants)
 | Base | Type | alvl needed | Where you can get it (≤ Hell A2) |
@@ -148,8 +148,8 @@ The existing screenshots were summarized with Battle Command active. Battle Comm
 
 ---
 
-## 6. Data still missing (needed to finish the job)
-- Folder **03 – Charms** (24 images) → resist holes + skiller count.
-- Folder **04 – Inventory** (tabs: uniques, sets, runes, gems, MF/GF, sortables, ubers, maps) → trade sheet source.
-- Folder **05 – Merc Items** (9 images) → Act 1 merc gear + what to farm for her.
-- `Item Filter/Hiim_Crafting_Barbarian_Focused.filter` → the file to tweak/replace.
+## 6. Data status / remaining gated work
+
+- Character sheet, 24 equipped charms, all previously documented Inventory tabs, and Mahala's 9 merc screenshots have been reviewed. The current all-items keep/swap/trade recommendations are in `docs/07_Full_Inventory_Action_Matrix.md`; Run 1 details and workbook guide values are in `docs/06_Run_1_Findings_and_Trade_Plan.md`.
+- `Item Filter/Hiim_Crafting_Barbarian_Focused.filter` remains unread and must not be opened without explicit authorization.
+- A broader PD2 Wiki review and the sorted XLSX trade-price inventory remain separate project tasks. No live HC trade listing was checked in the Run 1 price analysis.

@@ -1,6 +1,6 @@
 # 04D — Inventory: Misc Tab (1 screenshot)
 
-**v0.17.0** · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Misc Tab/Misc.PNG`
+**v0.18.0** · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Misc Tab/Misc.PNG`
 
 ## Scope and identification status
 
@@ -30,5 +30,5 @@ The original image is an overview with no item tooltips. The player identified U
 
 - U-001–U-017 are identified. The two matching grid pairs (Vial and Mirror) each describe one item occupying two cells.
 - The player's `docs/1-15 Identified.xlsx` and `docs/16-53 Identified.xlsx` uploads remain the source records for the information they supplied.
-- No keep/sell/trade prices are assigned yet; await the remaining identification batches and planned mechanics review.
+- U-001–U-017 are identified; quantities absent from the screenshot remain unconfirmed. Current keep/use/trade guidance and workbook price caveats are in [`06_Run_1_Findings_and_Trade_Plan.md`](06_Run_1_Findings_and_Trade_Plan.md) and the exhaustive action matrix [`07_Full_Inventory_Action_Matrix.md`](07_Full_Inventory_Action_Matrix.md).
 - Wiki's U-001 recipe line is in the Consumables table immediately before the Breakdown Recipes subsection: `1–15 Jewels + Key → 1–15 Jewel Fragments`. The page further states fragments have no affixes and stack to 50.

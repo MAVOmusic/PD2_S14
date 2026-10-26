@@ -21,7 +21,7 @@ These rules preserve progress across chats and the context-limit interruption.
 
 ## 4. Save / Git workflow
 1. Save the transcription or deliverable.
-2. Commit and push to `arena/49f3a2b1-pd2-s14`.
+2. Commit and push to `arena/cffe15c1-pd2-s14`.
 3. Keep `main` current through a PR; never push directly to `main`.
 4. Report only after the checkpoint is pushed; stop for confirmation when another source folder/batch is due.
 
@@ -45,4 +45,4 @@ These rules preserve progress across chats and the context-limit interruption.
 - [ ] Broad Wiki review after all identifications
 - [ ] Item Filter (unread; wait for explicit authorization)
 - [ ] Final farm plan and sorted XLSX trade-price inventory
-- [x] Run 1 keep/sell/vendor/trade/swap recommendations (`docs/06_Run_1_Findings_and_Trade_Plan.md`); live in-game swap verification remains pending
+- [x] Full item-by-item keep/sell/vendor/trade/swap matrix (`docs/07_Full_Inventory_Action_Matrix.md`); live in-game swap verification remains pending

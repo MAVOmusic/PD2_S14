@@ -1,6 +1,6 @@
 # Run 1 Finds and Consolidated Gear / Trade Plan
 
-**v0.20.0** · reviewed 2026-10-25 · source: `Runs/Run 1/1.PNG`–`23.PNG` on `main`, plus the player's `docs/PD2info.xlsx` community workbook on `main`.
+**v0.20.1** · reviewed 2026-10-25 · source: `Runs/Run 1/1.PNG`–`23.PNG` on `main`, plus the player's `docs/PD2info.xlsx` community workbook on `main`.
 
 > The player explicitly authorized review of all 23 Run 1 images for this checkpoint. The workbook's Trade Values are **community guide estimates based on Softcore Ladder listings, not current Hardcore quotes**; the sheet itself says values are not updated automatically. Confirm live HC S14 listings before accepting offers. No live price quote was checked here.
 
@@ -81,15 +81,15 @@ These are **Softcore guide values, not confirmed HC prices**. “HR” and “WS
 | 1 | **Lilith's Mirror ×1** | 110 HR / 440 GV / 11,000 WSS | Price-check immediately; hold and do not use or accept a low offer based on these stale guide figures. |
 | 2 | **Vial of Lightsong ×1** | 20 HR / 80 GV / 2,000 WSS | Same: verify against current listings before using/trading. |
 | 3 | **Vision of Terror** and **Voidstone** | 0.75–1 HR each; Voidstone also 75–100 WSS | High-priority price-check if not saving for DClone/Rathma. Vision of Terror's WSS/Q columns conflict with its HR range in the workbook, so treat the quote as especially uncertain. |
-| 4 | **Prime Evil Soul ×1**; **Shadow of Hatred ×1** | 0.5 HR / 50 WSS each | Price-check/list if not pursuing DClone/Rathma/Lucion. |
-| 5 | **Hellfire Ashes ×1** | 0.4 HR / 40 WSS | Price-check/list if not building toward Rathma. |
-| 6 | **Black Soulstone ×1** | 0.3 HR / 30 WSS | Price-check/list if not pursuing DClone. |
-| 7 | **Flesh of Malic ×1**, **Demonic Insignia ×1**, **Splinter of the Void ×1** | 0.25 HR / 25 WSS each | Trade individually or as a Lucion/Rathma material bundle; confirm current buyer. |
-| 8 | **Relic of the Ancients ×1** | 0.15–0.25 HR / 15–25 WSS | Trade if not attempting Uber Ancients. The three sigils are also ingredients. |
-| 9 | **Two of each key** (2 Terror, 2 Hate, 2 Destruction) | Individual rows total ~0.38 HR / 38 WSS; workbook lists a full 3-of-each 3x3 keyset at 0.75 HR / 75 WSS | Bundle as two complete key trios; indicative range ~0.38–0.50 HR (38–50 WSS). The individual and bundle rows are inconsistent, so verify current rates. |
-| 10 | Sigils: Madawc ×1 / Talic ×1 / Korlic ×1 | 0.05–0.08 / 0.10 / 0.03–0.05 HR (5–8 / 10 / 3–5 WSS) | Keep one-of-each together for a Relic recipe if doing Uber Ancients; otherwise price as a set. |
-| 11 | **Pure Demonic Essence ×1**; **Trang-Oul's Jawbone ×1** | 0.05 HR / 5 WSS each | Low-value ingredients; bundle for DClone/Rathma buyers rather than list individually. |
-| 12 | **Talisman of Transgression ×1** | 0.03 HR / 3 WSS | Bundle with Lucion ingredients. |
+| 4 | **Prime Evil Soul**; **Shadow of Hatred** (per item; quantities unconfirmed) | 0.5 HR / 50 WSS each | Price-check/list if not pursuing DClone/Rathma/Lucion; verify count from item tooltips. |
+| 5 | **Hellfire Ashes** (per item; quantity unconfirmed) | 0.4 HR / 40 WSS | Price-check/list if not building toward Rathma; verify count from item tooltip. |
+| 6 | **Black Soulstone** (per item; quantity unconfirmed) | 0.3 HR / 30 WSS | Price-check/list if not pursuing DClone; verify count from item tooltip. |
+| 7 | **Flesh of Malic**, **Demonic Insignia**, **Splinter of the Void** (per item; quantities unconfirmed) | 0.25 HR / 25 WSS each | Trade individually or as a Lucion/Rathma material bundle; verify count and current buyer. |
+| 8 | **Relic of the Ancients** (per item; quantity unconfirmed) | 0.15–0.25 HR / 15–25 WSS | Trade if not attempting Uber Ancients; verify count from item tooltip. The three sigils are ingredients. |
+| 9 | **If confirmed, two of each key** (2 Terror, 2 Hate, 2 Destruction) | Individual rows total ~0.38 HR / 38 WSS; workbook lists a full 3-of-each 3x3 keyset at 0.75 HR / 75 WSS | Ubers screenshot does not prove owned quantities. If two of each are confirmed, bundle as two complete key trios; indicative range ~0.38–0.50 HR (38–50 WSS). Verify count and current rates. |
+| 10 | Sigils of Madawc / Talic / Korlic (per item; quantities unconfirmed) | 0.05–0.08 / 0.10 / 0.03–0.05 HR (5–8 / 10 / 3–5 WSS) | If one of each is confirmed, keep them together for a Relic recipe if doing Uber Ancients; otherwise price as a set. |
+| 11 | **Pure Demonic Essence**; **Trang-Oul's Jawbone** (per item; quantities unconfirmed) | 0.05 HR / 5 WSS each | Low-value ingredients; bundle for DClone/Rathma buyers rather than list individually; verify counts. |
+| 12 | **Talisman of Transgression** (per item; quantity unconfirmed) | 0.03 HR / 3 WSS | Bundle with Lucion ingredients; verify count. |
 | 13 | Mephisto's Brain + Baal's Eye + Diablo's Horn; Pandemonium Talisman | No line item in the workbook | Keep as an organ set / keep the Talisman; do not invent a price. Check a current Uber buyer. |
 
 ### Other stash trade priorities already documented

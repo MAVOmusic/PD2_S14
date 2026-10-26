@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.21.0 — 2026-10-25
+
+### Read / added
+- Added `docs/07_Full_Inventory_Action_Matrix.md`, covering every item row in the current character/merc gear snapshot and documented inventory tabs `04A`–`04K`, all 24 equipped charms, materials/currency/map/Uber entries, and every authorized Run 1 find. Recommendations include exact slot tests, keep/hold/trade/bundle/vendor decisions, quantity caveats, and source locations for uncertainties.
+- Re-evaluated the Barbarian ring/belt/glove package; identified `04C #14` four-res corrupted ring as a stronger poison-res alternative to the Run 1 crafted ring, with calculated stat deltas labeled as estimates.
+- Clarified that repeated Ubers icons do not establish key quantities, U-087's white `1` is unconfirmed, and map catalog icons do not prove owned maps. Corrected outdated status text in the Misc/Maps/Ubers and Character Snapshot docs.
+- Kept all 24 equipped charms fixed; retained Purity for Prayer healing; Ramfodder remains crossbow-only. No Item Filter or new image folder was opened.
+- Updated version/context/protocol for active branch `arena/cffe15c1-pd2-s14`.
+
+### Sync status
+- Commit/push on the active session branch; sync `main` through a PR (never direct-push).
+
+---
+
 ## v0.20.0 — 2026-10-25
 
 ### Read / added
