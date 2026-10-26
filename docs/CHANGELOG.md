@@ -4,6 +4,19 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.25.0 — 2026-10-26
+
+### Updated
+- Transcribed the user's level-79 `Buff.PNG` and `No Buff.PNG` stat panels to `docs/02_Character_And_Gear_Snapshot.md` and `docs/09_Run_2_Checkpoint.md`, retaining the filenames and all visible differences. Flagged the unexpected cold-resist / buff deltas and 9% panel Life Leech versus Wraith Flight's +7% item line rather than inventing a reconciliation.
+- Recorded IAS 52, displayed Double Throw IAS thresholds, OW/CB/critical/pierce, leech and other visible panel stats. Player reports the Lacerator + Wraith Flight pair killed Duriel in under a minute and is moving to Act 3.
+- Checked `Runs/Run 2` after the user's request: it contains only `.gitkeep`, so no new item finds could be reviewed. The 15-new-item-image cap remains; await image upload/attachments.
+- Updated the matrix, vendor queue, context and version records. No additional source folder or Item Filter was opened; only the named Run 2 folder and the two user-supplied stat screenshots were used.
+
+### Sync status
+- Prepared on active branch `arena/4a62ae1e-pd2-s14`; sync to `main` via PR, never direct-push.
+
+---
+
 ## v0.24.0 — 2026-10-26
 
 ### Updated
