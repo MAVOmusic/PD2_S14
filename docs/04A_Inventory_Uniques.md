@@ -1,5 +1,5 @@
 # 04A — Stash: Unique Items Tab (23 items)
-**v0.5.0** · read 2026-10-25 · source `Images/MAVOmusicHC - 04 - Inventory/Unique Items Tab/1-23.PNG`
+**v0.24.0 update** · original tab read 2026-10-25 from `Images/MAVOmusicHC - 04 - Inventory/Unique Items Tab/1-23.PNG`; separate current-equipment additions transcribed from user-supplied screenshots on 2026-10-26.
 
 > Item count in tab: **73 pages shown as 1/73 … 4/73** on some screenshots → the tab holds **~73 unique items**, but only 23 screenshots were provided. **Only these 23 are documented.** The rest are unknown — flag for the user.
 
@@ -29,13 +29,24 @@
 | 20 | **Cloudcrack 229% ED** | Gothic Sword | 40% chance lvl 21 FoH on striking · 229% ED · 1-480 light · **+10% max light res** · attacker takes 134 light | 45 | Niche. Light-absorb-ish defense | Lem–Pul | LOW |
 | 21 | **Todesfaelle Flamme 191% ED** | Zweihander | lvl 6 Resist Fire aura · 20% IAS · 50-200 fire · **+10 fire absorb** · 20% fire res | 46 | Fire-immunity helper (aura + absorb). Niche HC safety | Pul | LOW |
 | 22 | **Que-Hegan's Wisdom** | Mage Plate | **+1 all skills · 20% FCR · 20% FHR · MDR 9 · +10 mana/kill** | 51 | Caster armour. No value to you | Pul | LOW |
-| 23 | **The Scalper 210% ED** | Francisca | 210% ED · 25% AR · **5% LL · 33% OW / 641 OW dmg/s** · +4 mana/kill | 57 | ⭐💰 **REAL FIND.** Compare vs your equipped Francisca: yours has Fool's AR + Amp but only 244 OW dmg/s. **The Scalper has 641 OW/s + 5% LL + mana/kill.** Strong candidate for main-hand swap or sell | **Ist–Gul** | MED |
+| 23 | **The Scalper 210% ED** | Francisca | 210% ED · 25% AR · **5% LL · 33% OW / 641 OW dmg/s** · +4 mana/kill | 57 | Useful comparison item, but no longer compared against the old Francisca as equipped: player now reports Lacerator + Wraith Flight equipped. Hold until the new pair is tested; if it remains unused, price-check with a Throw Barbarian buyer. The old Ist–Gul figure is a guide estimate, not a live quote. | **Ist–Gul** | MED |
 
 ---
 
+## New current-equipment screenshots — user-reported purchases (2026-10-26)
+
+These are separate from the original 23 Unique Items tab screenshots above. The player reports swapping both main Throw Barbarian weapons to this pair; the supplied item images are the direct transcription source. Current character stats/breakpoints were not supplied.
+
+| Item | Visible state and mods | Current disposition |
+|---|---|---|
+| **Lacerator [C]**, ethereal Winged Axe | Throw 31–293; one-hand 50–273; req. level 68, 112 Dex / 86 Str; very fast (base speed −10), range +1; melee attacks deal splash; 8% chance to cast level 27 Amplify Damage on striking; +30% IAS; +291% ED; 33% chance of Open Wounds; +450 OW damage/sec; Prevent Monster Heal; ethereal (cannot be repaired). | Player-reported equipped as one of the two main throw weapons. Verify actual speed breakpoint, Amp uptime and hit/kill results in a safe run. |
+| **Wraith Flight [C]**, ethereal Ghost Glaive | Throw 119–314; one-hand 74–243; req. level 76, 127 Dex / 79 Str; slow javelin class (base speed 20), range +3; melee attacks deal splash; 30% chance to Pierce; +224% ED; adds 200–450 magic damage; 7% life stolen per hit; −44 monster defense per hit; +20% curse resistance; 6% reanimate as Wraith; +13 mana after each kill; ethereal (cannot be repaired). | Player-reported equipped as the other main throw weapon. Check live displayed Throw damage/AR and whether Pierce and the added utility improve pack clear and survivability. |
+
+**Transaction report:** the player traded a Paladin skiller charm for 15 WSS, then bought the Lacerator for 10 WSS and Wraith Flight for a Gul rune. It may correspond to `04C #31` Paladin Combat skiller, but the traded charm's identity was not confirmed; do not assume a second identical skiller remains or count one in stash without confirmation. No live price check was made.
+
 ## Consolidated gear and trade guidance
 
-The earlier “immediate swap wins” are superseded by the stat-based comparisons in [`06_Run_1_Findings_and_Trade_Plan.md`](06_Run_1_Findings_and_Trade_Plan.md). In brief: don't blindly replace boots or amulet where the current stat sheet shows a resistance loss; keep Mahala on Purity + arrows while Prayer healing is needed; Ramfodder requires a Purity crossbow; and test The Scalper in the other throwing slot before deciding whether to trade it.
+The earlier “immediate swap wins” are superseded by the stat-based comparisons in [`06_Run_1_Findings_and_Trade_Plan.md`](06_Run_1_Findings_and_Trade_Plan.md). The player now reports Lacerator + Wraith Flight equipped; no new damage/AR/breakpoint sheet has been supplied. Keep the displaced Simbilan + Fool's Francisca for rollback, and test The Scalper only as a controlled comparison against the new pair before deciding whether to trade it. Do not blindly replace boots or amulet where the prior stat sheets indicate a resist loss; keep Mahala on Purity + arrows while Prayer healing is needed; Ramfodder requires a separate Purity crossbow.
 
 - **The Ward** (all res 50) remains a strong trade candidate at the old rough Um–Mal estimate (not a live quote).
 - **The Scalper** (old rough Ist–Gul) should be tested in the second throw slot before sale.

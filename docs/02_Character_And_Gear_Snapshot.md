@@ -1,5 +1,5 @@
 # 02 — Character & Gear Snapshot (Folders 01 + 02)
-**Version:** v0.23.0 · **Updated:** 2026-10-26 · **Sources:** original `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …` screenshots; current equipment changes reported by player on 2026-10-26.
+**Version:** v0.24.0 · **Updated:** 2026-10-26 · **Sources:** original `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …` screenshots; 2026-10-26 player reports and the two newly supplied weapon screenshots.
 
 > Transcribed verbatim from screenshots. Anything marked `⚠` is a best-effort read, not certain.
 
@@ -26,7 +26,7 @@
 | Frenzy AR | 4,668 / 8,212 | 4,824 / 8,487 |
 | Double Throw AR | 8,345 / 14,681 | 8,671 / 15,255 |
 
-**Snapshot caveat:** these character-sheet numbers predate the player's 2026-10-26 equipment update (Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring). They are not post-swap stats. The user has not supplied a refreshed sheet; retain the displayed values as historical baseline only and do not claim the calculated package values are live.
+**Snapshot caveat:** these character-sheet numbers predate the player's 2026-10-26 gear updates (Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring, and the newly equipped Lacerator + Wraith Flight pair). They are not post-swap stats or current Double Throw damage. No refreshed character sheet was supplied; retain the displayed values as historical baseline only and do not claim calculated package totals or breakpoints are live.
 
 ### Historical resistances — pre-swap baseline (not a current sheet)
 
@@ -84,12 +84,13 @@ The existing screenshots were summarized with Battle Command active. Battle Comm
 
 ---
 
-## 3. Equipped gear (Main hand set)
+## 3. Equipped gear (reported current main throwing-weapon pair; post-swap stats unverified)
 
 | Slot | Item | Key mods (transcribed) | Req | Verdict / value |
 |---|---|---|---|---|
-| **Weapon 1** | **Simbilan** — `343% ED`, `23% CB` (⚠ exceptional javelin base, iLvl 88 / aLvl 77, base speed 10, range 3, sockets max LQ1/LP2/C2) | Melee attacks deal splash · **+343% ED** · +35 max dmg · +280 AR · **23% CB** · +6 Str | Lvl 45 · 80 Str / 80 Dex | **Strong self-use.** Big ED + CB on a throw weapon. Upgradeable to elite (Fal+Um+Perf) but the str/dex req jumps to 127/95 — **only upgrade if you re-stat or have the dex**. Trade: low demand (barb-only), ~Pul–Um |
-| **Weapon 2** | **Francisca** — `FOOLS [AMP] 121% ED` (iLvl 75 / aLvl 58, base speed 10, range 1) | **10% chance to cast lvl 19 Amplify Damage on striking** · +121% ED · **+38 max dmg (per char level)** · **+1,270 AR (per char level)** · 1-78 light dmg · **20% Open Wounds** · +244 OW dmg/sec · +8 Str | Lvl 45 · 25 Str / 80 Dex | **Your best item, keep it equipped.** Fool's AR + Amp proc = the physical-damage force multiplier that carries Hell. Genuinely sellable: **Ist–Gul** to a throw/melee barb |
+| **Weapon 1** | **Lacerator [C]** — ethereal Winged Axe, `291% ED` | Throw 31–293 · one-hand 50–273 · melee attacks deal splash · **8% chance to cast lvl 27 Amplify Damage on striking** · **+30% IAS** · +291% ED · **33% chance of Open Wounds / +450 OW damage per second** · Prevent Monster Heal | Lvl 68 · 112 Dex / 86 Str · very fast axe (base speed −10, range +1) | **Currently equipped per player (2026-10-26).** Strong throw pair component: fast base + item IAS, Amp proc, OW and PMH. Verify actual Double Throw breakpoint, Amp uptime and safety after the swap. Ethereal; cannot be repaired. |
+| **Weapon 2** | **Wraith Flight [C]** — ethereal Ghost Glaive, `224% ED` | Throw 119–314 · one-hand 74–243 · melee attacks deal splash · **30% chance to Pierce** · +224% ED · **adds 200–450 magic damage** · **7% life stolen per hit** · −44 monster defense per hit · +20% curse resistance · 6% reanimate as Wraith · +13 mana after each kill | Lvl 76 · 127 Dex / 79 Str · slow javelin class (base speed 20, range +3) | **Currently equipped per player (2026-10-26).** Adds pierce, magic damage, leech and mana-on-kill alongside Lacerator's physical/curse/OW package. Verify current damage/AR and actual clear/survival; item screenshot says ethereal (cannot be repaired). |
+| **Displaced pair** | **Simbilan** (`343% ED`, `23% CB`) + Fool's **Francisca** (`121% ED`, 10% lvl 19 Amp) | Historical pair shown in the original character snapshot; detailed mods retained in the prior gear record. | — | Player says these are swapped out, not sold. Keep as rollback/comparison gear until the Lacerator/Wraith pair is proven in safe runs; do not list or vendor yet. |
 | **Helm** | **Fanged Helm (barb only)** — `27% CB`, `20% RES` | +68 AR · **27% CB** · +3 Find Potion (barb) · +24 Energy · **All Res +20** · **Defense 16 (!)** | Lvl 55 · 35 Str | Crafted, resists carried here. **Base is bad (def 16 = cracked/low-quality base)** — re-craft on a clean Fanged/Avenger Guard base when you have the runes. Self-use; trade ~Pul |
 | **Armor** | **Hawkmail** (unique Scale Mail) | +3 Summon Ravens · **25% FRW** · 97% ED · +5% max cold res · Cold res 26% · **Cannot be Frozen** | Lvl 15 · 44 Str | Utility only — **CBF is why it is on**. Very low trade value (Lem/Pul, probably unsellable). **First upgrade target** once you have a CBF source (Raven Frost / Kira's / crafted) or a Treachery/Vipermagi-type body |
 | **Belt** | **Mesh Belt** (Run 1 crafted) | +58% ED · +54 Life · 10% FCR · Fire Res +19% · Poison Res +20% · attacker takes 10 | Lvl 29 | **Currently equipped per player (2026-10-26)** with the Run 1 Gauntlets and 04C #14 ring. Previously equipped Plated Belt is retained as a rollback option; no post-swap stat screenshot supplied. |
@@ -105,11 +106,11 @@ The existing screenshots were summarized with Battle Command active. Battle Comm
 
 ## 4. Damage math reality check (why you feel weak in Hell A2)
 
-- Main-hand Simbilan 343% ED + Fool's Francisca: your **Double Throw lists 1,340–2,577** (no buff) — that is about **right for level 77 but low for Hell A2 Arcane Sanctuary**, where the real problem is not raw damage but:
+- The old character sheet, with Simbilan 343% ED + Fool's Francisca, listed **Double Throw at 1,340–2,577** (no buff). This is historical only; the Lacerator + Wraith Flight pair is now player-reported equipped, with no refreshed damage/AR sheet. The old Arcane Sanctuary concerns below remain safety reminders, not a current stat diagnosis:
   1. **Fire / Poison resist gaps** (−51 / −42 effective in Hell).
   2. **No Cannot-Be-Interrupted / no FHR listed, no FRW on boots** → you get staggered and can't kite the Sanctuary's teleporting ghosts.
-  3. **Leech is 6% + 3% = good** but only lands if you can keep hitting; Arcane Sanctuary ghosts **drain mana**, and you have 211–281 mana total.
-  4. **No mana-on-kill beyond 3/3** — Double Throw eats mana. This is your practical bottleneck on the Sanctuary run.
+  3. The old sheet's leech was 6% from Ring 1 + 3% from the previous gloves; the new Wraith Flight visibly adds 7% life stolen per hit. Current displayed/functional leech is unverified, and leech effectiveness depends on landing physical damage.
+  4. The old sheet had +3 mana after each kill from Ring 1; Wraith Flight now visibly adds +13 mana after each kill. Current mana sustain is unverified, and Double Throw still consumes mana.
 
 **Immediate playstyle fixes (no gear needed):**
 - Pre-buff **Battle Orders + Battle Command** on swap every run, then swap back — you already have the sticks.
