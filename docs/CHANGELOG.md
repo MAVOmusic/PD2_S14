@@ -4,6 +4,20 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.26.0 — 2026-10-26
+
+### Read / updated
+- Reviewed the first 15 Run 2 item images (`Runs/Run 2/1.PNG`–`15.PNG`), reaching the current 15-image allowance. Added full visible transcriptions and dispositions to `docs/09_Run_2_Checkpoint.md` and a concise matrix in `docs/07_Full_Inventory_Action_Matrix.md`.
+- Identified Run 2's unique **Anvilguard Strap Heavy Bolts**: −4% enemy physical resistance, +20% Pierce, PMH, PDR 10, attacker-takes-424 and 10% level-27 Amp when struck. Recommends a reversible second Purity crossbow trial; no suitable crossbow base was found. The 4-socket Superior Ward Bow is not a crossbow and does not match Purity's 3-socket requirement.
+- Updated Mahala's crossbow plan with bolt-specific cautions: preserve Purity + Sharp Arrows, compare lost leech/poison resistance/mana-per-kill, and verify whether the bolt Pierce works with crossbows under current mechanics. Ramfodder remains a separate comparison.
+- Recorded other Run 2 finds: two Barb helm candidates, +3 Warcries amulet pre-buff test, class-specific Amazon/Necromancer amulets, LLD charm, Worldstone Shard, 3-socket Boneweave, 4-socket Ward Bow, level-80 Poisoned Well map, jewel, and ethereal Stygian Pilum.
+- Added the Poisoned Well map as a separate observed owned item (×1; required level 80) without merging it with the prior map-catalog icon. No other source folder or Item Filter was opened.
+
+### Sync status
+- Prepared on active branch `arena/56066609-pd2-s14`; sync to `main` via PR, never direct-push.
+
+---
+
 ## v0.25.0 — 2026-10-26
 
 ### Updated

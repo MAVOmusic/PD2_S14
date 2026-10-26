@@ -1,5 +1,5 @@
 # 04A — Stash: Unique Items Tab (23 items)
-**v0.24.0 update** · original tab read 2026-10-25 from `Images/MAVOmusicHC - 04 - Inventory/Unique Items Tab/1-23.PNG`; separate current-equipment additions transcribed from user-supplied screenshots on 2026-10-26.
+**v0.26.0 update** · original tab read 2026-10-25 from `Images/MAVOmusicHC - 04 - Inventory/Unique Items Tab/1-23.PNG`; later player-supplied weapon screenshots and Run 2 image 13 transcribed separately.
 
 > Item count in tab: **73 pages shown as 1/73 … 4/73** on some screenshots → the tab holds **~73 unique items**, but only 23 screenshots were provided. **Only these 23 are documented.** The rest are unknown — flag for the user.
 
@@ -35,7 +35,7 @@
 
 ## New current-equipment screenshots — user-reported purchases (2026-10-26)
 
-These are separate from the original 23 Unique Items tab screenshots above. The player reports swapping both main Throw Barbarian weapons to this pair; the supplied item images are the direct transcription source. Current character stats/breakpoints were not supplied.
+These are separate from the original 23 Unique Items tab screenshots above. The player reports swapping both main Throw Barbarian weapons to this pair; the supplied item images are the direct transcription source. Level-79 stat panels are now recorded in `docs/02` and `docs/09`, but they do not show Throw damage/AR and leave the Buff/No Buff resist difference unresolved.
 
 | Item | Visible state and mods | Current disposition |
 |---|---|---|
@@ -44,9 +44,15 @@ These are separate from the original 23 Unique Items tab screenshots above. The 
 
 **Transaction report:** the player traded a Paladin skiller charm for 15 WSS, then bought the Lacerator for 10 WSS and Wraith Flight for a Gul rune. It may correspond to `04C #31` Paladin Combat skiller, but the traded charm's identity was not confirmed; do not assume a second identical skiller remains or count one in stash without confirmation. No live price check was made.
 
+## Run 2 unique find — Anvilguard Strap Heavy Bolts (`Run 2/13 (Bolts).PNG`)
+
+| Item | Visible tooltip mods | Action |
+|---|---|---|
+| **Anvilguard Strap**, Heavy Bolts | Required level 34; 10% chance to cast level 27 Amplify Damage **when struck**; −4% to Enemy Physical Resistance; +20% Chance to Pierce; Prevent Monster Heal; Physical Damage Taken Reduced by 10; attacker takes 424; +4 Light Radius. Tooltip also shows an upgrade recipe including Ko + Lem + `Perf` and required level 45; `Perf` is left abbreviated because the exact item type is not legible. | Keep for the planned second Purity crossbow trial. Not compatible with the current Purity Long Bow. The on-struck Amp is defensive, not an offensive on-hit proc; verify whether the Pierce modifier works with crossbow bolts in the current season. See `docs/05_Merc_Gear.md` / `docs/09_Run_2_Checkpoint.md`. |
+
 ## Consolidated gear and trade guidance
 
-The earlier “immediate swap wins” are superseded by the stat-based comparisons in [`06_Run_1_Findings_and_Trade_Plan.md`](06_Run_1_Findings_and_Trade_Plan.md). The player now reports Lacerator + Wraith Flight equipped; no new damage/AR/breakpoint sheet has been supplied. Keep the displaced Simbilan + Fool's Francisca for rollback, and test The Scalper only as a controlled comparison against the new pair before deciding whether to trade it. Do not blindly replace boots or amulet where the prior stat sheets indicate a resist loss; keep Mahala on Purity + arrows while Prayer healing is needed; Ramfodder requires a separate Purity crossbow.
+The earlier “immediate swap wins” are superseded by the stat-based comparisons in [`06_Run_1_Findings_and_Trade_Plan.md`](06_Run_1_Findings_and_Trade_Plan.md). The player now reports Lacerator + Wraith Flight equipped and a sub-minute Duriel clear; level-79 panels show IAS 52 and a breakpoint sequence but not direct Throw damage/AR, and the two resist profiles conflict. Keep the displaced Simbilan + Fool's Francisca for rollback, and test The Scalper only as a controlled comparison against the new pair before deciding whether to trade it. Keep Mahala on Purity + Sharp Arrows until a second Purity crossbow is ready to test with Run 2's Anvilguard Strap bolts or Ramfodder.
 
 - **The Ward** (all res 50) remains a strong trade candidate at the old rough Um–Mal estimate (not a live quote).
 - **The Scalper** (old rough Ist–Gul) should be tested in the second throw slot before sale.

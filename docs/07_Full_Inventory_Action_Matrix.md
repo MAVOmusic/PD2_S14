@@ -1,6 +1,6 @@
 # Full Inventory Action Matrix — Character + Mercenary + All Listed Stash Items
 
-**v0.25.0 update** · 2026-10-26 · based on previously transcribed inventory/gear docs, all 23 authorized Run 1 images, current PD2 Wiki mechanics, and the player's latest gear/transaction report, weapon screenshots, and level-79 stat panels. `Runs/Run 2` was checked and contained no item images; no Item Filter was opened.
+**v0.26.0 update** · 2026-10-26 · based on previously transcribed inventory/gear docs, all 23 authorized Run 1 images, the first 15 Run 2 images, current PD2 Wiki mechanics, and the player's latest gear/stat reports. Item Filter remains unopened.
 
 > **How to read the prices:** any rune ranges copied from the older inventory notes are low-confidence estimates; PD2info.xlsx Trade Values are Softcore community estimates that are not automatically updated. No current Hardcore listings were checked. Treat prices as price-check starting points, not offers or guaranteed value. If a row says “qty unconfirmed,” the screenshot did not prove the owned count.
 
@@ -76,7 +76,7 @@ Current gear per player update (2026-10-26): Purity Long Bow; Sigon's Shelter/Vi
 | Bow | **Keep current Purity Long Bow.** | Prayer healing is required. The current screenshot transcription says aura level 2; current PD2 Wiki lists a level 10–12 Prayer aura. Confirm the live item tooltip. Don't replace/dismantle until a new weapon's Prayer is verified. |
 | Arrows | **Keep equipped Sharp Arrows for baseline and PMH.** | They retain 7% life leech, PMH, +29 Poison and +15 max damage. |
 | Alternative arrows | Test Swiftwind Needle / Blunt only after belt+helm stats. | Swiftwind adds mobility/hit/damage but loses Sharp's 7% leech, PMH and +29 poison res. Blunt adds the screenshot-recorded fire/poison/OW mods and can halt natural regeneration while OW is active; merc OW damage is 1/4, and its 20% proc is not guaranteed. PMH does not affect Ubers, so Blunt merits a specific Uber/regen-control trial if uptime is adequate. With Tal + Shelter + Wrap, leech calculates to 25% even without arrow leech; losing +29 poison res may move the documented 75 line to about 62. Check poison res/survival; keep Sharp for general PMH/leech/poison coverage. |
-| Crossbow/quiver | **Ramfodder deserves a reversible trial.** Craft a second Purity in an exact 3-socket crossbow; retain the Long Bow. | Purity is valid in 3-socket bows/crossbows (Amn–Eth–Thul). Ramfodder Light Bolts add −2% enemy physical resistance, +10% IAS, +20% FHR, Knockback, +10–25 Life and stamina, but list no leech/PMH/poison res. Crossbows may not physically pierce; compare actual bolt penetration, breakpoints, Prayer tooltip and survival in-game. |
+| Crossbow/quiver | **Run 2 Anvilguard Strap Heavy Bolts are a strong new trial candidate; no crossbow base found.** Make a second Purity in an exact 3-socket crossbow and retain the Long Bow. | Bolts offer −4% enemy physical resistance, +20% Pierce (verify crossbow behavior), PMH and PDR 10; 10% lvl27 Amp triggers only when struck. Compared with Sharp, they give up recorded 7% LL/+29 poison res/+5 mana per kill. The 4-socket Superior Ward Bow is not a crossbow and cannot equip bolts. Ramfodder remains a separate second quiver test. |
 | Boots / gloves | **Keep Boneweave Boots and Chain Gloves.** | They provide current FRW/resists, Half Freeze Duration and self-repair. Alternative boots/gloves are zone tests only. |
 | Other armor | Ethereal Diamond Mail, Dark Adherent, ethereal Sharktooth Armor | No first action. Diamond Mail is affixed and has no listed res; Dark Adherent is fire-focused; Sharktooth/Treachery is a later offense test. |
 
@@ -160,7 +160,7 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 | #11 | 10 FCR / +27 Cold / +19 Fire caster ring | Sorceress/caster buyer; not Throw Barb gear. |
 | #12 | Crafted LLD amulet, +34 Lightning Res | Not a general amulet swap; only zone test after stat check. Buyer/craft lot. |
 | #13 | Crafted ring, +9 Life/+28 Lightning Res | No standout vs current ring; low-level res buyer or vendor. |
-| #14 | Corrupted ring, +13 Fire/Cold/Lightning, +27 Poison, PDR 4 | **Currently equipped on the Throw Barbarian** per player (2026-10-26) with Run 1 Gauntlets + Mesh Belt. Estimated package is 73/87/67/87 with 9% LL from the old sheet; verify with a fresh character screen. |
+| #14 | Corrupted ring, +13 Fire/Cold/Lightning, +27 Poison, PDR 4 | **Currently equipped on the Throw Barbarian** per player with Run 1 Gauntlets + Mesh Belt. Latest level-79 Buff/No Buff panels are in `docs/02`/`docs/09`; their resist profiles conflict, so preserve both rather than repeating the old 73/87/67/87 calculation as current. |
 | #15 | Crafted LLD amulet, +28 Fire Res | Keep for low-level fire niche or vendor; not a general swap. |
 | #16 | Nokozan Relic, +29 FHR/+7 max Fire/+24 Fire | Not general amulet swap; replacing +10 Str/+24 all-res costs other resists and Strength. Keep as a fire/FHR niche or trade Pul–Um. Different observed roll from 04A #4. |
 | #17 | Ring, +10 min damage/+23 Fire Res | Possible damage experiment, but it gives up 4% LL/+83 AR/+10 Poison from current ring. Only test in safe content; not the defensive ring choice. |
@@ -191,8 +191,8 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 | 6 | Isenhart's Lightbrand (+390 AR/level) | Set/twink bundle; keep distinct from +385 AR copy in 04B #5. |
 | 7 | Swiftwind Needle Sharp Arrows | Controlled merc offense/mobility test after Sigon belt/Tal checks; +34% FRW/+28 Dex/−28 monster defense/+12–14 damage, but loses leech/PMH/+29 poison res from the equipped Sharp Arrows. |
 | 8 | Chromatic Ire | Sorceress caster staff; trade/hold for Sorceress buyer; no PD2info item price. |
-| 9 | Crafted Mesh Belt | Currently equipped per player (2026-10-26) with Run 1 Gauntlets + `04C #14` ring; previous Plated Belt remains rollback gear pending fresh stats. |
-| 10 | Crafted Gauntlets | Currently equipped per player (2026-10-26); keep old Heavy Bracers as rollback until safe runs confirm the package. |
+| 9 | Crafted Mesh Belt | Currently equipped per player (2026-10-26) with Run 1 Gauntlets + `04C #14` ring; level-79 overall panels are now supplied, but no isolated belt before/after comparison exists. Previous Plated Belt remains rollback gear. |
+| 10 | Crafted Gauntlets | Currently equipped per player (2026-10-26); level-79 panel shows IAS 52, but keep old Heavy Bracers as rollback until actual Double Throw frames and safe runs confirm the package. |
 | 11 | Crafted Ring, 6% mana leech/3 resists | Alternative Ring 2 in the balanced package; not itself a low-level ring because required level is 64. |
 | 12 | +3 Amazon Passive/Magic amulet | Amazon buyer; no verified value. |
 | 13 | Crafted Avenger Guard helm | Do not replace Fanged Helm for Hell; loses +20 all-res/CB. |
@@ -206,6 +206,28 @@ Actions below refer to the existing numbered inventory lists. “Bundle/vendor�
 | 21 | Ethereal Giant Conch [3] | Strength 132 exceeds Mahala's 128; tooltip/workbook socket-cap discrepancy (see Uncertainties). Hold for base buyer, not merc equip. |
 | 22 | Lum rune ×1 | Added to count; reserve one for Smoke (leaves 3). |
 | 23 | Io rune ×1 | Added to count; hold/bulk. |
+
+### Run 2 — all 15 finds and dispositions (`Runs/Run 2/1.PNG–15.PNG`)
+
+Full tooltip transcription is in `docs/09_Run_2_Checkpoint.md`; summary actions below. All 15 allowed images were reviewed.
+
+| Image | Item | Action |
+|---:|---|---|
+| 1 | Large Charm, +7% IAS | At current panel IAS 52, adds at most 7 to 59—below the displayed 63 threshold. Do not replace one of the 24 equipped charms without comparing lost resists/utility. |
+| 2 | Cathan's Seal Ring, 6% LL/PDR 2 | Low-level set/twink lot; not current Barbarian ring. Keep distinct from any same-name copy. |
+| 3 | LLD Small Charm, +3 FRW/+6 Lightning Res | LLD mobility buyer; no blind charm swap. |
+| 4 | Ethereal crafted Destroyer Helm, +2 Double Throw/+29 Str/+71 AR | Offensive Barb comparison only; no res/CB visible, ethereal. Fanged Helm's +20 all-res/+27 CB remains safer until stat-tested. |
+| 5 | Amulet, +3 Amazon Javelin/Spear | Javazon buyer; not current gear. |
+| 6 | Amulet, +3 Necromancer Summoning/+23 Dex | Summon-Necromancer buyer. |
+| 7 | Amulet, +3 Barbarian Warcries | Keep for a Battle Orders pre-buff comparison with +3 Warcries Glaive; restore the +10 Str/+24 all-res amulet before danger. |
+| 8 | Worldstone Shard ×1 | Hold for a deliberate corruption or price-check; embedded stale estimate is not a live quote. |
+| 9 | Boneweave [3], 486 Defense | Hold as an armor runeword base; not a CBF-preserving Hawkmail replacement. |
+| 10 | Superior Ward Bow [4], +19% ED | Bow, not crossbow; cannot use Heavy Bolts and has wrong socket count for Purity. Hold for compatible bow runeword/buyer. |
+| 11 | Poisoned Well T1 map ×1, req. level 80 | Keep until level 80; inspect map profile/modifiers before entry. This is observed owned loot, distinct from the earlier map catalog. |
+| 12 | Jewel, +26% ED/+27% GF | Keep for an eligible open socket or niche buyer; no open socket confirmed, and displayed jewel has no IAS. |
+| 13 | Anvilguard Strap Heavy Bolts, unique | Priority crossbow trial candidate: −4% enemy physical res, +20% Pierce, PMH, PDR10; verify bolt pierce, retain Sharp/Purity baseline. |
+| 14 | Ethereal Stygian Pilum, ilvl82 | Possible rare-imbue/safe throw-base experiment, but not proven upgrade to current Lacerator/Wraith pair; verify base/requirements. |
+| 15 | Savage Helmet, crafted Barb helm | Keep for comparison: +1 Throwing Mastery, damage/AR, res mods. Clarify visible `13% RES` and compare actual resist loss/CB vs Fanged Helm; don't upgrade until Strength 174 is confirmed. |
 
 ## 3. All other listed inventory: consumables, materials, charms and currency
 
@@ -339,14 +361,15 @@ There are no unresolved U-001–U-108 tracker rows, but several **item propertie
 6. **Craft quality:** `04G #2` Battle Gauntlets has an overlay saying “Good Craft Base”; it is unclear whether the screenshot item is a finished magic item or a base. Inspect item quality before crafting or listing.
 7. **Run 1 duplicates/rolls:** source images are `Runs/Run 1/1.PNG–23.PNG`. Run 1 Arcanna's Deathwand has +75 ED/+36 DS versus `04B #20` +51 ED/+44 DS; Isenhart Lightbrand shows +390 AR/level versus `04B #5` +385; Angelic Halo and Sigon's Visor may duplicate prior entries. Don't merge or count these as exact duplicates until checked.
 8. **Giant Conch base conflict:** Run 1 image 21 visibly says ethereal Giant Conch `[3]`; the `PD2info.xlsx` Armor Info sheet says max 2 sockets. Preserve the observed tooltip and flag the community-sheet conflict.
-9. **Charms:** all 24 in `docs/03_Charms.md` are equipped and already included in the stats. I recommend no charm sale/swap. Charms in `04C` and `04H` are separate inventory-tab entries, not the equipped 24.
+9. **Charms:** all 24 in `docs/03_Charms.md` are equipped and already included in the original sheet; do not swap/sell without comparison. Run 2 image 1 is a separate +7% IAS large charm and must not be assumed equipped.
+10. **Run 2 tooltip ambiguities:** image 15's `13% RES` Savage Helmet line and image 14's leading/trailing marks on Eth Stygian Pilum are not fully interpretable; see `docs/09`. Anvilguard's +20% Pierce must be tested with bolts/crossbow because of the documented crossbow-pierce patch note.
 
 ## 5. Order of operations
 
-1. The player has equipped Run 1 Gauntlets + Mesh Belt + `04C #14` four-res ring on the Throw Barbarian, and `04B #13` +13% Pierce Sigon's Wrap on Mahala. **Do not recommend these as stash or sale items.** Get fresh stat screenshots when convenient; all current post-swap totals remain unverified.
+1. The player reports Run 1 Gauntlets + Mesh Belt + `04C #14` ring + Lacerator/Wraith Flight equipped on the Throw Barbarian, and `04B #13` +13% Pierce Sigon's Wrap on Mahala. **Do not recommend these as stash or sale items.** Level-79 panels now exist, but their Buff/No Buff resist profiles conflict; no current Throw damage/AR/Strength panel or new merc sheet is available.
 2. Keep displaced Heavy Bracers, Plated Belt and LLD Ring 2 as rollback gear until the new Barbarian package survives safe runs. Then trade the LLD ring to an LLD buyer; do not vendor it.
 3. Keep Purity + Sharp Arrows on Mahala. Next optional gear comparison is Tal's Crest for Visor while retaining Shelter + Wrap; record defense, AR/hit chance, resistances, life and leech. Keep Visor as rollback.
 4. Test Smoke separately only if a resist need remains; don't assume Tal + Smoke is superior to the active Sigon set.
 5. If still desired after stats, test Swiftwind/Blunt arrows in safe content; keep Sharp for general PMH/leech/poison coverage, with Blunt reserved as an Uber/Open-Wounds trial.
-6. Ramfodder crossbow remains optional: craft a second Purity in an exact 3-socket crossbow and retain the Long Bow. Verify aura level, attack frames, bolt penetration and survival before use.
+6. Anvilguard Strap Heavy Bolts are the strongest new reason for a reversible crossbow test: find a fast exact 3-socket crossbow, craft a second Purity, and retain the Long Bow + Sharp Arrows. The Run 2 Superior Ward Bow [4] is not a crossbow. Test Anvilguard's bolt Pierce, Purity Prayer, attack frames, leech, poison res and survival; test Ramfodder separately.
 7. For all other inventory, follow the new focused `docs/08_Vendor_Trade_Queue.md`; price-check Mirror/Vial and high-tier Uber materials before use or listing. No live HC quotes were checked.

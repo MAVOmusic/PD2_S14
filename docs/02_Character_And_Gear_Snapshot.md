@@ -1,5 +1,5 @@
 # 02 — Character & Gear Snapshot (Folders 01 + 02)
-**Version:** v0.25.0 · **Updated:** 2026-10-26 · **Sources:** original `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …` screenshots; 2026-10-26 player reports, weapon screenshots, and latest Buff / No Buff stat panels.
+**Version:** v0.26.0 · **Updated:** 2026-10-26 · **Sources:** original `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 01 …` and `… 02 …` screenshots; player reports, weapon screenshots, latest Buff / No Buff stat panels, and Run 2 images 1–15.
 
 > Transcribed verbatim from screenshots. Anything marked `⚠` is a best-effort read, not certain.
 
