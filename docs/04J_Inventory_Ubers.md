@@ -1,6 +1,6 @@
 # 04J — Inventory: Ubers Tab (1 screenshot)
 
-**v0.19.0** · read 2026-10-25 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Ubers Tab/Ubers.PNG`
+**v0.19.1** · read 2026-10-25 · source `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Ubers Tab/Ubers.PNG`
 
 ## Scope and limitation
 
@@ -56,7 +56,7 @@ The IDs follow the screenshot positions in the tracker. The player described U-0
 
 ## Trade / stash conclusion
 
-- Names are now player-identified, but the screenshot does not establish item quality, exact quantities, or trade value. Do not assign prices or keep/sell/vendor decisions from icons alone.
+- Names are player-identified, but the screenshot does not establish item quality or exact quantities. Per-item Softcore community guide values and cautious keep/trade priorities are in [`06_Run_1_Findings_and_Trade_Plan.md`](06_Run_1_Findings_and_Trade_Plan.md); exhaustive list positions and quantity cautions are in [`07_Full_Inventory_Action_Matrix.md`](07_Full_Inventory_Action_Matrix.md). These are not live Hardcore quotes.
 - Preserve the visible `1` over U-087 as an unresolved overlay/count indicator; do not equate it with a confirmed owned stack of one without tooltip/context.
 
 ## Confidence

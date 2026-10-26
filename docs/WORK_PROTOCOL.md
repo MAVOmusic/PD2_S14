@@ -21,7 +21,7 @@ These rules preserve progress across chats and the context-limit interruption.
 
 ## 4. Save / Git workflow
 1. Save the transcription or deliverable.
-2. Commit and push to `arena/49f3a2b1-pd2-s14`.
+2. Commit and push to `arena/cffe15c1-pd2-s14`.
 3. Keep `main` current through a PR; never push directly to `main`.
 4. Report only after the checkpoint is pushed; stop for confirmation when another source folder/batch is due.
 
@@ -30,7 +30,7 @@ These rules preserve progress across chats and the context-limit interruption.
 - Price estimates are not live quotes unless explicitly checked; tag confidence and realm/currency where known.
 - The 24 charms shown in the Charms tab are currently equipped and already included in character-sheet stats. Do not recommend swapping/selling them without fresh stats.
 - Mahala uses Purity for Prayer healing. Keep it until the player says healing is no longer needed or an alternative is tested.
-- Ramfodder is a bolt quiver and cannot be used with the current bow; only reconsider after a Purity crossbow is crafted/equipped.
+- Ramfodder is a Light Bolt quiver; test only with a second Purity crafted in an exact 3-socket crossbow, keeping the existing Purity Long Bow as the baseline. Verify aura tooltip, bolt penetration, IAS breakpoints and safety in-game.
 - Record missing/cropped tooltip data.
 
 ## 6. Deliverable tracker
@@ -45,4 +45,4 @@ These rules preserve progress across chats and the context-limit interruption.
 - [ ] Broad Wiki review after all identifications
 - [ ] Item Filter (unread; wait for explicit authorization)
 - [ ] Final farm plan and sorted XLSX trade-price inventory
-- [x] Run 1 keep/sell/vendor/trade/swap recommendations (`docs/06_Run_1_Findings_and_Trade_Plan.md`); live in-game swap verification remains pending
+- [x] Full item-by-item keep/sell/vendor/trade/swap matrix (`docs/07_Full_Inventory_Action_Matrix.md`); live in-game swap verification remains pending

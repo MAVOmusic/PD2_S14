@@ -1,6 +1,6 @@
 # 04I — Inventory: Maps Tab (3 screenshots)
 
-**v0.18.0** · sources:
+**v0.18.1** · sources:
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 1 - No Maps.PNG`
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 2 - No Maps.PNG`
 - `MAVOmusicHC - Stats - V1.0/Images/MAVOmusicHC - 04 - Inventory/Maps Tab/Tier 3 - No Maps.PNG`
@@ -83,4 +83,4 @@ The player identified these 21 positions. Wiki lookup is from the [Maps — Modi
 - The immunity entries above are from the Wiki's dedicated [Immunes section](https://wiki.projectdiablo2.com/wiki/Maps#Immunes), not a complete six-element max-resistance profile. The page also has individual monster tables; they sometimes conflict with the summary (U-047 is noted above).
 - Map level and immunities describe the Wiki entries, not proof the character owns these maps. The original source filenames say “No Maps”; do not count or price the map icons as owned drops without an ownership/tooltip screenshot.
 - U-054–U-067 are identified map materials/orbs and U-068–U-074 are identified Corrupted Ears; quantities are not readable from the screenshots. The Ears are excluded from current PVM recommendations per the player's instruction.
-- Remaining unidentified rows are U-075–U-108 in `docs/Unidentified_Icons_and_Items.xlsx` (Ubers icons and skill-tree name checks).
+- All IDs U-001–U-108 have since been identified; the Ubers icons are in `docs/04J_Inventory_Ubers.md` and the Barbarian skills in `docs/02_Character_And_Gear_Snapshot.md`. Map-catalog ownership remains unverified. Current inventory dispositions are in `docs/07_Full_Inventory_Action_Matrix.md`.

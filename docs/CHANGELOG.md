@@ -4,6 +4,35 @@ Newest first. Each entry records the scope, deliverables, and synchronization st
 
 ---
 
+## v0.22.0 — 2026-10-26
+
+### Read / corrected
+- Revisited Run 1 merc gear after the user's challenge, using existing records and official PD2 Wiki set, Mercenary, Mercenary Skills, Bow Runewords, Quivers, Double Throw and Throwing Mastery mechanics. No new image folder or Item Filter was opened.
+- Corrected the merc sequence: test `04B #13` Sigon's Wrap (+13% Pierce) in place of Infernal Sign with current Visor + Shelter; verify the 2-piece +10% leech, 3-piece +100 Defense and Wrap's +2 Defense/level (calculated +154 at level 77). Distinguished it from `04K #1` (+10% block).
+- Reframed Tal's Crest as a follow-up while retaining Sigon's Shelter + Wrap; the 2-piece bonus persists, so Tal's +8% leech stacks with the set line. It trades the Visor's +616 AR and 3-piece +100 Defense for +16 all res, +56 Life, +8% leech and +7% mana leech.
+- Reassessed Swiftwind Needle and Blunt Arrows as controlled offense/mobility trials rather than blanket rejects; current Sharp Arrows remain the general baseline for leech/PMH/poison res, while Blunt's Open Wounds merits an Uber/regen-control test (PMH does not affect Ubers).
+- Confirmed Purity supports 3-socket crossbows and Ramfodder Light Bolts; proposed a second Purity crossbow (preserve the bow) and flagged actual bolt piercing / attack breakpoints for in-game verification. Flagged current Purity screenshot's Prayer level 2 versus Wiki level 10–12 discrepancy.
+- Added Throw-Barbarian-specific reasoning: Double Throw bounces, Throwing Mastery, Amp proc role, Simbilan vs Scalper tradeoff, and IAS breakpoint checks.
+
+### Sync status
+- Matrix and companion docs revised on `arena/cffe15c1-pd2-s14`; push and PR #19 merge remain to be completed after validation.
+
+---
+
+## v0.21.0 — 2026-10-25
+
+### Read / added
+- Added `docs/07_Full_Inventory_Action_Matrix.md`, covering every item row in the current character/merc gear snapshot and documented inventory tabs `04A`–`04K`, all 24 equipped charms, materials/currency/map/Uber entries, and every authorized Run 1 find. Recommendations include exact slot tests, keep/hold/trade/bundle/vendor decisions, quantity caveats, and source locations for uncertainties.
+- Re-evaluated the Barbarian ring/belt/glove package; identified `04C #14` four-res corrupted ring as a stronger poison-res alternative to the Run 1 crafted ring, with calculated stat deltas labeled as estimates.
+- Clarified that repeated Ubers icons do not establish key quantities, U-087's white `1` is unconfirmed, and map catalog icons do not prove owned maps. Corrected outdated status text in the Misc/Maps/Ubers and Character Snapshot docs.
+- Kept all 24 equipped charms fixed; retained Purity for Prayer healing; Ramfodder remains crossbow-only. No Item Filter or new image folder was opened.
+- Updated version/context/protocol for active branch `arena/cffe15c1-pd2-s14`.
+
+### Sync status
+- Commit/push on the active session branch; sync `main` through a PR (never direct-push).
+
+---
+
 ## v0.20.0 — 2026-10-25
 
 ### Read / added
